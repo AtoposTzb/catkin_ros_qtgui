@@ -1,0 +1,19 @@
+file(REMOVE_RECURSE
+  "qrc_images.cpp"
+  "ui_main_window.h"
+  "include/rosqt_gui/moc_main_window.cpp"
+  "include/rosqt_gui/moc_qnode.cpp"
+  "CMakeFiles/rosqt_gui.dir/src/main.cpp.o"
+  "CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o"
+  "CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o"
+  "CMakeFiles/rosqt_gui.dir/qrc_images.cpp.o"
+  "CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o"
+  "CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o"
+  "/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui.pdb"
+  "/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/rosqt_gui.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

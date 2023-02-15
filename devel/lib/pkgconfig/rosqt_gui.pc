@@ -1,0 +1,8 @@
+prefix=/home/qtrostzb/catkin_ros_qt/devel
+
+Name: rosqt_gui
+Description: Description of rosqt_gui
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

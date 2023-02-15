@@ -1,0 +1,2 @@
+rosqt_gui
+-DCATKIN_DEVEL_PREFIX=/home/qtrostzb/catkin_ros_qt/devel -DCMAKE_INSTALL_PREFIX=/home/qtrostzb/catkin_ros_qt/install -G Unix Makefiles
