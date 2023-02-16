@@ -50,6 +50,65 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     if ( ui.checkbox_remember_settings->isChecked() ) {
         on_button_connect_clicked(true);
     }
+    //连接角速度线速度进度条显示
+    connect(ui.horizontalSlider_linear,SIGNAL(valueChanged(int)),this,SLOT(slot_linear_value_change(int)));
+    connect(ui.horizontalSlider_raw,SIGNAL(valueChanged(int)),this,SLOT(slot_raw_value_change(int)));
+    connect(ui.pushButton_u,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
+    connect(ui.pushButton_i,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
+    connect(ui.pushButton_o,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
+    connect(ui.pushButton_j,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
+    connect(ui.pushButton_l,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
+    connect(ui.pushButton_m,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
+    connect(ui.pushButton_dian,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
+    connect(ui.pushButton_dou,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
+}
+//sender()方法可以处理是哪个对象发送来的对象并处理
+//按钮控制响应事件
+void MainWindow::slot_pushbtn_click()
+{
+    QPushButton*btn = qobject_cast<QPushButton*> (sender());
+    qDebug()<<btn->text();
+    char k = btn->text().toStdString()[0];//获取按键按下的字符
+    //判断是否使用全向轮
+    bool is_all = ui.checkBox_isAll->isChecked();
+    float linear = ui.label_linear->text().toFloat()*0.01;//cm / mm
+    float angular = ui.label_raw->text().toFloat()*0.01;
+
+    switch(k){
+    case 'i':
+        qnode.set_cmd_vel(is_all?'I':'i' ,linear ,angular);
+        break;
+    case 'u':
+        qnode.set_cmd_vel(is_all?'U':'u' ,linear ,angular);
+        break;
+    case 'o':
+        qnode.set_cmd_vel(is_all?'O':'o' ,linear ,angular);
+        break;
+    case 'j':
+        qnode.set_cmd_vel(is_all?'J':'j' ,linear ,angular);
+        break;
+    case 'l':
+        qnode.set_cmd_vel(is_all?'L':'l' ,linear ,angular);
+        break;
+    case 'm':
+        qnode.set_cmd_vel(is_all?'M':'m' ,linear ,angular);
+        break;
+    case ',':
+        qnode.set_cmd_vel(is_all?'<':',' ,linear ,angular);
+        break;
+    case '.':
+        qnode.set_cmd_vel(is_all?'>':'.' ,linear ,angular);
+        break;
+    }
+}
+
+void MainWindow::slot_linear_value_change(int value)
+{
+    ui.label_linear->setText(QString::number(value));
+}
+void MainWindow::slot_raw_value_change(int value)
+{
+    ui.label_raw->setText(QString::number(value));
 }
 
 MainWindow::~MainWindow() {}

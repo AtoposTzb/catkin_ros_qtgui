@@ -49,7 +49,9 @@ bool QNode::init() {
 	ros::NodeHandle n;
 	// Add your ros communications here.
 	chatter_publisher = n.advertise<std_msgs::String>("chatter", 1000);
-	start();
+    chatter_sub = n.subscribe("chatter",1000,&QNode::chatter_callback,this);
+    cmd_vel_pub = n.advertise<geometry_msgs::Twist>("cmd_vel",1000);
+    start();
 	return true;
 }
 
@@ -65,8 +67,63 @@ bool QNode::init(const std::string &master_url, const std::string &host_url) {
 	ros::NodeHandle n;
 	// Add your ros communications here.
 	chatter_publisher = n.advertise<std_msgs::String>("chatter", 1000);
+    chatter_sub = n.subscribe("chatter",1000,&QNode::chatter_callback,this);
+    cmd_vel_pub = n.advertise<geometry_msgs::Twist>("cmd_vel",1000);
 	start();
 	return true;
+}
+void QNode::set_cmd_vel(char k,float linear,float angular)
+{
+    // Map for movement keys
+    //方向的map,
+    //参考https://github.com/methylDragon/teleop_twist_keyboard_cpp/blob/master/src/teleop_twist_keyboard.cpp
+    std::map<char, std::vector<float>> moveBindings
+    {
+      {'i', {1, 0, 0, 0}},
+      {'o', {1, 0, 0, -1}},
+      {'j', {0, 0, 0, 1}},
+      {'l', {0, 0, 0, -1}},
+      {'u', {1, 0, 0, 1}},
+      {',', {-1, 0, 0, 0}},
+      {'.', {-1, 0, 0, 1}},
+      {'m', {-1, 0, 0, -1}},
+      {'O', {1, -1, 0, 0}},
+      {'I', {1, 0, 0, 0}},
+      {'J', {0, 1, 0, 0}},
+      {'L', {0, -1, 0, 0}},
+      {'U', {1, 1, 0, 0}},
+      {'<', {-1, 0, 0, 0}},
+      {'>', {-1, -1, 0, 0}},
+      {'M', {-1, 1, 0, 0}},
+      {'t', {0, 0, 1, 0}},
+      {'b', {0, 0, -1, 0}},
+      {'k', {0, 0, 0, 0}},
+      {'K', {0, 0, 0, 0}}
+    };
+    // Grab the direction data
+    //通过传进来的字符串判断方向
+    char key = k;
+      int x = moveBindings[key][0];
+      int y = moveBindings[key][1];
+      int z = moveBindings[key][2];
+      int th = moveBindings[key][3];
+
+      geometry_msgs::Twist twist;
+      twist.linear.x=x*linear;
+      twist.linear.y=y*linear ;
+      twist.linear.z=z*linear;
+
+      twist.angular.x=0;
+      twist.angular.y=0;
+      twist.angular.z=th*angular;
+
+      cmd_vel_pub.publish(twist);//发布这个话题
+      //接口函数写好了，去mainWindow里调用
+}
+
+void QNode::chatter_callback(const std_msgs::String &msg)
+{
+    log(Info,"I recive: "+msg.data);
 }
 
 void QNode::run() {

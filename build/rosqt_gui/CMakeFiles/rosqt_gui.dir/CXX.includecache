@@ -41,6 +41,12 @@ QThread
 -
 QStringListModel
 -
+std_msgs/String.h
+-
+geometry_msgs/Twist.h
+-
+map
+-
 
 /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/main.cpp
 QtGui
@@ -73,6 +79,42 @@ sstream
 -
 ../include/rosqt_gui/qnode.hpp
 /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/qnode.hpp
+
+/opt/ros/melodic/include/geometry_msgs/Twist.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+geometry_msgs/Vector3.h
+-
+geometry_msgs/Vector3.h
+-
+
+/opt/ros/melodic/include/geometry_msgs/Vector3.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h
@@ -4020,10 +4062,6 @@ qbuttongroup.h
 qcheckbox.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcheckbox.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDockWidget
-qdockwidget.h
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdockwidget.h
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame
 qframe.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
@@ -4075,6 +4113,10 @@ qmessagebox.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
 qpushbutton.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSlider
+qslider.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpacerItem
 qlayoutitem.h
@@ -4215,12 +4257,6 @@ QtWidgets/qwidget.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
-QtWidgets/qtwidgetsglobal.h
--
-QtWidgets/qwidget.h
--
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdockwidget.h
 QtWidgets/qtwidgetsglobal.h
 -
 QtWidgets/qwidget.h
@@ -4485,8 +4521,6 @@ QtWidgets/QButtonGroup
 -
 QtWidgets/QCheckBox
 -
-QtWidgets/QDockWidget
--
 QtWidgets/QFrame
 -
 QtWidgets/QGridLayout
@@ -4510,6 +4544,8 @@ QtWidgets/QMenu
 QtWidgets/QMenuBar
 -
 QtWidgets/QPushButton
+-
+QtWidgets/QSlider
 -
 QtWidgets/QSpacerItem
 -

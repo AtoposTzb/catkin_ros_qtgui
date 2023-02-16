@@ -4,6 +4,8 @@
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: rosqt_gui/include/rosqt_gui/moc_main_window.cpp
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/main_window.hpp
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/qnode.hpp
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /opt/ros/melodic/include/geometry_msgs/Twist.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /opt/ros/melodic/include/geometry_msgs/Vector3.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /opt/ros/melodic/include/ros/advertise_options.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /opt/ros/melodic/include/ros/advertise_service_options.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /opt/ros/melodic/include/ros/assert.h
@@ -22,6 +24,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /opt
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /opt/ros/melodic/include/ros/message.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /opt/ros/melodic/include/ros/message_event.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /opt/ros/melodic/include/ros/message_forward.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /opt/ros/melodic/include/ros/message_operations.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /opt/ros/melodic/include/ros/message_traits.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /opt/ros/melodic/include/ros/names.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /opt/ros/melodic/include/ros/node_handle.h
@@ -59,6 +62,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /opt
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /opt/ros/melodic/include/ros/wall_timer.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /opt/ros/melodic/include/ros/wall_timer_options.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /opt/ros/melodic/include/rosconsole/macros_generated.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /opt/ros/melodic/include/std_msgs/String.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /opt/ros/melodic/include/xmlrpcpp/XmlRpcValue.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QLocale
@@ -179,7 +183,6 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QCheckBox
-rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDockWidget
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox
@@ -192,6 +195,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenu
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenuBar
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSlider
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpacerItem
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStatusBar
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTabWidget
@@ -210,7 +214,6 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qbuttongroup.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcheckbox.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
-rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdockwidget.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgroupbox.h
@@ -239,6 +242,8 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: rosq
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: rosqt_gui/include/rosqt_gui/moc_qnode.cpp
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/qnode.hpp
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /opt/ros/melodic/include/geometry_msgs/Twist.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /opt/ros/melodic/include/geometry_msgs/Vector3.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /opt/ros/melodic/include/ros/advertise_options.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /opt/ros/melodic/include/ros/advertise_service_options.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /opt/ros/melodic/include/ros/assert.h
@@ -257,6 +262,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /opt/ros/m
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /opt/ros/melodic/include/ros/message.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /opt/ros/melodic/include/ros/message_event.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /opt/ros/melodic/include/ros/message_forward.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /opt/ros/melodic/include/ros/message_operations.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /opt/ros/melodic/include/ros/message_traits.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /opt/ros/melodic/include/ros/names.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /opt/ros/melodic/include/ros/node_handle.h
@@ -294,6 +300,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /opt/ros/m
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /opt/ros/melodic/include/ros/wall_timer.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /opt/ros/melodic/include/ros/wall_timer_options.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /opt/ros/melodic/include/rosconsole/macros_generated.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /opt/ros/melodic/include/std_msgs/String.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /opt/ros/melodic/include/xmlrpcpp/XmlRpcValue.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QStringListModel
@@ -367,6 +374,8 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/qrc_images.cpp.o: rosqt_gui/qrc_images.cpp
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/main_window.hpp
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/qnode.hpp
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/main.cpp
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /opt/ros/melodic/include/geometry_msgs/Twist.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /opt/ros/melodic/include/geometry_msgs/Vector3.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /opt/ros/melodic/include/ros/advertise_options.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /opt/ros/melodic/include/ros/advertise_service_options.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /opt/ros/melodic/include/ros/assert.h
@@ -385,6 +394,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /opt/ros/melodic/include/ros/
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /opt/ros/melodic/include/ros/message.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /opt/ros/melodic/include/ros/message_event.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /opt/ros/melodic/include/ros/message_forward.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /opt/ros/melodic/include/ros/message_operations.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /opt/ros/melodic/include/ros/message_traits.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /opt/ros/melodic/include/ros/names.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /opt/ros/melodic/include/ros/node_handle.h
@@ -422,6 +432,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /opt/ros/melodic/include/ros/
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /opt/ros/melodic/include/ros/wall_timer.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /opt/ros/melodic/include/ros/wall_timer_options.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /opt/ros/melodic/include/rosconsole/macros_generated.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /opt/ros/melodic/include/std_msgs/String.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /opt/ros/melodic/include/xmlrpcpp/XmlRpcValue.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
@@ -741,7 +752,6 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QCheckBox
-rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDockWidget
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox
@@ -754,6 +764,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenu
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenuBar
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSlider
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpacerItem
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStatusBar
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTabWidget
@@ -772,7 +783,6 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qbuttongroup.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcheckbox.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
-rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdockwidget.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgroupbox.h
@@ -802,6 +812,8 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: rosqt_gui/ui_main_window.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/main_window.hpp
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/qnode.hpp
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/main_window.cpp
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /opt/ros/melodic/include/geometry_msgs/Twist.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /opt/ros/melodic/include/geometry_msgs/Vector3.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /opt/ros/melodic/include/ros/advertise_options.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /opt/ros/melodic/include/ros/advertise_service_options.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /opt/ros/melodic/include/ros/assert.h
@@ -820,6 +832,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /opt/ros/melodic/inclu
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /opt/ros/melodic/include/ros/message.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /opt/ros/melodic/include/ros/message_event.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /opt/ros/melodic/include/ros/message_forward.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /opt/ros/melodic/include/ros/message_operations.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /opt/ros/melodic/include/ros/message_traits.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /opt/ros/melodic/include/ros/names.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /opt/ros/melodic/include/ros/node_handle.h
@@ -857,6 +870,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /opt/ros/melodic/inclu
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /opt/ros/melodic/include/ros/wall_timer.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /opt/ros/melodic/include/ros/wall_timer_options.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /opt/ros/melodic/include/rosconsole/macros_generated.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /opt/ros/melodic/include/std_msgs/String.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /opt/ros/melodic/include/xmlrpcpp/XmlRpcValue.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtCore/QEvent
@@ -1176,7 +1190,6 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-li
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QCheckBox
-rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDockWidget
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QFrame
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGroupBox
@@ -1190,6 +1203,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-li
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenuBar
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSlider
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpacerItem
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStatusBar
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTabWidget
@@ -1209,7 +1223,6 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-li
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcheckbox.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
-rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdockwidget.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgroupbox.h
@@ -1239,6 +1252,8 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: rosqt_gui/ui_main_wind
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/qnode.hpp
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/qnode.cpp
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o: /opt/ros/melodic/include/geometry_msgs/Twist.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o: /opt/ros/melodic/include/geometry_msgs/Vector3.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o: /opt/ros/melodic/include/ros/advertise_options.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o: /opt/ros/melodic/include/ros/advertise_service_options.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o: /opt/ros/melodic/include/ros/assert.h

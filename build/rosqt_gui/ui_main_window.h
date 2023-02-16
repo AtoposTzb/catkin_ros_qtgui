@@ -15,7 +15,6 @@
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QCheckBox>
-#include <QtWidgets/QDockWidget>
 #include <QtWidgets/QFrame>
 #include <QtWidgets/QGridLayout>
 #include <QtWidgets/QGroupBox>
@@ -28,6 +27,7 @@
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QSlider>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTabWidget>
@@ -51,34 +51,58 @@ public:
     QGroupBox *groupBox_12;
     QGridLayout *gridLayout_3;
     QListView *view_logging;
-    QMenuBar *menubar;
-    QMenu *menu_File;
-    QStatusBar *statusbar;
-    QDockWidget *dock_status;
-    QWidget *dockWidgetContents_2;
-    QVBoxLayout *verticalLayout;
+    QTabWidget *tabWidget;
+    QWidget *tab;
+    QVBoxLayout *verticalLayout_7;
     QFrame *frame;
     QVBoxLayout *verticalLayout_3;
     QGroupBox *groupBox;
-    QGridLayout *gridLayout;
+    QVBoxLayout *verticalLayout_6;
+    QVBoxLayout *verticalLayout;
+    QVBoxLayout *verticalLayout_4;
+    QLineEdit *line_edit_topic;
     QLabel *label;
+    QLineEdit *line_edit_host;
     QLineEdit *line_edit_master;
     QLabel *label_2;
-    QLineEdit *line_edit_host;
     QLabel *label_3;
-    QLineEdit *line_edit_topic;
-    QCheckBox *checkbox_use_environment;
     QCheckBox *checkbox_remember_settings;
-    QSpacerItem *horizontalSpacer;
-    QPushButton *button_connect;
-    QSpacerItem *verticalSpacer_3;
+    QCheckBox *checkbox_use_environment;
+    QHBoxLayout *horizontalLayout;
     QPushButton *quit_button;
+    QPushButton *button_connect;
+    QVBoxLayout *verticalLayout_5;
+    QSpacerItem *verticalSpacer;
+    QHBoxLayout *horizontalLayout_2;
+    QPushButton *pushButton_u;
+    QPushButton *pushButton_i;
+    QPushButton *pushButton_o;
+    QHBoxLayout *horizontalLayout_3;
+    QPushButton *pushButton_j;
+    QCheckBox *checkBox_isAll;
+    QPushButton *pushButton_l;
+    QHBoxLayout *horizontalLayout_4;
+    QPushButton *pushButton_m;
+    QPushButton *pushButton_dou;
+    QPushButton *pushButton_dian;
+    QHBoxLayout *horizontalLayout_5;
+    QLabel *label_4;
+    QSlider *horizontalSlider_linear;
+    QLabel *label_linear;
+    QHBoxLayout *horizontalLayout_6;
+    QLabel *label_5;
+    QSlider *horizontalSlider_raw;
+    QLabel *label_raw;
+    QWidget *tab_2;
+    QMenuBar *menubar;
+    QMenu *menu_File;
+    QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindowDesign)
     {
         if (MainWindowDesign->objectName().isEmpty())
             MainWindowDesign->setObjectName(QStringLiteral("MainWindowDesign"));
-        MainWindowDesign->resize(944, 704);
+        MainWindowDesign->resize(944, 789);
         QIcon icon;
         icon.addFile(QStringLiteral(":/images/icon.png"), QSize(), QIcon::Normal, QIcon::Off);
         MainWindowDesign->setWindowIcon(icon);
@@ -125,31 +149,17 @@ public:
 
         hboxLayout->addWidget(tab_manager);
 
-        MainWindowDesign->setCentralWidget(centralwidget);
-        menubar = new QMenuBar(MainWindowDesign);
-        menubar->setObjectName(QStringLiteral("menubar"));
-        menubar->setGeometry(QRect(0, 0, 944, 21));
-        menu_File = new QMenu(menubar);
-        menu_File->setObjectName(QStringLiteral("menu_File"));
-        MainWindowDesign->setMenuBar(menubar);
-        statusbar = new QStatusBar(MainWindowDesign);
-        statusbar->setObjectName(QStringLiteral("statusbar"));
-        MainWindowDesign->setStatusBar(statusbar);
-        dock_status = new QDockWidget(MainWindowDesign);
-        dock_status->setObjectName(QStringLiteral("dock_status"));
+        tabWidget = new QTabWidget(centralwidget);
+        tabWidget->setObjectName(QStringLiteral("tabWidget"));
+        tab = new QWidget();
+        tab->setObjectName(QStringLiteral("tab"));
+        verticalLayout_7 = new QVBoxLayout(tab);
+        verticalLayout_7->setObjectName(QStringLiteral("verticalLayout_7"));
+        frame = new QFrame(tab);
+        frame->setObjectName(QStringLiteral("frame"));
         QSizePolicy sizePolicy1(QSizePolicy::Minimum, QSizePolicy::Preferred);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
-        sizePolicy1.setHeightForWidth(dock_status->sizePolicy().hasHeightForWidth());
-        dock_status->setSizePolicy(sizePolicy1);
-        dock_status->setMinimumSize(QSize(325, 368));
-        dock_status->setAllowedAreas(Qt::RightDockWidgetArea);
-        dockWidgetContents_2 = new QWidget();
-        dockWidgetContents_2->setObjectName(QStringLiteral("dockWidgetContents_2"));
-        verticalLayout = new QVBoxLayout(dockWidgetContents_2);
-        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
-        frame = new QFrame(dockWidgetContents_2);
-        frame->setObjectName(QStringLiteral("frame"));
         sizePolicy1.setHeightForWidth(frame->sizePolicy().hasHeightForWidth());
         frame->setSizePolicy(sizePolicy1);
         frame->setFrameShape(QFrame::StyledPanel);
@@ -158,91 +168,230 @@ public:
         verticalLayout_3->setObjectName(QStringLiteral("verticalLayout_3"));
         groupBox = new QGroupBox(frame);
         groupBox->setObjectName(QStringLiteral("groupBox"));
-        gridLayout = new QGridLayout(groupBox);
-        gridLayout->setObjectName(QStringLiteral("gridLayout"));
+        verticalLayout_6 = new QVBoxLayout(groupBox);
+        verticalLayout_6->setObjectName(QStringLiteral("verticalLayout_6"));
+        verticalLayout = new QVBoxLayout();
+        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
+        verticalLayout_4 = new QVBoxLayout();
+        verticalLayout_4->setObjectName(QStringLiteral("verticalLayout_4"));
+        line_edit_topic = new QLineEdit(groupBox);
+        line_edit_topic->setObjectName(QStringLiteral("line_edit_topic"));
+        line_edit_topic->setEnabled(false);
+
+        verticalLayout_4->addWidget(line_edit_topic);
+
         label = new QLabel(groupBox);
         label->setObjectName(QStringLiteral("label"));
         label->setFrameShape(QFrame::StyledPanel);
         label->setFrameShadow(QFrame::Raised);
 
-        gridLayout->addWidget(label, 0, 0, 1, 1);
+        verticalLayout_4->addWidget(label);
+
+        line_edit_host = new QLineEdit(groupBox);
+        line_edit_host->setObjectName(QStringLiteral("line_edit_host"));
+
+        verticalLayout_4->addWidget(line_edit_host);
 
         line_edit_master = new QLineEdit(groupBox);
         line_edit_master->setObjectName(QStringLiteral("line_edit_master"));
 
-        gridLayout->addWidget(line_edit_master, 1, 0, 1, 2);
+        verticalLayout_4->addWidget(line_edit_master);
 
         label_2 = new QLabel(groupBox);
         label_2->setObjectName(QStringLiteral("label_2"));
         label_2->setFrameShape(QFrame::StyledPanel);
         label_2->setFrameShadow(QFrame::Raised);
 
-        gridLayout->addWidget(label_2, 2, 0, 1, 1);
-
-        line_edit_host = new QLineEdit(groupBox);
-        line_edit_host->setObjectName(QStringLiteral("line_edit_host"));
-
-        gridLayout->addWidget(line_edit_host, 3, 0, 1, 2);
+        verticalLayout_4->addWidget(label_2);
 
         label_3 = new QLabel(groupBox);
         label_3->setObjectName(QStringLiteral("label_3"));
         label_3->setFrameShape(QFrame::StyledPanel);
         label_3->setFrameShadow(QFrame::Raised);
 
-        gridLayout->addWidget(label_3, 4, 0, 1, 1);
-
-        line_edit_topic = new QLineEdit(groupBox);
-        line_edit_topic->setObjectName(QStringLiteral("line_edit_topic"));
-        line_edit_topic->setEnabled(false);
-
-        gridLayout->addWidget(line_edit_topic, 5, 0, 1, 2);
-
-        checkbox_use_environment = new QCheckBox(groupBox);
-        checkbox_use_environment->setObjectName(QStringLiteral("checkbox_use_environment"));
-        checkbox_use_environment->setLayoutDirection(Qt::RightToLeft);
-
-        gridLayout->addWidget(checkbox_use_environment, 6, 0, 1, 2);
+        verticalLayout_4->addWidget(label_3);
 
         checkbox_remember_settings = new QCheckBox(groupBox);
         checkbox_remember_settings->setObjectName(QStringLiteral("checkbox_remember_settings"));
         checkbox_remember_settings->setLayoutDirection(Qt::RightToLeft);
 
-        gridLayout->addWidget(checkbox_remember_settings, 7, 0, 1, 2);
+        verticalLayout_4->addWidget(checkbox_remember_settings);
 
-        horizontalSpacer = new QSpacerItem(170, 21, QSizePolicy::Expanding, QSizePolicy::Minimum);
+        checkbox_use_environment = new QCheckBox(groupBox);
+        checkbox_use_environment->setObjectName(QStringLiteral("checkbox_use_environment"));
+        checkbox_use_environment->setLayoutDirection(Qt::RightToLeft);
 
-        gridLayout->addItem(horizontalSpacer, 8, 0, 1, 1);
+        verticalLayout_4->addWidget(checkbox_use_environment);
+
+        horizontalLayout = new QHBoxLayout();
+        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
+        quit_button = new QPushButton(groupBox);
+        quit_button->setObjectName(QStringLiteral("quit_button"));
+        QSizePolicy sizePolicy2(QSizePolicy::MinimumExpanding, QSizePolicy::Fixed);
+        sizePolicy2.setHorizontalStretch(0);
+        sizePolicy2.setVerticalStretch(0);
+        sizePolicy2.setHeightForWidth(quit_button->sizePolicy().hasHeightForWidth());
+        quit_button->setSizePolicy(sizePolicy2);
+
+        horizontalLayout->addWidget(quit_button);
 
         button_connect = new QPushButton(groupBox);
         button_connect->setObjectName(QStringLiteral("button_connect"));
         button_connect->setEnabled(true);
-        QSizePolicy sizePolicy2(QSizePolicy::MinimumExpanding, QSizePolicy::Fixed);
-        sizePolicy2.setHorizontalStretch(0);
-        sizePolicy2.setVerticalStretch(0);
         sizePolicy2.setHeightForWidth(button_connect->sizePolicy().hasHeightForWidth());
         button_connect->setSizePolicy(sizePolicy2);
 
-        gridLayout->addWidget(button_connect, 8, 1, 1, 1);
+        horizontalLayout->addWidget(button_connect);
+
+
+        verticalLayout_4->addLayout(horizontalLayout);
+
+
+        verticalLayout->addLayout(verticalLayout_4);
+
+        verticalLayout_5 = new QVBoxLayout();
+        verticalLayout_5->setObjectName(QStringLiteral("verticalLayout_5"));
+        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
+
+        verticalLayout_5->addItem(verticalSpacer);
+
+        horizontalLayout_2 = new QHBoxLayout();
+        horizontalLayout_2->setObjectName(QStringLiteral("horizontalLayout_2"));
+        pushButton_u = new QPushButton(groupBox);
+        pushButton_u->setObjectName(QStringLiteral("pushButton_u"));
+
+        horizontalLayout_2->addWidget(pushButton_u);
+
+        pushButton_i = new QPushButton(groupBox);
+        pushButton_i->setObjectName(QStringLiteral("pushButton_i"));
+
+        horizontalLayout_2->addWidget(pushButton_i);
+
+        pushButton_o = new QPushButton(groupBox);
+        pushButton_o->setObjectName(QStringLiteral("pushButton_o"));
+
+        horizontalLayout_2->addWidget(pushButton_o);
+
+
+        verticalLayout_5->addLayout(horizontalLayout_2);
+
+        horizontalLayout_3 = new QHBoxLayout();
+        horizontalLayout_3->setObjectName(QStringLiteral("horizontalLayout_3"));
+        pushButton_j = new QPushButton(groupBox);
+        pushButton_j->setObjectName(QStringLiteral("pushButton_j"));
+
+        horizontalLayout_3->addWidget(pushButton_j);
+
+        checkBox_isAll = new QCheckBox(groupBox);
+        checkBox_isAll->setObjectName(QStringLiteral("checkBox_isAll"));
+
+        horizontalLayout_3->addWidget(checkBox_isAll);
+
+        pushButton_l = new QPushButton(groupBox);
+        pushButton_l->setObjectName(QStringLiteral("pushButton_l"));
+
+        horizontalLayout_3->addWidget(pushButton_l);
+
+
+        verticalLayout_5->addLayout(horizontalLayout_3);
+
+        horizontalLayout_4 = new QHBoxLayout();
+        horizontalLayout_4->setObjectName(QStringLiteral("horizontalLayout_4"));
+        pushButton_m = new QPushButton(groupBox);
+        pushButton_m->setObjectName(QStringLiteral("pushButton_m"));
+
+        horizontalLayout_4->addWidget(pushButton_m);
+
+        pushButton_dou = new QPushButton(groupBox);
+        pushButton_dou->setObjectName(QStringLiteral("pushButton_dou"));
+
+        horizontalLayout_4->addWidget(pushButton_dou);
+
+        pushButton_dian = new QPushButton(groupBox);
+        pushButton_dian->setObjectName(QStringLiteral("pushButton_dian"));
+
+        horizontalLayout_4->addWidget(pushButton_dian);
+
+
+        verticalLayout_5->addLayout(horizontalLayout_4);
+
+        horizontalLayout_5 = new QHBoxLayout();
+        horizontalLayout_5->setObjectName(QStringLiteral("horizontalLayout_5"));
+        label_4 = new QLabel(groupBox);
+        label_4->setObjectName(QStringLiteral("label_4"));
+
+        horizontalLayout_5->addWidget(label_4);
+
+        horizontalSlider_linear = new QSlider(groupBox);
+        horizontalSlider_linear->setObjectName(QStringLiteral("horizontalSlider_linear"));
+        horizontalSlider_linear->setMaximum(100);
+        horizontalSlider_linear->setOrientation(Qt::Horizontal);
+
+        horizontalLayout_5->addWidget(horizontalSlider_linear);
+
+        label_linear = new QLabel(groupBox);
+        label_linear->setObjectName(QStringLiteral("label_linear"));
+        label_linear->setMinimumSize(QSize(30, 0));
+        label_linear->setMaximumSize(QSize(30, 16777215));
+
+        horizontalLayout_5->addWidget(label_linear);
+
+
+        verticalLayout_5->addLayout(horizontalLayout_5);
+
+        horizontalLayout_6 = new QHBoxLayout();
+        horizontalLayout_6->setObjectName(QStringLiteral("horizontalLayout_6"));
+        label_5 = new QLabel(groupBox);
+        label_5->setObjectName(QStringLiteral("label_5"));
+
+        horizontalLayout_6->addWidget(label_5);
+
+        horizontalSlider_raw = new QSlider(groupBox);
+        horizontalSlider_raw->setObjectName(QStringLiteral("horizontalSlider_raw"));
+        horizontalSlider_raw->setMaximum(100);
+        horizontalSlider_raw->setOrientation(Qt::Horizontal);
+
+        horizontalLayout_6->addWidget(horizontalSlider_raw);
+
+        label_raw = new QLabel(groupBox);
+        label_raw->setObjectName(QStringLiteral("label_raw"));
+        label_raw->setMinimumSize(QSize(30, 0));
+        label_raw->setMaximumSize(QSize(30, 16777215));
+
+        horizontalLayout_6->addWidget(label_raw);
+
+
+        verticalLayout_5->addLayout(horizontalLayout_6);
+
+
+        verticalLayout->addLayout(verticalLayout_5);
+
+
+        verticalLayout_6->addLayout(verticalLayout);
 
 
         verticalLayout_3->addWidget(groupBox);
 
-        verticalSpacer_3 = new QSpacerItem(20, 233, QSizePolicy::Minimum, QSizePolicy::Expanding);
 
-        verticalLayout_3->addItem(verticalSpacer_3);
+        verticalLayout_7->addWidget(frame);
 
+        tabWidget->addTab(tab, QString());
+        tab_2 = new QWidget();
+        tab_2->setObjectName(QStringLiteral("tab_2"));
+        tabWidget->addTab(tab_2, QString());
 
-        verticalLayout->addWidget(frame);
+        hboxLayout->addWidget(tabWidget);
 
-        quit_button = new QPushButton(dockWidgetContents_2);
-        quit_button->setObjectName(QStringLiteral("quit_button"));
-        sizePolicy2.setHeightForWidth(quit_button->sizePolicy().hasHeightForWidth());
-        quit_button->setSizePolicy(sizePolicy2);
-
-        verticalLayout->addWidget(quit_button);
-
-        dock_status->setWidget(dockWidgetContents_2);
-        MainWindowDesign->addDockWidget(static_cast<Qt::DockWidgetArea>(2), dock_status);
+        MainWindowDesign->setCentralWidget(centralwidget);
+        menubar = new QMenuBar(MainWindowDesign);
+        menubar->setObjectName(QStringLiteral("menubar"));
+        menubar->setGeometry(QRect(0, 0, 944, 32));
+        menu_File = new QMenu(menubar);
+        menu_File->setObjectName(QStringLiteral("menu_File"));
+        MainWindowDesign->setMenuBar(menubar);
+        statusbar = new QStatusBar(MainWindowDesign);
+        statusbar->setObjectName(QStringLiteral("statusbar"));
+        MainWindowDesign->setStatusBar(statusbar);
 
         menubar->addAction(menu_File->menuAction());
         menu_File->addAction(action_Preferences);
@@ -274,17 +423,16 @@ public:
         actionAbout_Qt->setText(QApplication::translate("MainWindowDesign", "About &Qt", Q_NULLPTR));
         groupBox_12->setTitle(QApplication::translate("MainWindowDesign", "Logging", Q_NULLPTR));
         tab_manager->setTabText(tab_manager->indexOf(tab_status), QApplication::translate("MainWindowDesign", "Ros Communications", Q_NULLPTR));
-        menu_File->setTitle(QApplication::translate("MainWindowDesign", "&App", Q_NULLPTR));
-        dock_status->setWindowTitle(QApplication::translate("MainWindowDesign", "Command Panel", Q_NULLPTR));
         groupBox->setTitle(QApplication::translate("MainWindowDesign", "Ros Master", Q_NULLPTR));
+        line_edit_topic->setText(QApplication::translate("MainWindowDesign", "unused", Q_NULLPTR));
         label->setText(QApplication::translate("MainWindowDesign", "Ros Master Url", Q_NULLPTR));
+        line_edit_host->setText(QApplication::translate("MainWindowDesign", "192.168.1.67", Q_NULLPTR));
         line_edit_master->setText(QApplication::translate("MainWindowDesign", "http://192.168.1.2:11311/", Q_NULLPTR));
         label_2->setText(QApplication::translate("MainWindowDesign", "Ros IP", Q_NULLPTR));
-        line_edit_host->setText(QApplication::translate("MainWindowDesign", "192.168.1.67", Q_NULLPTR));
         label_3->setText(QApplication::translate("MainWindowDesign", "Ros Hostname", Q_NULLPTR));
-        line_edit_topic->setText(QApplication::translate("MainWindowDesign", "unused", Q_NULLPTR));
-        checkbox_use_environment->setText(QApplication::translate("MainWindowDesign", "Use environment variables", Q_NULLPTR));
         checkbox_remember_settings->setText(QApplication::translate("MainWindowDesign", "Remember settings on startup", Q_NULLPTR));
+        checkbox_use_environment->setText(QApplication::translate("MainWindowDesign", "Use environment variables", Q_NULLPTR));
+        quit_button->setText(QApplication::translate("MainWindowDesign", "Quit", Q_NULLPTR));
 #ifndef QT_NO_TOOLTIP
         button_connect->setToolTip(QApplication::translate("MainWindowDesign", "Set the target to the current joint trajectory state.", Q_NULLPTR));
 #endif // QT_NO_TOOLTIP
@@ -292,7 +440,49 @@ public:
         button_connect->setStatusTip(QApplication::translate("MainWindowDesign", "Clear all waypoints and set the target to the current joint trajectory state.", Q_NULLPTR));
 #endif // QT_NO_STATUSTIP
         button_connect->setText(QApplication::translate("MainWindowDesign", "Connect", Q_NULLPTR));
-        quit_button->setText(QApplication::translate("MainWindowDesign", "Quit", Q_NULLPTR));
+        pushButton_u->setText(QApplication::translate("MainWindowDesign", "u", Q_NULLPTR));
+#ifndef QT_NO_SHORTCUT
+        pushButton_u->setShortcut(QApplication::translate("MainWindowDesign", "U", Q_NULLPTR));
+#endif // QT_NO_SHORTCUT
+        pushButton_i->setText(QApplication::translate("MainWindowDesign", "i", Q_NULLPTR));
+#ifndef QT_NO_SHORTCUT
+        pushButton_i->setShortcut(QApplication::translate("MainWindowDesign", "I", Q_NULLPTR));
+#endif // QT_NO_SHORTCUT
+        pushButton_o->setText(QApplication::translate("MainWindowDesign", "o", Q_NULLPTR));
+#ifndef QT_NO_SHORTCUT
+        pushButton_o->setShortcut(QApplication::translate("MainWindowDesign", "O", Q_NULLPTR));
+#endif // QT_NO_SHORTCUT
+        pushButton_j->setText(QApplication::translate("MainWindowDesign", "j", Q_NULLPTR));
+#ifndef QT_NO_SHORTCUT
+        pushButton_j->setShortcut(QApplication::translate("MainWindowDesign", "J", Q_NULLPTR));
+#endif // QT_NO_SHORTCUT
+        checkBox_isAll->setText(QApplication::translate("MainWindowDesign", "\345\205\250\345\220\221\350\275\256\346\250\241\345\274\217", Q_NULLPTR));
+#ifndef QT_NO_SHORTCUT
+        checkBox_isAll->setShortcut(QApplication::translate("MainWindowDesign", "K", Q_NULLPTR));
+#endif // QT_NO_SHORTCUT
+        pushButton_l->setText(QApplication::translate("MainWindowDesign", "l", Q_NULLPTR));
+#ifndef QT_NO_SHORTCUT
+        pushButton_l->setShortcut(QApplication::translate("MainWindowDesign", "L", Q_NULLPTR));
+#endif // QT_NO_SHORTCUT
+        pushButton_m->setText(QApplication::translate("MainWindowDesign", "m", Q_NULLPTR));
+#ifndef QT_NO_SHORTCUT
+        pushButton_m->setShortcut(QApplication::translate("MainWindowDesign", "M", Q_NULLPTR));
+#endif // QT_NO_SHORTCUT
+        pushButton_dou->setText(QApplication::translate("MainWindowDesign", ",", Q_NULLPTR));
+#ifndef QT_NO_SHORTCUT
+        pushButton_dou->setShortcut(QApplication::translate("MainWindowDesign", ",", Q_NULLPTR));
+#endif // QT_NO_SHORTCUT
+        pushButton_dian->setText(QApplication::translate("MainWindowDesign", ".", Q_NULLPTR));
+#ifndef QT_NO_SHORTCUT
+        pushButton_dian->setShortcut(QApplication::translate("MainWindowDesign", ".", Q_NULLPTR));
+#endif // QT_NO_SHORTCUT
+        label_4->setText(QApplication::translate("MainWindowDesign", "\347\272\277\351\200\237\345\272\246: ", Q_NULLPTR));
+        label_linear->setText(QApplication::translate("MainWindowDesign", "0", Q_NULLPTR));
+        label_5->setText(QApplication::translate("MainWindowDesign", "\350\247\222\351\200\237\345\272\246: ", Q_NULLPTR));
+        label_raw->setText(QApplication::translate("MainWindowDesign", "0", Q_NULLPTR));
+        tabWidget->setTabText(tabWidget->indexOf(tab), QApplication::translate("MainWindowDesign", "Tab 1", Q_NULLPTR));
+        tabWidget->setTabText(tabWidget->indexOf(tab_2), QApplication::translate("MainWindowDesign", "Tab 2", Q_NULLPTR));
+        menu_File->setTitle(QApplication::translate("MainWindowDesign", "&App", Q_NULLPTR));
     } // retranslateUi
 
 };

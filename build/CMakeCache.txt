@@ -45,14 +45,13 @@ CATKIN_WHITELIST_PACKAGES:STRING=
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
-//Choose the type of build, options are: None(CMAKE_CXX_FLAGS or
-// CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel.
+//No help, variable specified on the command line.
 CMAKE_BUILD_TYPE:STRING=
 
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-//CXX compiler
+//No help, variable specified on the command line.
 CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
@@ -79,7 +78,7 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 //Flags used by the compiler during release builds with debug info.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
 
-//C compiler
+//No help, variable specified on the command line.
 CMAKE_C_COMPILER:FILEPATH=/usr/bin/cc
 
 //A wrapper around 'ar' adding the appropriate '--plugin' option
@@ -156,6 +155,9 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 
 //Path to a program.
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
+
+//No help, variable specified on the command line.
+CMAKE_PREFIX_PATH:STRING=/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64;/opt/ros/melodic
 
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=Project
@@ -257,6 +259,7 @@ Project_BINARY_DIR:STATIC=/home/qtrostzb/catkin_ros_qt/build
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=/home/qtrostzb/catkin_ros_qt/src
 
+//No help, variable specified on the command line.
 QT_QMAKE_EXECUTABLE:FILEPATH=NOTFOUND
 
 //The directory containing a CMake configuration file for Qt5Core.

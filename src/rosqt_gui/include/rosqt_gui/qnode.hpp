@@ -24,7 +24,9 @@
 #include <string>
 #include <QThread>
 #include <QStringListModel>
-
+#include <std_msgs/String.h>
+#include <geometry_msgs/Twist.h>//sudu
+#include <map>
 
 /*****************************************************************************
 ** Namespaces
@@ -43,6 +45,7 @@ public:
 	virtual ~QNode();
 	bool init();
 	bool init(const std::string &master_url, const std::string &host_url);
+    void set_cmd_vel(char k,float linear,float angular);//一个公共函数去连接键盘控制和速度的功能
 	void run();
 
 	/*********************
@@ -67,7 +70,10 @@ private:
 	int init_argc;
 	char** init_argv;
 	ros::Publisher chatter_publisher;
+    ros::Publisher cmd_vel_pub;//声明一个话题发布者
     QStringListModel logging_model;
+    ros::Subscriber chatter_sub;//创建一个订阅者
+    void chatter_callback(const std_msgs::String &msg);//shengminghuidiaohanshu
 };
 
 }  // namespace rosqt_gui

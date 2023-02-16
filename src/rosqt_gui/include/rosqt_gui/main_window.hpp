@@ -53,6 +53,9 @@ public Q_SLOTS:
     ** Manual connections
     *******************************************/
     void updateLoggingView(); // no idea why this can't connect automatically
+    void slot_linear_value_change(int);//线速度改变槽函数
+    void slot_raw_value_change(int);
+    void slot_pushbtn_click();//几个按钮的点击事件,多个控制按钮连接同一个槽函数
 
 private:
 	Ui::MainWindowDesign ui;
