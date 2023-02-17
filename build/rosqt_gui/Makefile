@@ -408,66 +408,6 @@ std_msgs_generate_messages_cpp/fast:
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
-rosqt_gui/CMakeFiles/tf_generate_messages_cpp.dir/rule:
-	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f CMakeFiles/Makefile2 rosqt_gui/CMakeFiles/tf_generate_messages_cpp.dir/rule
-.PHONY : rosqt_gui/CMakeFiles/tf_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_cpp: rosqt_gui/CMakeFiles/tf_generate_messages_cpp.dir/rule
-
-.PHONY : tf_generate_messages_cpp
-
-# fast build rule for target.
-tf_generate_messages_cpp/fast:
-	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f rosqt_gui/CMakeFiles/tf_generate_messages_cpp.dir/build.make rosqt_gui/CMakeFiles/tf_generate_messages_cpp.dir/build
-.PHONY : tf_generate_messages_cpp/fast
-
-# Convenience name for target.
-rosqt_gui/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f CMakeFiles/Makefile2 rosqt_gui/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-.PHONY : rosqt_gui/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-std_msgs_generate_messages_lisp: rosqt_gui/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : std_msgs_generate_messages_lisp
-
-# fast build rule for target.
-std_msgs_generate_messages_lisp/fast:
-	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f rosqt_gui/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make rosqt_gui/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
-.PHONY : std_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
-	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f CMakeFiles/Makefile2 rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-.PHONY : rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_cpp: rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_cpp
-
-# fast build rule for target.
-sensor_msgs_generate_messages_cpp/fast:
-	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
-.PHONY : sensor_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
-	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f CMakeFiles/Makefile2 rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-.PHONY : rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-# Convenience name for target.
-sensor_msgs_generate_messages_eus: rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
-
-.PHONY : sensor_msgs_generate_messages_eus
-
-# fast build rule for target.
-sensor_msgs_generate_messages_eus/fast:
-	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
-.PHONY : sensor_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
 rosqt_gui/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
 	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f CMakeFiles/Makefile2 rosqt_gui/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : rosqt_gui/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
@@ -528,6 +468,66 @@ actionlib_msgs_generate_messages_cpp/fast:
 .PHONY : actionlib_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
+rosqt_gui/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
+	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f CMakeFiles/Makefile2 rosqt_gui/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+.PHONY : rosqt_gui/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+std_msgs_generate_messages_lisp: rosqt_gui/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : std_msgs_generate_messages_lisp
+
+# fast build rule for target.
+std_msgs_generate_messages_lisp/fast:
+	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f rosqt_gui/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make rosqt_gui/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+.PHONY : std_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule:
+	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f CMakeFiles/Makefile2 rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+.PHONY : rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_cpp: rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : sensor_msgs_generate_messages_cpp
+
+# fast build rule for target.
+sensor_msgs_generate_messages_cpp/fast:
+	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build.make rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
+.PHONY : sensor_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule:
+	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f CMakeFiles/Makefile2 rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+.PHONY : rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+
+# Convenience name for target.
+sensor_msgs_generate_messages_eus: rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_eus.dir/rule
+
+.PHONY : sensor_msgs_generate_messages_eus
+
+# fast build rule for target.
+sensor_msgs_generate_messages_eus/fast:
+	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build.make rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_eus.dir/build
+.PHONY : sensor_msgs_generate_messages_eus/fast
+
+# Convenience name for target.
+rosqt_gui/CMakeFiles/tf_generate_messages_cpp.dir/rule:
+	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f CMakeFiles/Makefile2 rosqt_gui/CMakeFiles/tf_generate_messages_cpp.dir/rule
+.PHONY : rosqt_gui/CMakeFiles/tf_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+tf_generate_messages_cpp: rosqt_gui/CMakeFiles/tf_generate_messages_cpp.dir/rule
+
+.PHONY : tf_generate_messages_cpp
+
+# fast build rule for target.
+tf_generate_messages_cpp/fast:
+	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f rosqt_gui/CMakeFiles/tf_generate_messages_cpp.dir/build.make rosqt_gui/CMakeFiles/tf_generate_messages_cpp.dir/build
+.PHONY : tf_generate_messages_cpp/fast
+
+# Convenience name for target.
 rosqt_gui/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
 	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f CMakeFiles/Makefile2 rosqt_gui/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : rosqt_gui/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
@@ -558,21 +558,6 @@ roscpp_generate_messages_lisp/fast:
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
-rosqt_gui/CMakeFiles/tf_generate_messages_lisp.dir/rule:
-	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f CMakeFiles/Makefile2 rosqt_gui/CMakeFiles/tf_generate_messages_lisp.dir/rule
-.PHONY : rosqt_gui/CMakeFiles/tf_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_lisp: rosqt_gui/CMakeFiles/tf_generate_messages_lisp.dir/rule
-
-.PHONY : tf_generate_messages_lisp
-
-# fast build rule for target.
-tf_generate_messages_lisp/fast:
-	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f rosqt_gui/CMakeFiles/tf_generate_messages_lisp.dir/build.make rosqt_gui/CMakeFiles/tf_generate_messages_lisp.dir/build
-.PHONY : tf_generate_messages_lisp/fast
-
-# Convenience name for target.
 rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule:
 	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f CMakeFiles/Makefile2 rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
 .PHONY : rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/rule
@@ -586,6 +571,21 @@ geometry_msgs_generate_messages_nodejs: rosqt_gui/CMakeFiles/geometry_msgs_gener
 geometry_msgs_generate_messages_nodejs/fast:
 	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build.make rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/build
 .PHONY : geometry_msgs_generate_messages_nodejs/fast
+
+# Convenience name for target.
+rosqt_gui/CMakeFiles/tf_generate_messages_lisp.dir/rule:
+	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f CMakeFiles/Makefile2 rosqt_gui/CMakeFiles/tf_generate_messages_lisp.dir/rule
+.PHONY : rosqt_gui/CMakeFiles/tf_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+tf_generate_messages_lisp: rosqt_gui/CMakeFiles/tf_generate_messages_lisp.dir/rule
+
+.PHONY : tf_generate_messages_lisp
+
+# fast build rule for target.
+tf_generate_messages_lisp/fast:
+	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f rosqt_gui/CMakeFiles/tf_generate_messages_lisp.dir/build.make rosqt_gui/CMakeFiles/tf_generate_messages_lisp.dir/build
+.PHONY : tf_generate_messages_lisp/fast
 
 # Convenience name for target.
 rosqt_gui/CMakeFiles/roscpp_generate_messages_py.dir/rule:
@@ -646,66 +646,6 @@ geometry_msgs_generate_messages_eus: rosqt_gui/CMakeFiles/geometry_msgs_generate
 geometry_msgs_generate_messages_eus/fast:
 	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build.make rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_eus.dir/build
 .PHONY : geometry_msgs_generate_messages_eus/fast
-
-# Convenience name for target.
-rosqt_gui/CMakeFiles/tf_generate_messages_nodejs.dir/rule:
-	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f CMakeFiles/Makefile2 rosqt_gui/CMakeFiles/tf_generate_messages_nodejs.dir/rule
-.PHONY : rosqt_gui/CMakeFiles/tf_generate_messages_nodejs.dir/rule
-
-# Convenience name for target.
-tf_generate_messages_nodejs: rosqt_gui/CMakeFiles/tf_generate_messages_nodejs.dir/rule
-
-.PHONY : tf_generate_messages_nodejs
-
-# fast build rule for target.
-tf_generate_messages_nodejs/fast:
-	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f rosqt_gui/CMakeFiles/tf_generate_messages_nodejs.dir/build.make rosqt_gui/CMakeFiles/tf_generate_messages_nodejs.dir/build
-.PHONY : tf_generate_messages_nodejs/fast
-
-# Convenience name for target.
-rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
-	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f CMakeFiles/Makefile2 rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-.PHONY : rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_cpp: rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
-
-# Convenience name for target.
-rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
-	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f CMakeFiles/Makefile2 rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-.PHONY : rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_lisp: rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_lisp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_lisp/fast:
-	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
-.PHONY : geometry_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
-rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
-	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f CMakeFiles/Makefile2 rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-.PHONY : rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-# Convenience name for target.
-geometry_msgs_generate_messages_py: rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
-
-.PHONY : geometry_msgs_generate_messages_py
-
-# fast build rule for target.
-geometry_msgs_generate_messages_py/fast:
-	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
-.PHONY : geometry_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_lisp.dir/rule:
@@ -811,6 +751,66 @@ sensor_msgs_generate_messages_py: rosqt_gui/CMakeFiles/sensor_msgs_generate_mess
 sensor_msgs_generate_messages_py/fast:
 	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_py.dir/build.make rosqt_gui/CMakeFiles/sensor_msgs_generate_messages_py.dir/build
 .PHONY : sensor_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule:
+	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f CMakeFiles/Makefile2 rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+.PHONY : rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_cpp: rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_cpp/fast:
+	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+.PHONY : geometry_msgs_generate_messages_cpp/fast
+
+# Convenience name for target.
+rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule:
+	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f CMakeFiles/Makefile2 rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+.PHONY : rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_lisp: rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_lisp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_lisp/fast:
+	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build.make rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_lisp.dir/build
+.PHONY : geometry_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule:
+	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f CMakeFiles/Makefile2 rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+.PHONY : rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+# Convenience name for target.
+geometry_msgs_generate_messages_py: rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_py.dir/rule
+
+.PHONY : geometry_msgs_generate_messages_py
+
+# fast build rule for target.
+geometry_msgs_generate_messages_py/fast:
+	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_py.dir/build.make rosqt_gui/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
+.PHONY : geometry_msgs_generate_messages_py/fast
+
+# Convenience name for target.
+rosqt_gui/CMakeFiles/tf_generate_messages_nodejs.dir/rule:
+	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f CMakeFiles/Makefile2 rosqt_gui/CMakeFiles/tf_generate_messages_nodejs.dir/rule
+.PHONY : rosqt_gui/CMakeFiles/tf_generate_messages_nodejs.dir/rule
+
+# Convenience name for target.
+tf_generate_messages_nodejs: rosqt_gui/CMakeFiles/tf_generate_messages_nodejs.dir/rule
+
+.PHONY : tf_generate_messages_nodejs
+
+# fast build rule for target.
+tf_generate_messages_nodejs/fast:
+	cd /home/qtrostzb/catkin_ros_qt/build && $(MAKE) -f rosqt_gui/CMakeFiles/tf_generate_messages_nodejs.dir/build.make rosqt_gui/CMakeFiles/tf_generate_messages_nodejs.dir/build
+.PHONY : tf_generate_messages_nodejs/fast
 
 # Convenience name for target.
 rosqt_gui/CMakeFiles/actionlib_generate_messages_lisp.dir/rule:
@@ -1099,26 +1099,22 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_cpp"
-	@echo "... tf_generate_messages_cpp"
-	@echo "... std_msgs_generate_messages_lisp"
-	@echo "... sensor_msgs_generate_messages_cpp"
-	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_eus"
 	@echo "... tf_generate_messages_eus"
 	@echo "... actionlib_msgs_generate_messages_cpp"
+	@echo "... std_msgs_generate_messages_lisp"
+	@echo "... sensor_msgs_generate_messages_cpp"
+	@echo "... sensor_msgs_generate_messages_eus"
+	@echo "... tf_generate_messages_cpp"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_lisp"
-	@echo "... tf_generate_messages_lisp"
 	@echo "... geometry_msgs_generate_messages_nodejs"
+	@echo "... tf_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... geometry_msgs_generate_messages_eus"
-	@echo "... tf_generate_messages_nodejs"
-	@echo "... geometry_msgs_generate_messages_cpp"
-	@echo "... geometry_msgs_generate_messages_lisp"
-	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... install/local"
 	@echo "... sensor_msgs_generate_messages_lisp"
 	@echo "... rebuild_cache"
@@ -1128,6 +1124,10 @@ help:
 	@echo "... actionlib_generate_messages_eus"
 	@echo "... tf_generate_messages_py"
 	@echo "... sensor_msgs_generate_messages_py"
+	@echo "... geometry_msgs_generate_messages_cpp"
+	@echo "... geometry_msgs_generate_messages_lisp"
+	@echo "... geometry_msgs_generate_messages_py"
+	@echo "... tf_generate_messages_nodejs"
 	@echo "... actionlib_generate_messages_lisp"
 	@echo "... test"
 	@echo "... actionlib_generate_messages_nodejs"

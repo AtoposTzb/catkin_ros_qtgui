@@ -78,6 +78,18 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     connect(&qnode,SIGNAL(speed_vel(float,float)),this,SLOT(slot_update_dashboard(float,float)));
     //连接电池电压
     connect(&qnode,SIGNAL(power_vel(float)),this,SLOT(slot_update_power(float)));
+    //连接图像话题
+    connect(&qnode,SIGNAL(image_val(QImage)),this,SLOT(slot_update_image(QImage)));
+    connect(ui.pushButton_sub_image,SIGNAL(clicked()),this,SLOT(slot_sub_image()));
+}
+
+void MainWindow::slot_update_image(QImage im)
+{
+    ui.label_image->setPixmap(QPixmap::fromImage(im));
+}
+void MainWindow::slot_sub_image()
+{
+    qnode.sub_image(ui.lineEdit_image_topic->text());
 }
 
 void MainWindow::slot_update_power(float value)

@@ -33,6 +33,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/qtrostzb/catkin_ros_qt/src/rosqt_gui"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/usr/include/opencv"
   "/home/qtrostzb/catkin_ros_qt/src/rosqt_gui/./include"
   "/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include"
   "/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets"

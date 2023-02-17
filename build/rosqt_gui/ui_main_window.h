@@ -46,19 +46,6 @@ public:
     QAction *actionAbout_Qt;
     QWidget *centralwidget;
     QGridLayout *gridLayout_2;
-    QTabWidget *tab_manager;
-    QWidget *tab_status;
-    QVBoxLayout *verticalLayout_2;
-    QGridLayout *gridLayout;
-    QWidget *widget_speed_x;
-    QWidget *widget_speed_y;
-    QLabel *label_6;
-    QLabel *label_dir_x;
-    QLabel *label_7;
-    QLabel *label_dir_y;
-    QGroupBox *groupBox_12;
-    QGridLayout *gridLayout_3;
-    QListView *view_logging;
     QHBoxLayout *horizontalLayout_7;
     QSpacerItem *horizontalSpacer;
     QLabel *label_8;
@@ -109,6 +96,28 @@ public:
     QSlider *horizontalSlider_raw;
     QLabel *label_raw;
     QWidget *tab_2;
+    QTabWidget *tab_manager;
+    QWidget *tab_status;
+    QVBoxLayout *verticalLayout_9;
+    QVBoxLayout *verticalLayout_8;
+    QGridLayout *gridLayout;
+    QWidget *widget_speed_x;
+    QWidget *widget_speed_y;
+    QLabel *label_6;
+    QLabel *label_dir_x;
+    QLabel *label_7;
+    QLabel *label_dir_y;
+    QFrame *frame_2;
+    QHBoxLayout *horizontalLayout_9;
+    QGroupBox *groupBox_12;
+    QGridLayout *gridLayout_3;
+    QListView *view_logging;
+    QHBoxLayout *horizontalLayout_8;
+    QLabel *label_image;
+    QSpacerItem *horizontalSpacer_2;
+    QVBoxLayout *verticalLayout_2;
+    QLineEdit *lineEdit_image_topic;
+    QPushButton *pushButton_sub_image;
     QMenuBar *menubar;
     QMenu *menu_File;
     QStatusBar *statusbar;
@@ -135,72 +144,6 @@ public:
         centralwidget->setObjectName(QStringLiteral("centralwidget"));
         gridLayout_2 = new QGridLayout(centralwidget);
         gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
-        tab_manager = new QTabWidget(centralwidget);
-        tab_manager->setObjectName(QStringLiteral("tab_manager"));
-        tab_manager->setMinimumSize(QSize(100, 0));
-        tab_manager->setLocale(QLocale(QLocale::English, QLocale::Australia));
-        tab_status = new QWidget();
-        tab_status->setObjectName(QStringLiteral("tab_status"));
-        verticalLayout_2 = new QVBoxLayout(tab_status);
-        verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
-        gridLayout = new QGridLayout();
-        gridLayout->setObjectName(QStringLiteral("gridLayout"));
-        widget_speed_x = new QWidget(tab_status);
-        widget_speed_x->setObjectName(QStringLiteral("widget_speed_x"));
-        widget_speed_x->setMinimumSize(QSize(300, 300));
-
-        gridLayout->addWidget(widget_speed_x, 0, 0, 1, 2);
-
-        widget_speed_y = new QWidget(tab_status);
-        widget_speed_y->setObjectName(QStringLiteral("widget_speed_y"));
-        widget_speed_y->setMinimumSize(QSize(300, 300));
-
-        gridLayout->addWidget(widget_speed_y, 0, 2, 1, 2);
-
-        label_6 = new QLabel(tab_status);
-        label_6->setObjectName(QStringLiteral("label_6"));
-
-        gridLayout->addWidget(label_6, 1, 0, 1, 1);
-
-        label_dir_x = new QLabel(tab_status);
-        label_dir_x->setObjectName(QStringLiteral("label_dir_x"));
-
-        gridLayout->addWidget(label_dir_x, 1, 1, 1, 1);
-
-        label_7 = new QLabel(tab_status);
-        label_7->setObjectName(QStringLiteral("label_7"));
-
-        gridLayout->addWidget(label_7, 1, 2, 1, 1);
-
-        label_dir_y = new QLabel(tab_status);
-        label_dir_y->setObjectName(QStringLiteral("label_dir_y"));
-
-        gridLayout->addWidget(label_dir_y, 1, 3, 1, 1);
-
-
-        verticalLayout_2->addLayout(gridLayout);
-
-        groupBox_12 = new QGroupBox(tab_status);
-        groupBox_12->setObjectName(QStringLiteral("groupBox_12"));
-        QSizePolicy sizePolicy(QSizePolicy::MinimumExpanding, QSizePolicy::Preferred);
-        sizePolicy.setHorizontalStretch(0);
-        sizePolicy.setVerticalStretch(0);
-        sizePolicy.setHeightForWidth(groupBox_12->sizePolicy().hasHeightForWidth());
-        groupBox_12->setSizePolicy(sizePolicy);
-        gridLayout_3 = new QGridLayout(groupBox_12);
-        gridLayout_3->setObjectName(QStringLiteral("gridLayout_3"));
-        view_logging = new QListView(groupBox_12);
-        view_logging->setObjectName(QStringLiteral("view_logging"));
-
-        gridLayout_3->addWidget(view_logging, 0, 0, 1, 1);
-
-
-        verticalLayout_2->addWidget(groupBox_12);
-
-        tab_manager->addTab(tab_status, QString());
-
-        gridLayout_2->addWidget(tab_manager, 0, 0, 2, 1);
-
         horizontalLayout_7 = new QHBoxLayout();
         horizontalLayout_7->setObjectName(QStringLiteral("horizontalLayout_7"));
         horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
@@ -252,11 +195,11 @@ public:
         verticalLayout_7->setObjectName(QStringLiteral("verticalLayout_7"));
         frame = new QFrame(tab);
         frame->setObjectName(QStringLiteral("frame"));
-        QSizePolicy sizePolicy1(QSizePolicy::Minimum, QSizePolicy::Preferred);
-        sizePolicy1.setHorizontalStretch(0);
-        sizePolicy1.setVerticalStretch(0);
-        sizePolicy1.setHeightForWidth(frame->sizePolicy().hasHeightForWidth());
-        frame->setSizePolicy(sizePolicy1);
+        QSizePolicy sizePolicy(QSizePolicy::Minimum, QSizePolicy::Preferred);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(frame->sizePolicy().hasHeightForWidth());
+        frame->setSizePolicy(sizePolicy);
         frame->setFrameShape(QFrame::StyledPanel);
         frame->setFrameShadow(QFrame::Raised);
         verticalLayout_3 = new QVBoxLayout(frame);
@@ -322,19 +265,19 @@ public:
         horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
         quit_button = new QPushButton(groupBox);
         quit_button->setObjectName(QStringLiteral("quit_button"));
-        QSizePolicy sizePolicy2(QSizePolicy::MinimumExpanding, QSizePolicy::Fixed);
-        sizePolicy2.setHorizontalStretch(0);
-        sizePolicy2.setVerticalStretch(0);
-        sizePolicy2.setHeightForWidth(quit_button->sizePolicy().hasHeightForWidth());
-        quit_button->setSizePolicy(sizePolicy2);
+        QSizePolicy sizePolicy1(QSizePolicy::MinimumExpanding, QSizePolicy::Fixed);
+        sizePolicy1.setHorizontalStretch(0);
+        sizePolicy1.setVerticalStretch(0);
+        sizePolicy1.setHeightForWidth(quit_button->sizePolicy().hasHeightForWidth());
+        quit_button->setSizePolicy(sizePolicy1);
 
         horizontalLayout->addWidget(quit_button);
 
         button_connect = new QPushButton(groupBox);
         button_connect->setObjectName(QStringLiteral("button_connect"));
         button_connect->setEnabled(true);
-        sizePolicy2.setHeightForWidth(button_connect->sizePolicy().hasHeightForWidth());
-        button_connect->setSizePolicy(sizePolicy2);
+        sizePolicy1.setHeightForWidth(button_connect->sizePolicy().hasHeightForWidth());
+        button_connect->setSizePolicy(sizePolicy1);
 
         horizontalLayout->addWidget(button_connect);
 
@@ -477,6 +420,121 @@ public:
 
         gridLayout_2->addWidget(tabWidget, 1, 1, 1, 1);
 
+        tab_manager = new QTabWidget(centralwidget);
+        tab_manager->setObjectName(QStringLiteral("tab_manager"));
+        tab_manager->setMinimumSize(QSize(100, 0));
+        tab_manager->setLocale(QLocale(QLocale::English, QLocale::Australia));
+        tab_status = new QWidget();
+        tab_status->setObjectName(QStringLiteral("tab_status"));
+        verticalLayout_9 = new QVBoxLayout(tab_status);
+        verticalLayout_9->setObjectName(QStringLiteral("verticalLayout_9"));
+        verticalLayout_8 = new QVBoxLayout();
+        verticalLayout_8->setObjectName(QStringLiteral("verticalLayout_8"));
+        gridLayout = new QGridLayout();
+        gridLayout->setObjectName(QStringLiteral("gridLayout"));
+        widget_speed_x = new QWidget(tab_status);
+        widget_speed_x->setObjectName(QStringLiteral("widget_speed_x"));
+        widget_speed_x->setMinimumSize(QSize(300, 300));
+
+        gridLayout->addWidget(widget_speed_x, 0, 0, 1, 2);
+
+        widget_speed_y = new QWidget(tab_status);
+        widget_speed_y->setObjectName(QStringLiteral("widget_speed_y"));
+        widget_speed_y->setMinimumSize(QSize(300, 300));
+
+        gridLayout->addWidget(widget_speed_y, 0, 2, 1, 2);
+
+        label_6 = new QLabel(tab_status);
+        label_6->setObjectName(QStringLiteral("label_6"));
+
+        gridLayout->addWidget(label_6, 1, 0, 1, 1);
+
+        label_dir_x = new QLabel(tab_status);
+        label_dir_x->setObjectName(QStringLiteral("label_dir_x"));
+
+        gridLayout->addWidget(label_dir_x, 1, 1, 1, 1);
+
+        label_7 = new QLabel(tab_status);
+        label_7->setObjectName(QStringLiteral("label_7"));
+
+        gridLayout->addWidget(label_7, 1, 2, 1, 1);
+
+        label_dir_y = new QLabel(tab_status);
+        label_dir_y->setObjectName(QStringLiteral("label_dir_y"));
+
+        gridLayout->addWidget(label_dir_y, 1, 3, 1, 1);
+
+
+        verticalLayout_8->addLayout(gridLayout);
+
+        frame_2 = new QFrame(tab_status);
+        frame_2->setObjectName(QStringLiteral("frame_2"));
+        frame_2->setFrameShape(QFrame::HLine);
+        frame_2->setFrameShadow(QFrame::Raised);
+
+        verticalLayout_8->addWidget(frame_2);
+
+        horizontalLayout_9 = new QHBoxLayout();
+        horizontalLayout_9->setObjectName(QStringLiteral("horizontalLayout_9"));
+        groupBox_12 = new QGroupBox(tab_status);
+        groupBox_12->setObjectName(QStringLiteral("groupBox_12"));
+        QSizePolicy sizePolicy2(QSizePolicy::MinimumExpanding, QSizePolicy::Preferred);
+        sizePolicy2.setHorizontalStretch(0);
+        sizePolicy2.setVerticalStretch(0);
+        sizePolicy2.setHeightForWidth(groupBox_12->sizePolicy().hasHeightForWidth());
+        groupBox_12->setSizePolicy(sizePolicy2);
+        gridLayout_3 = new QGridLayout(groupBox_12);
+        gridLayout_3->setObjectName(QStringLiteral("gridLayout_3"));
+        view_logging = new QListView(groupBox_12);
+        view_logging->setObjectName(QStringLiteral("view_logging"));
+
+        gridLayout_3->addWidget(view_logging, 0, 1, 1, 1);
+
+
+        horizontalLayout_9->addWidget(groupBox_12);
+
+        horizontalLayout_8 = new QHBoxLayout();
+        horizontalLayout_8->setObjectName(QStringLiteral("horizontalLayout_8"));
+        label_image = new QLabel(tab_status);
+        label_image->setObjectName(QStringLiteral("label_image"));
+        label_image->setMinimumSize(QSize(200, 200));
+        label_image->setMaximumSize(QSize(200, 200));
+        label_image->setStyleSheet(QStringLiteral("border:1px solid black"));
+
+        horizontalLayout_8->addWidget(label_image);
+
+        horizontalSpacer_2 = new QSpacerItem(25, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_8->addItem(horizontalSpacer_2);
+
+        verticalLayout_2 = new QVBoxLayout();
+        verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
+        lineEdit_image_topic = new QLineEdit(tab_status);
+        lineEdit_image_topic->setObjectName(QStringLiteral("lineEdit_image_topic"));
+
+        verticalLayout_2->addWidget(lineEdit_image_topic);
+
+        pushButton_sub_image = new QPushButton(tab_status);
+        pushButton_sub_image->setObjectName(QStringLiteral("pushButton_sub_image"));
+
+        verticalLayout_2->addWidget(pushButton_sub_image);
+
+
+        horizontalLayout_8->addLayout(verticalLayout_2);
+
+
+        horizontalLayout_9->addLayout(horizontalLayout_8);
+
+
+        verticalLayout_8->addLayout(horizontalLayout_9);
+
+
+        verticalLayout_9->addLayout(verticalLayout_8);
+
+        tab_manager->addTab(tab_status, QString());
+
+        gridLayout_2->addWidget(tab_manager, 0, 0, 2, 1);
+
         MainWindowDesign->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindowDesign);
         menubar->setObjectName(QStringLiteral("menubar"));
@@ -516,12 +574,6 @@ public:
         action_Preferences->setText(QApplication::translate("MainWindowDesign", "&Preferences", Q_NULLPTR));
         actionAbout->setText(QApplication::translate("MainWindowDesign", "&About", Q_NULLPTR));
         actionAbout_Qt->setText(QApplication::translate("MainWindowDesign", "About &Qt", Q_NULLPTR));
-        label_6->setText(QApplication::translate("MainWindowDesign", "X\350\275\264\347\272\277\351\200\237\345\272\246", Q_NULLPTR));
-        label_dir_x->setText(QApplication::translate("MainWindowDesign", "\346\255\243\345\220\221", Q_NULLPTR));
-        label_7->setText(QApplication::translate("MainWindowDesign", "Y\350\275\264\347\272\277\351\200\237\345\272\246", Q_NULLPTR));
-        label_dir_y->setText(QApplication::translate("MainWindowDesign", "\346\255\243\345\220\221", Q_NULLPTR));
-        groupBox_12->setTitle(QApplication::translate("MainWindowDesign", "Logging", Q_NULLPTR));
-        tab_manager->setTabText(tab_manager->indexOf(tab_status), QApplication::translate("MainWindowDesign", "Ros Communications", Q_NULLPTR));
         label_8->setText(QApplication::translate("MainWindowDesign", "\347\224\265\346\261\240\347\224\265\351\207\217:", Q_NULLPTR));
         label_9->setText(QString());
         label_10->setText(QString());
@@ -585,6 +637,14 @@ public:
         label_raw->setText(QApplication::translate("MainWindowDesign", "0", Q_NULLPTR));
         tabWidget->setTabText(tabWidget->indexOf(tab), QApplication::translate("MainWindowDesign", "Tab 1", Q_NULLPTR));
         tabWidget->setTabText(tabWidget->indexOf(tab_2), QApplication::translate("MainWindowDesign", "Tab 2", Q_NULLPTR));
+        label_6->setText(QApplication::translate("MainWindowDesign", "X\350\275\264\347\272\277\351\200\237\345\272\246", Q_NULLPTR));
+        label_dir_x->setText(QApplication::translate("MainWindowDesign", "\346\255\243\345\220\221", Q_NULLPTR));
+        label_7->setText(QApplication::translate("MainWindowDesign", "Y\350\275\264\347\272\277\351\200\237\345\272\246", Q_NULLPTR));
+        label_dir_y->setText(QApplication::translate("MainWindowDesign", "\346\255\243\345\220\221", Q_NULLPTR));
+        groupBox_12->setTitle(QApplication::translate("MainWindowDesign", "Logging", Q_NULLPTR));
+        label_image->setText(QApplication::translate("MainWindowDesign", "NO IMAGE", Q_NULLPTR));
+        pushButton_sub_image->setText(QApplication::translate("MainWindowDesign", "\350\256\242\351\230\205", Q_NULLPTR));
+        tab_manager->setTabText(tab_manager->indexOf(tab_status), QApplication::translate("MainWindowDesign", "Ros Communications", Q_NULLPTR));
         menu_File->setTitle(QApplication::translate("MainWindowDesign", "&App", Q_NULLPTR));
     } // retranslateUi
 

@@ -15,10 +15,12 @@ set(CMAKE_CXX_FLAGS "-std=c++11 ${CMAKE_CXX_FLAGS}")
 
 # qt_build provides the qt cmake glue, roscpp the comms for a default talker
 find_package(catkin REQUIRED COMPONENTS qt_build roscpp
-    tf
-    sensor_msgs
     std_msgs
-	)
+    sensor_msgs
+    cv_bridge
+    image_transport
+    tf
+)
 include_directories(${catkin_INCLUDE_DIRS} ./include)
 
 #add

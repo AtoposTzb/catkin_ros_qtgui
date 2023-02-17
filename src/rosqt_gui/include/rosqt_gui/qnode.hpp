@@ -29,6 +29,10 @@
 #include <map>
 #include <nav_msgs/Odometry.h>//里程计话题
 #include <std_msgs/Float32.h>//电池电压
+#include <image_transport/image_transport.h>
+#include <cv_bridge/cv_bridge.h>
+#include <sensor_msgs/image_encodings.h>//存放图像编码格式
+#include <QImage>
 
 /*****************************************************************************
 ** Namespaces
@@ -48,6 +52,7 @@ public:
 	bool init();
 	bool init(const std::string &master_url, const std::string &host_url);
     void set_cmd_vel(char k,float linear,float angular);//一个公共函数去连接键盘控制和速度的功能
+    void sub_image(QString topic_name);
 	void run();
 
 	/*********************
@@ -69,6 +74,7 @@ Q_SIGNALS:
     void rosShutdown();
     void speed_vel(float,float);//因为这是两个类,ui界面是在mianw访问，所以这里需要我们创建自定义信号，把当前的X,Y轴线速度通过信号的方式发送到mainw类中
     void power_vel(float);
+    void image_val(QImage);
 
 private:
 	int init_argc;
@@ -79,9 +85,12 @@ private:
     ros::Subscriber chatter_sub;//创建一个订阅者
     ros::Subscriber odom_sub;//里程计话题订阅者
     ros::Subscriber power_sub;//电池电压
+    image_transport::Subscriber image_sub;
     void chatter_callback(const std_msgs::String &msg);//shengminghuidiaohanshu
     void odom_callback(const nav_msgs::Odometry &msg);
     void power_callback(const std_msgs::Float32 &msg);
+    void image_callback(const sensor_msgs::ImageConstPtr &msg);
+    QImage Mat2QImage(cv::Mat const& src);
 };
 
 }  // namespace rosqt_gui
