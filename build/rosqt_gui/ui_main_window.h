@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'main_window.ui'
 **
-** Created by: Qt User Interface Compiler version 5.9.5
+** Created by: Qt User Interface Compiler version 5.9.9
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -48,6 +48,13 @@ public:
     QTabWidget *tab_manager;
     QWidget *tab_status;
     QVBoxLayout *verticalLayout_2;
+    QGridLayout *gridLayout;
+    QWidget *widget_speed_x;
+    QWidget *widget_speed_y;
+    QLabel *label_6;
+    QLabel *label_dir_x;
+    QLabel *label_7;
+    QLabel *label_dir_y;
     QGroupBox *groupBox_12;
     QGridLayout *gridLayout_3;
     QListView *view_logging;
@@ -102,7 +109,7 @@ public:
     {
         if (MainWindowDesign->objectName().isEmpty())
             MainWindowDesign->setObjectName(QStringLiteral("MainWindowDesign"));
-        MainWindowDesign->resize(944, 789);
+        MainWindowDesign->resize(1108, 789);
         QIcon icon;
         icon.addFile(QStringLiteral(":/images/icon.png"), QSize(), QIcon::Normal, QIcon::Off);
         MainWindowDesign->setWindowIcon(icon);
@@ -128,6 +135,43 @@ public:
         tab_status->setObjectName(QStringLiteral("tab_status"));
         verticalLayout_2 = new QVBoxLayout(tab_status);
         verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
+        gridLayout = new QGridLayout();
+        gridLayout->setObjectName(QStringLiteral("gridLayout"));
+        widget_speed_x = new QWidget(tab_status);
+        widget_speed_x->setObjectName(QStringLiteral("widget_speed_x"));
+        widget_speed_x->setMinimumSize(QSize(300, 300));
+
+        gridLayout->addWidget(widget_speed_x, 0, 0, 1, 2);
+
+        widget_speed_y = new QWidget(tab_status);
+        widget_speed_y->setObjectName(QStringLiteral("widget_speed_y"));
+        widget_speed_y->setMinimumSize(QSize(300, 300));
+
+        gridLayout->addWidget(widget_speed_y, 0, 2, 1, 2);
+
+        label_6 = new QLabel(tab_status);
+        label_6->setObjectName(QStringLiteral("label_6"));
+
+        gridLayout->addWidget(label_6, 1, 0, 1, 1);
+
+        label_dir_x = new QLabel(tab_status);
+        label_dir_x->setObjectName(QStringLiteral("label_dir_x"));
+
+        gridLayout->addWidget(label_dir_x, 1, 1, 1, 1);
+
+        label_7 = new QLabel(tab_status);
+        label_7->setObjectName(QStringLiteral("label_7"));
+
+        gridLayout->addWidget(label_7, 1, 2, 1, 1);
+
+        label_dir_y = new QLabel(tab_status);
+        label_dir_y->setObjectName(QStringLiteral("label_dir_y"));
+
+        gridLayout->addWidget(label_dir_y, 1, 3, 1, 1);
+
+
+        verticalLayout_2->addLayout(gridLayout);
+
         groupBox_12 = new QGroupBox(tab_status);
         groupBox_12->setObjectName(QStringLiteral("groupBox_12"));
         QSizePolicy sizePolicy(QSizePolicy::MinimumExpanding, QSizePolicy::Preferred);
@@ -385,7 +429,7 @@ public:
         MainWindowDesign->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindowDesign);
         menubar->setObjectName(QStringLiteral("menubar"));
-        menubar->setGeometry(QRect(0, 0, 944, 32));
+        menubar->setGeometry(QRect(0, 0, 1108, 32));
         menu_File = new QMenu(menubar);
         menu_File->setObjectName(QStringLiteral("menu_File"));
         MainWindowDesign->setMenuBar(menubar);
@@ -421,6 +465,10 @@ public:
         action_Preferences->setText(QApplication::translate("MainWindowDesign", "&Preferences", Q_NULLPTR));
         actionAbout->setText(QApplication::translate("MainWindowDesign", "&About", Q_NULLPTR));
         actionAbout_Qt->setText(QApplication::translate("MainWindowDesign", "About &Qt", Q_NULLPTR));
+        label_6->setText(QApplication::translate("MainWindowDesign", "X\350\275\264\347\272\277\351\200\237\345\272\246", Q_NULLPTR));
+        label_dir_x->setText(QApplication::translate("MainWindowDesign", "\346\255\243\345\220\221", Q_NULLPTR));
+        label_7->setText(QApplication::translate("MainWindowDesign", "Y\350\275\264\347\272\277\351\200\237\345\272\246", Q_NULLPTR));
+        label_dir_y->setText(QApplication::translate("MainWindowDesign", "\346\255\243\345\220\221", Q_NULLPTR));
         groupBox_12->setTitle(QApplication::translate("MainWindowDesign", "Logging", Q_NULLPTR));
         tab_manager->setTabText(tab_manager->indexOf(tab_status), QApplication::translate("MainWindowDesign", "Ros Communications", Q_NULLPTR));
         groupBox->setTitle(QApplication::translate("MainWindowDesign", "Ros Master", Q_NULLPTR));

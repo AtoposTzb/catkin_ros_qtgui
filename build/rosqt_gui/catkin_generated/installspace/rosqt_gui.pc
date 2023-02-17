@@ -1,4 +1,4 @@
-prefix=/home/qtrostzb/catkin_ros_qt/install
+prefix=/usr/local
 
 Name: rosqt_gui
 Description: Description of rosqt_gui

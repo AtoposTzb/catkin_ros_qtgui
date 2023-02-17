@@ -60,32 +60,60 @@ include rosqt_gui/CMakeFiles/rosqt_gui.dir/flags.make
 rosqt_gui/qrc_images.cpp: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/resources/images/icon.png
 rosqt_gui/qrc_images.cpp: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/resources/images.qrc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_images.cpp"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/lib/qt5/bin/rcc --name images --output /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/qrc_images.cpp /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/resources/images.qrc
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/bin/rcc --name images --output /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/qrc_images.cpp /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/resources/images.qrc
 
 rosqt_gui/ui_main_window.h: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/ui/main_window.ui
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ui_main_window.h"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/lib/qt5/bin/uic -o /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/ui_main_window.h /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/ui/main_window.ui
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/bin/uic -o /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/ui_main_window.h /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/ui/main_window.ui
+
+rosqt_gui/include/rosqt_gui/moc_CCtrlDashBoard.cpp: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/CCtrlDashBoard.hpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating include/rosqt_gui/moc_CCtrlDashBoard.cpp"
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui && /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/bin/moc @/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_CCtrlDashBoard.cpp_parameters
 
 rosqt_gui/include/rosqt_gui/moc_main_window.cpp: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/main_window.hpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating include/rosqt_gui/moc_main_window.cpp"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui && /usr/lib/qt5/bin/moc @/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_main_window.cpp_parameters
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating include/rosqt_gui/moc_main_window.cpp"
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui && /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/bin/moc @/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_main_window.cpp_parameters
 
 rosqt_gui/include/rosqt_gui/moc_qnode.cpp: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/qnode.hpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating include/rosqt_gui/moc_qnode.cpp"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui && /usr/lib/qt5/bin/moc @/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_qnode.cpp_parameters
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating include/rosqt_gui/moc_qnode.cpp"
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui && /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/bin/moc @/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_qnode.cpp_parameters
+
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.o: rosqt_gui/CMakeFiles/rosqt_gui.dir/flags.make
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.o: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/CCtrlDashBoard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object rosqt_gui/CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.o"
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.o -c /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/CCtrlDashBoard.cpp
+
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.i"
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/CCtrlDashBoard.cpp > CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.i
+
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.s"
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/CCtrlDashBoard.cpp -o CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.s
+
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.o.requires:
+
+.PHONY : rosqt_gui/CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.o.requires
+
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.o.provides: rosqt_gui/CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.o.requires
+	$(MAKE) -f rosqt_gui/CMakeFiles/rosqt_gui.dir/build.make rosqt_gui/CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.o.provides.build
+.PHONY : rosqt_gui/CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.o.provides
+
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.o.provides.build: rosqt_gui/CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.o
+
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: rosqt_gui/CMakeFiles/rosqt_gui.dir/flags.make
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rosqt_gui.dir/src/main.cpp.o -c /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o"
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rosqt_gui.dir/src/main.cpp.o -c /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/main.cpp
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rosqt_gui.dir/src/main.cpp.i"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/main.cpp > CMakeFiles/rosqt_gui.dir/src/main.cpp.i
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/main.cpp > CMakeFiles/rosqt_gui.dir/src/main.cpp.i
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rosqt_gui.dir/src/main.cpp.s"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/main.cpp -o CMakeFiles/rosqt_gui.dir/src/main.cpp.s
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/main.cpp -o CMakeFiles/rosqt_gui.dir/src/main.cpp.s
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o.requires:
 
@@ -100,16 +128,16 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o.provides.build: rosqt_gui/CMak
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: rosqt_gui/CMakeFiles/rosqt_gui.dir/flags.make
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/main_window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o -c /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/main_window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o"
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o -c /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/main_window.cpp
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rosqt_gui.dir/src/main_window.cpp.i"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/main_window.cpp > CMakeFiles/rosqt_gui.dir/src/main_window.cpp.i
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/main_window.cpp > CMakeFiles/rosqt_gui.dir/src/main_window.cpp.i
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rosqt_gui.dir/src/main_window.cpp.s"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/main_window.cpp -o CMakeFiles/rosqt_gui.dir/src/main_window.cpp.s
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/main_window.cpp -o CMakeFiles/rosqt_gui.dir/src/main_window.cpp.s
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o.requires:
 
@@ -124,16 +152,16 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o.provides.build: rosqt_g
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o: rosqt_gui/CMakeFiles/rosqt_gui.dir/flags.make
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/qnode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o -c /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/qnode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o"
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o -c /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/qnode.cpp
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qnode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rosqt_gui.dir/src/qnode.cpp.i"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/qnode.cpp > CMakeFiles/rosqt_gui.dir/src/qnode.cpp.i
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/qnode.cpp > CMakeFiles/rosqt_gui.dir/src/qnode.cpp.i
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qnode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rosqt_gui.dir/src/qnode.cpp.s"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/qnode.cpp -o CMakeFiles/rosqt_gui.dir/src/qnode.cpp.s
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/qnode.cpp -o CMakeFiles/rosqt_gui.dir/src/qnode.cpp.s
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o.requires:
 
@@ -148,16 +176,16 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o.provides.build: rosqt_gui/CMa
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/qrc_images.cpp.o: rosqt_gui/CMakeFiles/rosqt_gui.dir/flags.make
 rosqt_gui/CMakeFiles/rosqt_gui.dir/qrc_images.cpp.o: rosqt_gui/qrc_images.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object rosqt_gui/CMakeFiles/rosqt_gui.dir/qrc_images.cpp.o"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rosqt_gui.dir/qrc_images.cpp.o -c /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/qrc_images.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object rosqt_gui/CMakeFiles/rosqt_gui.dir/qrc_images.cpp.o"
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rosqt_gui.dir/qrc_images.cpp.o -c /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/qrc_images.cpp
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/qrc_images.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rosqt_gui.dir/qrc_images.cpp.i"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/qrc_images.cpp > CMakeFiles/rosqt_gui.dir/qrc_images.cpp.i
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/qrc_images.cpp > CMakeFiles/rosqt_gui.dir/qrc_images.cpp.i
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/qrc_images.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rosqt_gui.dir/qrc_images.cpp.s"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/qrc_images.cpp -o CMakeFiles/rosqt_gui.dir/qrc_images.cpp.s
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/qrc_images.cpp -o CMakeFiles/rosqt_gui.dir/qrc_images.cpp.s
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/qrc_images.cpp.o.requires:
 
@@ -170,18 +198,42 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/qrc_images.cpp.o.provides: rosqt_gui/CMakeFil
 rosqt_gui/CMakeFiles/rosqt_gui.dir/qrc_images.cpp.o.provides.build: rosqt_gui/CMakeFiles/rosqt_gui.dir/qrc_images.cpp.o
 
 
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.o: rosqt_gui/CMakeFiles/rosqt_gui.dir/flags.make
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.o: rosqt_gui/include/rosqt_gui/moc_CCtrlDashBoard.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.o"
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.o -c /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_CCtrlDashBoard.cpp
+
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.i"
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_CCtrlDashBoard.cpp > CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.i
+
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.s"
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_CCtrlDashBoard.cpp -o CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.s
+
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.o.requires:
+
+.PHONY : rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.o.requires
+
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.o.provides: rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.o.requires
+	$(MAKE) -f rosqt_gui/CMakeFiles/rosqt_gui.dir/build.make rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.o.provides.build
+.PHONY : rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.o.provides
+
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.o.provides.build: rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.o
+
+
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: rosqt_gui/CMakeFiles/rosqt_gui.dir/flags.make
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: rosqt_gui/include/rosqt_gui/moc_main_window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o -c /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_main_window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o"
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o -c /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_main_window.cpp
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.i"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_main_window.cpp > CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.i
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_main_window.cpp > CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.i
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.s"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_main_window.cpp -o CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.s
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_main_window.cpp -o CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.s
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o.requires:
 
@@ -196,16 +248,16 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o.provi
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: rosqt_gui/CMakeFiles/rosqt_gui.dir/flags.make
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o: rosqt_gui/include/rosqt_gui/moc_qnode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o -c /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_qnode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o"
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o -c /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_qnode.cpp
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.i"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_qnode.cpp > CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.i
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_qnode.cpp > CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.i
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.s"
-	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_qnode.cpp -o CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.s
+	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_qnode.cpp -o CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.s
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o.requires:
 
@@ -220,57 +272,70 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o.provides.bu
 
 # Object files for target rosqt_gui
 rosqt_gui_OBJECTS = \
+"CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.o" \
 "CMakeFiles/rosqt_gui.dir/src/main.cpp.o" \
 "CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o" \
 "CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o" \
 "CMakeFiles/rosqt_gui.dir/qrc_images.cpp.o" \
+"CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.o" \
 "CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o" \
 "CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o"
 
 # External object files for target rosqt_gui
 rosqt_gui_EXTERNAL_OBJECTS =
 
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: rosqt_gui/CMakeFiles/rosqt_gui.dir/qrc_images.cpp.o
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: rosqt_gui/CMakeFiles/rosqt_gui.dir/build.make
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.9.5
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: /opt/ros/melodic/lib/libroscpp.so
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: /opt/ros/melodic/lib/librosconsole.so
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: /opt/ros/melodic/lib/librostime.so
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: /opt/ros/melodic/lib/libcpp_common.so
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
-/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui: rosqt_gui/CMakeFiles/rosqt_gui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable /home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui"
+devel/lib/rosqt_gui/rosqt_gui: rosqt_gui/CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.o
+devel/lib/rosqt_gui/rosqt_gui: rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o
+devel/lib/rosqt_gui/rosqt_gui: rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o
+devel/lib/rosqt_gui/rosqt_gui: rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o
+devel/lib/rosqt_gui/rosqt_gui: rosqt_gui/CMakeFiles/rosqt_gui.dir/qrc_images.cpp.o
+devel/lib/rosqt_gui/rosqt_gui: rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.o
+devel/lib/rosqt_gui/rosqt_gui: rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o
+devel/lib/rosqt_gui/rosqt_gui: rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o
+devel/lib/rosqt_gui/rosqt_gui: rosqt_gui/CMakeFiles/rosqt_gui.dir/build.make
+devel/lib/rosqt_gui/rosqt_gui: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/lib/libQt5Widgets.so.5.9.9
+devel/lib/rosqt_gui/rosqt_gui: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/lib/libQt5Multimedia.so.5.9.9
+devel/lib/rosqt_gui/rosqt_gui: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/lib/libQt5Network.so.5.9.9
+devel/lib/rosqt_gui/rosqt_gui: /opt/ros/melodic/lib/libtf.so
+devel/lib/rosqt_gui/rosqt_gui: /opt/ros/melodic/lib/libtf2_ros.so
+devel/lib/rosqt_gui/rosqt_gui: /opt/ros/melodic/lib/libactionlib.so
+devel/lib/rosqt_gui/rosqt_gui: /opt/ros/melodic/lib/libmessage_filters.so
+devel/lib/rosqt_gui/rosqt_gui: /opt/ros/melodic/lib/libroscpp.so
+devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+devel/lib/rosqt_gui/rosqt_gui: /opt/ros/melodic/lib/libxmlrpcpp.so
+devel/lib/rosqt_gui/rosqt_gui: /opt/ros/melodic/lib/libtf2.so
+devel/lib/rosqt_gui/rosqt_gui: /opt/ros/melodic/lib/librosconsole.so
+devel/lib/rosqt_gui/rosqt_gui: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+devel/lib/rosqt_gui/rosqt_gui: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+devel/lib/rosqt_gui/rosqt_gui: /opt/ros/melodic/lib/libroscpp_serialization.so
+devel/lib/rosqt_gui/rosqt_gui: /opt/ros/melodic/lib/librostime.so
+devel/lib/rosqt_gui/rosqt_gui: /opt/ros/melodic/lib/libcpp_common.so
+devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/libboost_system.so
+devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/libpthread.so
+devel/lib/rosqt_gui/rosqt_gui: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+devel/lib/rosqt_gui/rosqt_gui: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/lib/libQt5Gui.so.5.9.9
+devel/lib/rosqt_gui/rosqt_gui: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/lib/libQt5Core.so.5.9.9
+devel/lib/rosqt_gui/rosqt_gui: rosqt_gui/CMakeFiles/rosqt_gui.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable ../devel/lib/rosqt_gui/rosqt_gui"
 	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rosqt_gui.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-rosqt_gui/CMakeFiles/rosqt_gui.dir/build: /home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui
+rosqt_gui/CMakeFiles/rosqt_gui.dir/build: devel/lib/rosqt_gui/rosqt_gui
 
 .PHONY : rosqt_gui/CMakeFiles/rosqt_gui.dir/build
 
+rosqt_gui/CMakeFiles/rosqt_gui.dir/requires: rosqt_gui/CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.o.requires
 rosqt_gui/CMakeFiles/rosqt_gui.dir/requires: rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o.requires
 rosqt_gui/CMakeFiles/rosqt_gui.dir/requires: rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o.requires
 rosqt_gui/CMakeFiles/rosqt_gui.dir/requires: rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o.requires
 rosqt_gui/CMakeFiles/rosqt_gui.dir/requires: rosqt_gui/CMakeFiles/rosqt_gui.dir/qrc_images.cpp.o.requires
+rosqt_gui/CMakeFiles/rosqt_gui.dir/requires: rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.o.requires
 rosqt_gui/CMakeFiles/rosqt_gui.dir/requires: rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o.requires
 rosqt_gui/CMakeFiles/rosqt_gui.dir/requires: rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o.requires
 
@@ -282,6 +347,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/clean:
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/depend: rosqt_gui/qrc_images.cpp
 rosqt_gui/CMakeFiles/rosqt_gui.dir/depend: rosqt_gui/ui_main_window.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/depend: rosqt_gui/include/rosqt_gui/moc_CCtrlDashBoard.cpp
 rosqt_gui/CMakeFiles/rosqt_gui.dir/depend: rosqt_gui/include/rosqt_gui/moc_main_window.cpp
 rosqt_gui/CMakeFiles/rosqt_gui.dir/depend: rosqt_gui/include/rosqt_gui/moc_qnode.cpp
 	cd /home/qtrostzb/catkin_ros_qt/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qtrostzb/catkin_ros_qt/src /home/qtrostzb/catkin_ros_qt/src/rosqt_gui /home/qtrostzb/catkin_ros_qt/build /home/qtrostzb/catkin_ros_qt/build/rosqt_gui /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/CMakeFiles/rosqt_gui.dir/DependInfo.cmake --color=$(COLOR)

@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/qtrostzb/catkin_ros_qt/install/setup.sh
+    local-name: /usr/local/setup.sh

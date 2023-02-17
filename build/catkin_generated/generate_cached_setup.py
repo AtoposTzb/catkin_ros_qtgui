@@ -19,7 +19,7 @@ except ImportError:
             break
     from catkin.environment_cache import generate_environment_script
 
-code = generate_environment_script('/home/qtrostzb/catkin_ros_qt/devel/env.sh')
+code = generate_environment_script('/home/qtrostzb/catkin_ros_qt/build/devel/env.sh')
 
 output_filename = '/home/qtrostzb/catkin_ros_qt/build/catkin_generated/setup_cached.sh'
 with open(output_filename, 'w') as f:

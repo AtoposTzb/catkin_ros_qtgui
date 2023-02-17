@@ -27,6 +27,7 @@
 #include <std_msgs/String.h>
 #include <geometry_msgs/Twist.h>//sudu
 #include <map>
+#include <nav_msgs/Odometry.h>//里程计话题
 
 /*****************************************************************************
 ** Namespaces
@@ -65,6 +66,7 @@ public:
 Q_SIGNALS:
 	void loggingUpdated();
     void rosShutdown();
+    void speed_vel(float,float);//因为这是两个类,ui界面是在mianw访问，所以这里需要我们创建自定义信号，把当前的X,Y轴线速度通过信号的方式发送到mainw类中
 
 private:
 	int init_argc;
@@ -73,7 +75,9 @@ private:
     ros::Publisher cmd_vel_pub;//声明一个话题发布者
     QStringListModel logging_model;
     ros::Subscriber chatter_sub;//创建一个订阅者
+    ros::Subscriber odom_sub;//里程计话题订阅者
     void chatter_callback(const std_msgs::String &msg);//shengminghuidiaohanshu
+    void odom_callback(const nav_msgs::Odometry &msg);
 };
 
 }  // namespace rosqt_gui

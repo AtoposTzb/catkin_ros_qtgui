@@ -15,6 +15,7 @@
 #include <QtWidgets/QMainWindow>
 #include "ui_main_window.h"
 #include "qnode.hpp"
+#include "CCtrlDashBoard.hpp"
 
 /*****************************************************************************
 ** Namespace
@@ -56,10 +57,13 @@ public Q_SLOTS:
     void slot_linear_value_change(int);//线速度改变槽函数
     void slot_raw_value_change(int);
     void slot_pushbtn_click();//几个按钮的点击事件,多个控制按钮连接同一个槽函数
+    void slot_update_dashboard(float,float);//将节点发送来的信号响应设置到仪表盘上
 
 private:
 	Ui::MainWindowDesign ui;
 	QNode qnode;
+    CCtrlDashBoard* speed_x_dashBoard;
+    CCtrlDashBoard* speed_y_dashBoard;
 };
 
 }  // namespace rosqt_gui

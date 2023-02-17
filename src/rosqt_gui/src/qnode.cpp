@@ -40,6 +40,7 @@ QNode::~QNode() {
 	wait();
 }
 
+//初始化
 bool QNode::init() {
 	ros::init(init_argc,init_argv,"rosqt_gui");
 	if ( ! ros::master::check() ) {
@@ -51,6 +52,7 @@ bool QNode::init() {
 	chatter_publisher = n.advertise<std_msgs::String>("chatter", 1000);
     chatter_sub = n.subscribe("chatter",1000,&QNode::chatter_callback,this);
     cmd_vel_pub = n.advertise<geometry_msgs::Twist>("cmd_vel",1000);
+    odom_sub = n.subscribe("raw_odom",1000,&QNode::odom_callback,this);//odom_callback回调函数
     start();
 	return true;
 }
@@ -69,9 +71,17 @@ bool QNode::init(const std::string &master_url, const std::string &host_url) {
 	chatter_publisher = n.advertise<std_msgs::String>("chatter", 1000);
     chatter_sub = n.subscribe("chatter",1000,&QNode::chatter_callback,this);
     cmd_vel_pub = n.advertise<geometry_msgs::Twist>("cmd_vel",1000);
+    odom_sub = n.subscribe("raw_odom",1000,&QNode::odom_callback,this);//odom_callback回调函数
 	start();
 	return true;
 }
+//因为这是两个类,ui界面是在mianw访问，所以这里需要我们创建自定义信号，把当前的X,Y轴线速度通过信号的方式发送到mainw类中
+void QNode::odom_callback(const nav_msgs::Odometry &msg)
+{
+    emit speed_vel(msg.twist.twist.linear.x,msg.twist.twist.linear.y);
+    //信号被发送出去后去mainw里连接这个信号
+}
+
 void QNode::set_cmd_vel(char k,float linear,float angular)
 {
     // Map for movement keys

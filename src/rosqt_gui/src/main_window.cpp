@@ -61,7 +61,33 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     connect(ui.pushButton_m,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
     connect(ui.pushButton_dian,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
     connect(ui.pushButton_dou,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
+
+    //速度仪表盘实现
+    //初始化u
+    speed_x_dashBoard = new CCtrlDashBoard(ui.widget_speed_x);
+    speed_y_dashBoard = new CCtrlDashBoard(ui.widget_speed_y);
+    speed_x_dashBoard->setGeometry(ui.widget_speed_x->rect());//这样，speed_x_dashBoard的大小和ui.widget_speed_x的大小一样
+    speed_y_dashBoard->setGeometry(ui.widget_speed_y->rect());
+    speed_x_dashBoard->setValue(0);
+    speed_y_dashBoard->setValue(0);//设置仪表盘默认指向
+    ui.horizontalSlider_linear->setValue(50);//设置默认
+    ui.horizontalSlider_raw->setValue(50);
+
+    //连接里程信息
+    connect(&qnode,SIGNAL(speed_vel(float,float)),this,SLOT(slot_update_dashboard(float,float)));
 }
+
+void MainWindow::slot_update_dashboard(float x,float y)
+{
+    //将节点发送来的信号响应设置到仪表盘上
+    speed_x_dashBoard->setValue(abs(x)*100);
+    speed_y_dashBoard->setValue(abs(y)*100);
+    //方向
+    ui.label_dir_x->setText(x>0?"正向":"反向");
+    ui.label_dir_y->setText(x>0?"正向":"反向");
+
+}
+
 //sender()方法可以处理是哪个对象发送来的对象并处理
 //按钮控制响应事件
 void MainWindow::slot_pushbtn_click()

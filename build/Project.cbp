@@ -5,136 +5,136 @@
 		<Option title="Project"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\opt\ros\melodic\;CMake Files\..\..\..\..\opt\ros\melodic\share\;CMake Files\..\..\..\..\opt\ros\melodic\share\catkin\;CMake Files\..\..\..\..\opt\ros\melodic\share\catkin\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\catkin\cmake\platform\;CMake Files\..\..\..\..\opt\ros\melodic\share\catkin\cmake\test\;CMake Files\..\..\..\..\opt\ros\melodic\share\catkin\cmake\tools\;CMake Files\..\..\..\..\opt\ros\melodic\share\catkin\cmake\templates\;CMake Files\..\..\..\..\opt\ros\melodic\share\catkin\cmake\em\;CMake Files\..\..\..\..\opt\ros\melodic\share\qt_build\;CMake Files\..\..\..\..\opt\ros\melodic\share\qt_build\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\roscpp\;CMake Files\..\..\..\..\opt\ros\melodic\share\roscpp\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\cpp_common\;CMake Files\..\..\..\..\opt\ros\melodic\share\cpp_common\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\message_runtime\;CMake Files\..\..\..\..\opt\ros\melodic\share\message_runtime\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\roscpp_serialization\;CMake Files\..\..\..\..\opt\ros\melodic\share\roscpp_serialization\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\roscpp_traits\;CMake Files\..\..\..\..\opt\ros\melodic\share\roscpp_traits\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\rostime\;CMake Files\..\..\..\..\opt\ros\melodic\share\rostime\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\rosconsole\;CMake Files\..\..\..\..\opt\ros\melodic\share\rosconsole\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\rosgraph_msgs\;CMake Files\..\..\..\..\opt\ros\melodic\share\rosgraph_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\std_msgs\;CMake Files\..\..\..\..\opt\ros\melodic\share\std_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\xmlrpcpp\;CMake Files\..\..\..\..\opt\ros\melodic\share\xmlrpcpp\cmake\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\src\;CMake Files\..\..\..\..\usr\src\googletest\;CMake Files\..\..\..\..\usr\src\googletest\googlemock\;CMake Files\..\..\..\..\usr\src\googletest\googletest\;CMake Files\..\..\..\..\usr\src\googletest\googletest\cmake\;CMake Files\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\build\;CMake Files\..\build\catkin\;CMake Files\..\build\catkin\catkin_generated\;CMake Files\..\build\catkin\catkin_generated\version\;CMake Files\..\build\catkin_generated\;CMake Files\..\build\catkin_generated\installspace\;CMake Files\..\build\rosqt_gui\;CMake Files\..\build\rosqt_gui\catkin_generated\;CMake Files\rosqt_gui\;CMake Files\rosqt_gui\resources\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\opt\ros\melodic\;CMake Files\..\..\..\..\opt\ros\melodic\share\;CMake Files\..\..\..\..\opt\ros\melodic\share\catkin\;CMake Files\..\..\..\..\opt\ros\melodic\share\catkin\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\catkin\cmake\platform\;CMake Files\..\..\..\..\opt\ros\melodic\share\catkin\cmake\test\;CMake Files\..\..\..\..\opt\ros\melodic\share\catkin\cmake\tools\;CMake Files\..\..\..\..\opt\ros\melodic\share\catkin\cmake\templates\;CMake Files\..\..\..\..\opt\ros\melodic\share\catkin\cmake\em\;CMake Files\..\..\..\..\opt\ros\melodic\share\qt_build\;CMake Files\..\..\..\..\opt\ros\melodic\share\qt_build\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\roscpp\;CMake Files\..\..\..\..\opt\ros\melodic\share\roscpp\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\cpp_common\;CMake Files\..\..\..\..\opt\ros\melodic\share\cpp_common\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\message_runtime\;CMake Files\..\..\..\..\opt\ros\melodic\share\message_runtime\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\roscpp_serialization\;CMake Files\..\..\..\..\opt\ros\melodic\share\roscpp_serialization\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\roscpp_traits\;CMake Files\..\..\..\..\opt\ros\melodic\share\roscpp_traits\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\rostime\;CMake Files\..\..\..\..\opt\ros\melodic\share\rostime\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\rosconsole\;CMake Files\..\..\..\..\opt\ros\melodic\share\rosconsole\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\rosgraph_msgs\;CMake Files\..\..\..\..\opt\ros\melodic\share\rosgraph_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\std_msgs\;CMake Files\..\..\..\..\opt\ros\melodic\share\std_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\xmlrpcpp\;CMake Files\..\..\..\..\opt\ros\melodic\share\xmlrpcpp\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\tf\;CMake Files\..\..\..\..\opt\ros\melodic\share\tf\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\geometry_msgs\;CMake Files\..\..\..\..\opt\ros\melodic\share\geometry_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\message_filters\;CMake Files\..\..\..\..\opt\ros\melodic\share\message_filters\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\sensor_msgs\;CMake Files\..\..\..\..\opt\ros\melodic\share\sensor_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\tf2_ros\;CMake Files\..\..\..\..\opt\ros\melodic\share\tf2_ros\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\actionlib\;CMake Files\..\..\..\..\opt\ros\melodic\share\actionlib\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\actionlib_msgs\;CMake Files\..\..\..\..\opt\ros\melodic\share\actionlib_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\genmsg\;CMake Files\..\..\..\..\opt\ros\melodic\share\genmsg\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\gencpp\;CMake Files\..\..\..\..\opt\ros\melodic\share\gencpp\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\geneus\;CMake Files\..\..\..\..\opt\ros\melodic\share\geneus\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\genlisp\;CMake Files\..\..\..\..\opt\ros\melodic\share\genlisp\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\gennodejs\;CMake Files\..\..\..\..\opt\ros\melodic\share\gennodejs\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\genpy\;CMake Files\..\..\..\..\opt\ros\melodic\share\genpy\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\rosgraph\;CMake Files\..\..\..\..\opt\ros\melodic\share\rosgraph\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\tf2\;CMake Files\..\..\..\..\opt\ros\melodic\share\tf2\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\tf2_msgs\;CMake Files\..\..\..\..\opt\ros\melodic\share\tf2_msgs\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\message_generation\;CMake Files\..\..\..\..\opt\ros\melodic\share\message_generation\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\tf2_py\;CMake Files\..\..\..\..\opt\ros\melodic\share\tf2_py\cmake\;CMake Files\..\..\..\..\opt\ros\melodic\share\rospy\;CMake Files\..\..\..\..\opt\ros\melodic\share\rospy\cmake\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\src\;CMake Files\..\..\..\..\usr\src\googletest\;CMake Files\..\..\..\..\usr\src\googletest\googlemock\;CMake Files\..\..\..\..\usr\src\googletest\googletest\;CMake Files\..\..\..\..\usr\src\googletest\googletest\cmake\;CMake Files\..\..\Qt5.9.9\;CMake Files\..\..\Qt5.9.9\5.9.9\;CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\;CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\;CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\;CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5\;CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Core\;CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\;CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Multimedia\;CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Network\;CMake Files\..\build\;CMake Files\..\build\catkin\;CMake Files\..\build\catkin\catkin_generated\;CMake Files\..\build\catkin\catkin_generated\version\;CMake Files\..\build\catkin_generated\;CMake Files\..\build\catkin_generated\installspace\;CMake Files\..\build\rosqt_gui\;CMake Files\..\build\rosqt_gui\catkin_generated\;CMake Files\rosqt_gui\;CMake Files\rosqt_gui\resources\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/strip">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list_install_components">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tests">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 tests"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 tests"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="download_extra_data">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 download_extra_data"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 download_extra_data"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="run_tests">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 run_tests"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 run_tests"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="clean_test_results">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean_test_results"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean_test_results"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="doxygen">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 doxygen"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 doxygen"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/local">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 test"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main">
@@ -149,12 +149,20 @@
 					<Add directory="/usr/src/googletest/googlemock"/>
 					<Add directory="/usr/src/googletest/googletest/include"/>
 					<Add directory="/usr/src/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main/fast">
@@ -169,12 +177,20 @@
 					<Add directory="/usr/src/googletest/googlemock"/>
 					<Add directory="/usr/src/googletest/googletest/include"/>
 					<Add directory="/usr/src/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock">
@@ -189,12 +205,20 @@
 					<Add directory="/usr/src/googletest/googlemock"/>
 					<Add directory="/usr/src/googletest/googletest/include"/>
 					<Add directory="/usr/src/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock/fast">
@@ -209,12 +233,20 @@
 					<Add directory="/usr/src/googletest/googlemock"/>
 					<Add directory="/usr/src/googletest/googletest/include"/>
 					<Add directory="/usr/src/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
@@ -227,12 +259,20 @@
 					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
 					<Add directory="/usr/src/googletest/googletest/include"/>
 					<Add directory="/usr/src/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
@@ -245,12 +285,20 @@
 					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
 					<Add directory="/usr/src/googletest/googletest/include"/>
 					<Add directory="/usr/src/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
@@ -263,12 +311,20 @@
 					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
 					<Add directory="/usr/src/googletest/googletest/include"/>
 					<Add directory="/usr/src/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
@@ -281,47 +337,25 @@
 					<Add option="-DGTEST_CREATE_SHARED_LIBRARY=1"/>
 					<Add directory="/usr/src/googletest/googletest/include"/>
 					<Add directory="/usr/src/googletest/googletest"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="roscpp_generate_messages_py">
-				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="roscpp_generate_messages_eus">
-				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="roscpp_generate_messages_lisp">
-				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/gtest/googlemock/gtest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rosqt_gui">
-				<Option output="/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui"/>
+				<Option output="/home/qtrostzb/catkin_ros_qt/build/devel/lib/rosqt_gui/rosqt_gui" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/devel/lib/rosqt_gui"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -332,27 +366,39 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
-					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
 					<Add directory="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
 					<Add directory="/home/qtrostzb/catkin_ros_qt/src/rosqt_gui"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
-					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/home/qtrostzb/catkin_ros_qt/src/rosqt_gui/./include"/>
+					<Add directory="/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include"/>
+					<Add directory="/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets"/>
+					<Add directory="/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui"/>
+					<Add directory="/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore"/>
+					<Add directory="/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtMultimedia"/>
+					<Add directory="/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtNetwork"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 rosqt_gui"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 rosqt_gui"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rosqt_gui/fast">
-				<Option output="/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui/rosqt_gui" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/qtrostzb/catkin_ros_qt/devel/lib/rosqt_gui"/>
+				<Option output="/home/qtrostzb/catkin_ros_qt/build/devel/lib/rosqt_gui/rosqt_gui" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/devel/lib/rosqt_gui"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -363,145 +409,493 @@
 					<Add option="-DQT_WIDGETS_LIB"/>
 					<Add option="-DQT_GUI_LIB"/>
 					<Add option="-DQT_CORE_LIB"/>
-					<Add option="-DQT_NO_DEBUG"/>
+					<Add option="-DQT_MULTIMEDIA_LIB"/>
+					<Add option="-DQT_NETWORK_LIB"/>
 					<Add directory="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
 					<Add directory="/home/qtrostzb/catkin_ros_qt/src/rosqt_gui"/>
 					<Add directory="/opt/ros/melodic/include"/>
 					<Add directory="/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
-					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/home/qtrostzb/catkin_ros_qt/src/rosqt_gui/./include"/>
+					<Add directory="/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include"/>
+					<Add directory="/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets"/>
+					<Add directory="/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui"/>
+					<Add directory="/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore"/>
+					<Add directory="/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/./mkspecs/linux-g++"/>
+					<Add directory="/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtMultimedia"/>
+					<Add directory="/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtNetwork"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 rosqt_gui/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 rosqt_gui/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rosgraph_msgs_generate_messages_cpp">
+			<Target title="tf2_msgs_generate_messages_nodejs">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="std_msgs_generate_messages_lisp">
+			<Target title="tf2_msgs_generate_messages_py">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="roscpp_generate_messages_cpp">
+			<Target title="tf2_msgs_generate_messages_lisp">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rosgraph_msgs_generate_messages_eus">
+			<Target title="tf2_msgs_generate_messages_eus">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rosgraph_msgs_generate_messages_lisp">
+			<Target title="tf2_msgs_generate_messages_cpp">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="std_msgs_generate_messages_cpp">
+			<Target title="actionlib_msgs_generate_messages_py">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rosgraph_msgs_generate_messages_nodejs">
+			<Target title="actionlib_msgs_generate_messages_nodejs">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rosgraph_msgs_generate_messages_py">
+			<Target title="actionlib_msgs_generate_messages_lisp">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="std_msgs_generate_messages_eus">
+			<Target title="actionlib_msgs_generate_messages_eus">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="std_msgs_generate_messages_nodejs">
-				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="roscpp_generate_messages_nodejs">
-				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="std_msgs_generate_messages_py">
 				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std_msgs_generate_messages_nodejs">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std_msgs_generate_messages_eus">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosgraph_msgs_generate_messages_py">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosgraph_msgs_generate_messages_nodejs">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std_msgs_generate_messages_cpp">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tf_generate_messages_cpp">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 tf_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="std_msgs_generate_messages_lisp">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sensor_msgs_generate_messages_cpp">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sensor_msgs_generate_messages_eus">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosgraph_msgs_generate_messages_lisp">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosgraph_msgs_generate_messages_eus">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tf_generate_messages_eus">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 tf_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="actionlib_msgs_generate_messages_cpp">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rosgraph_msgs_generate_messages_cpp">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roscpp_generate_messages_lisp">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tf_generate_messages_lisp">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 tf_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geometry_msgs_generate_messages_nodejs">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roscpp_generate_messages_py">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roscpp_generate_messages_nodejs">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roscpp_generate_messages_eus">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geometry_msgs_generate_messages_eus">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tf_generate_messages_nodejs">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 tf_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geometry_msgs_generate_messages_cpp">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geometry_msgs_generate_messages_lisp">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="geometry_msgs_generate_messages_py">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sensor_msgs_generate_messages_lisp">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="actionlib_generate_messages_cpp">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="roscpp_generate_messages_cpp">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sensor_msgs_generate_messages_nodejs">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="actionlib_generate_messages_eus">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tf_generate_messages_py">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 tf_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sensor_msgs_generate_messages_py">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="actionlib_generate_messages_lisp">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="actionlib_generate_messages_nodejs">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="actionlib_generate_messages_py">
+				<Option working_dir="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_CCtrlDashBoard.cpp">
+			<Option target="rosqt_gui"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_CCtrlDashBoard.cpp.rule">
+			<Option target="rosqt_gui"/>
+		</Unit>
 		<Unit filename="/home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_main_window.cpp">
 			<Option target="rosqt_gui"/>
 		</Unit>
@@ -521,6 +915,9 @@
 			<Option target="rosqt_gui"/>
 		</Unit>
 		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/rosqt_gui/resources/images.qrc">
+			<Option target="rosqt_gui"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/CCtrlDashBoard.cpp">
 			<Option target="rosqt_gui"/>
 		</Unit>
 		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/main.cpp">
@@ -811,6 +1208,159 @@
 		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\xmlrpcpp\cmake\"/>
 		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/tf/cmake/tf-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\tf\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/tf/cmake/tfConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\tf\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/tf/cmake/tfConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\tf\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/geometry_msgs/cmake/geometry_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\geometry_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/geometry_msgs/cmake/geometry_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\geometry_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/geometry_msgs/cmake/geometry_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\geometry_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/message_filters/cmake/message_filtersConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\message_filters\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/message_filters/cmake/message_filtersConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\message_filters\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/sensor_msgs/cmake/sensor_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\sensor_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\sensor_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/sensor_msgs/cmake/sensor_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\sensor_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/tf2_ros/cmake/tf2_rosConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\tf2_ros\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/tf2_ros/cmake/tf2_rosConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\tf2_ros\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/actionlib/cmake/actionlib-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\actionlib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/actionlib/cmake/actionlibConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\actionlib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/actionlib/cmake/actionlibConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\actionlib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/actionlib_msgs/cmake/actionlib_msgs-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\actionlib_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/actionlib_msgs/cmake/actionlib_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\actionlib_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/actionlib_msgs/cmake/actionlib_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\actionlib_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\actionlib_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/genmsg/cmake/genmsgConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/genmsg/cmake/genmsgConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\genmsg\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/gencpp/cmake/gencpp-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\gencpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/gencpp/cmake/gencppConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\gencpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/gencpp/cmake/gencppConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\gencpp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/geneus/cmake/geneus-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\geneus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/geneus/cmake/geneusConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\geneus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/geneus/cmake/geneusConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\geneus\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/genlisp/cmake/genlisp-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\genlisp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/genlisp/cmake/genlispConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\genlisp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/genlisp/cmake/genlispConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\genlisp\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/gennodejs/cmake/gennodejs-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\gennodejs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/gennodejs/cmake/gennodejsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\gennodejs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/gennodejs/cmake/gennodejsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\gennodejs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/genpy/cmake/genpy-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\genpy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/genpy/cmake/genpyConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\genpy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/genpy/cmake/genpyConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\genpy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/rosgraph/cmake/rosgraphConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\rosgraph\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/rosgraph/cmake/rosgraphConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\rosgraph\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/tf2/cmake/tf2Config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\tf2\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/tf2/cmake/tf2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\tf2\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/tf2_msgs/cmake/tf2_msgs-msg-extras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\tf2_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/tf2_msgs/cmake/tf2_msgsConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\tf2_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/tf2_msgs/cmake/tf2_msgsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\tf2_msgs\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/message_generation/cmake/message_generationConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\message_generation\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/message_generation/cmake/message_generationConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\message_generation\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/tf2_py/cmake/tf2_pyConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\tf2_py\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/tf2_py/cmake/tf2_pyConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\tf2_py\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/rospy/cmake/rospyConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\rospy\cmake\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../opt/ros/melodic/share/rospy/cmake/rospyConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\opt\ros\melodic\share\rospy\cmake\"/>
+		</Unit>
 		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../usr/src/googletest/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\src\googletest\"/>
 		</Unit>
@@ -823,50 +1373,176 @@
 		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../usr/src/googletest/googletest/cmake/internal_utils.cmake">
 			<Option virtualFolder="CMake Files\..\..\..\..\usr\src\googletest\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5\"/>
 		</Unit>
-		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5\"/>
 		</Unit>
-		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5\"/>
 		</Unit>
-		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Core\"/>
 		</Unit>
-		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Widgets\"/>
 		</Unit>
-		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
 		</Unit>
-		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_CameraBinServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QAlsaPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QGstreamerAudioDecoderServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QGstreamerCaptureServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QGstreamerPlayerServicePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QM3uPlaylistPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QPulseAudioPlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Multimedia\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Network\"/>
+		</Unit>
+		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../../Qt5.9.9/5.9.9/gcc_64/lib/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake">
+			<Option virtualFolder="CMake Files\..\..\Qt5.9.9\5.9.9\gcc_64\lib\cmake\Qt5Network\"/>
 		</Unit>
 		<Unit filename="/home/qtrostzb/catkin_ros_qt/src/../build/catkin/catkin_generated/version/package.cmake">
 			<Option virtualFolder="CMake Files\..\build\catkin\catkin_generated\version\"/>

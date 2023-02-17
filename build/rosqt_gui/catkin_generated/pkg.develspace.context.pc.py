@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "rosqt_gui"
-PROJECT_SPACE_DIR = "/home/qtrostzb/catkin_ros_qt/devel"
+PROJECT_SPACE_DIR = "/home/qtrostzb/catkin_ros_qt/build/devel"
 PROJECT_VERSION = "0.1.0"
