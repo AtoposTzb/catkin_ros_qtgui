@@ -58,6 +58,8 @@ include rosqt_gui/CMakeFiles/rosqt_gui.dir/progress.make
 include rosqt_gui/CMakeFiles/rosqt_gui.dir/flags.make
 
 rosqt_gui/qrc_images.cpp: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/resources/images/icon.png
+rosqt_gui/qrc_images.cpp: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/resources/images/battery.png
+rosqt_gui/qrc_images.cpp: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/resources/images/dian.png
 rosqt_gui/qrc_images.cpp: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/resources/images.qrc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/qtrostzb/catkin_ros_qt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating qrc_images.cpp"
 	cd /home/qtrostzb/catkin_ros_qt/build/rosqt_gui && /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/bin/rcc --name images --output /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/qrc_images.cpp /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/resources/images.qrc

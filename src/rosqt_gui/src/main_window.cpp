@@ -62,6 +62,7 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     connect(ui.pushButton_dian,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
     connect(ui.pushButton_dou,SIGNAL(clicked()),this,SLOT(slot_pushbtn_click()));
 
+
     //速度仪表盘实现
     //初始化u
     speed_x_dashBoard = new CCtrlDashBoard(ui.widget_speed_x);
@@ -75,6 +76,17 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
 
     //连接里程信息
     connect(&qnode,SIGNAL(speed_vel(float,float)),this,SLOT(slot_update_dashboard(float,float)));
+    //连接电池电压
+    connect(&qnode,SIGNAL(power_vel(float)),this,SLOT(slot_update_power(float)));
+}
+
+void MainWindow::slot_update_power(float value)
+{
+    ui.label_power_val->setText(QString::number(value).mid(0,5)+"V");//只取前5个字符
+    //进度条显示，先计算电压比
+    double n = (value-10.5)/(12.5-10.5);//12.5 and 10.5为实体机器人设置的最大和最小电压
+    int val = n*100;//转换为百分比
+    ui.progressBar->setValue(val);
 }
 
 void MainWindow::slot_update_dashboard(float x,float y)

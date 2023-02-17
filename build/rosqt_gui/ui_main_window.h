@@ -26,6 +26,7 @@
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenu>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QProgressBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QSlider>
 #include <QtWidgets/QSpacerItem>
@@ -44,7 +45,7 @@ public:
     QAction *actionAbout;
     QAction *actionAbout_Qt;
     QWidget *centralwidget;
-    QHBoxLayout *hboxLayout;
+    QGridLayout *gridLayout_2;
     QTabWidget *tab_manager;
     QWidget *tab_status;
     QVBoxLayout *verticalLayout_2;
@@ -58,6 +59,13 @@ public:
     QGroupBox *groupBox_12;
     QGridLayout *gridLayout_3;
     QListView *view_logging;
+    QHBoxLayout *horizontalLayout_7;
+    QSpacerItem *horizontalSpacer;
+    QLabel *label_8;
+    QLabel *label_9;
+    QProgressBar *progressBar;
+    QLabel *label_10;
+    QLabel *label_power_val;
     QTabWidget *tabWidget;
     QWidget *tab;
     QVBoxLayout *verticalLayout_7;
@@ -109,7 +117,7 @@ public:
     {
         if (MainWindowDesign->objectName().isEmpty())
             MainWindowDesign->setObjectName(QStringLiteral("MainWindowDesign"));
-        MainWindowDesign->resize(1108, 789);
+        MainWindowDesign->resize(1108, 829);
         QIcon icon;
         icon.addFile(QStringLiteral(":/images/icon.png"), QSize(), QIcon::Normal, QIcon::Off);
         MainWindowDesign->setWindowIcon(icon);
@@ -125,8 +133,8 @@ public:
         actionAbout_Qt->setObjectName(QStringLiteral("actionAbout_Qt"));
         centralwidget = new QWidget(MainWindowDesign);
         centralwidget->setObjectName(QStringLiteral("centralwidget"));
-        hboxLayout = new QHBoxLayout(centralwidget);
-        hboxLayout->setObjectName(QStringLiteral("hboxLayout"));
+        gridLayout_2 = new QGridLayout(centralwidget);
+        gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
         tab_manager = new QTabWidget(centralwidget);
         tab_manager->setObjectName(QStringLiteral("tab_manager"));
         tab_manager->setMinimumSize(QSize(100, 0));
@@ -191,7 +199,50 @@ public:
 
         tab_manager->addTab(tab_status, QString());
 
-        hboxLayout->addWidget(tab_manager);
+        gridLayout_2->addWidget(tab_manager, 0, 0, 2, 1);
+
+        horizontalLayout_7 = new QHBoxLayout();
+        horizontalLayout_7->setObjectName(QStringLiteral("horizontalLayout_7"));
+        horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
+
+        horizontalLayout_7->addItem(horizontalSpacer);
+
+        label_8 = new QLabel(centralwidget);
+        label_8->setObjectName(QStringLiteral("label_8"));
+
+        horizontalLayout_7->addWidget(label_8);
+
+        label_9 = new QLabel(centralwidget);
+        label_9->setObjectName(QStringLiteral("label_9"));
+        label_9->setMinimumSize(QSize(32, 32));
+        label_9->setMaximumSize(QSize(32, 32));
+        label_9->setPixmap(QPixmap(QString::fromUtf8(":/images/battery.png")));
+
+        horizontalLayout_7->addWidget(label_9);
+
+        progressBar = new QProgressBar(centralwidget);
+        progressBar->setObjectName(QStringLiteral("progressBar"));
+        progressBar->setMinimumSize(QSize(200, 25));
+        progressBar->setMaximumSize(QSize(200, 25));
+        progressBar->setValue(24);
+
+        horizontalLayout_7->addWidget(progressBar);
+
+        label_10 = new QLabel(centralwidget);
+        label_10->setObjectName(QStringLiteral("label_10"));
+        label_10->setMinimumSize(QSize(32, 32));
+        label_10->setMaximumSize(QSize(32, 32));
+        label_10->setPixmap(QPixmap(QString::fromUtf8(":/images/dian.png")));
+
+        horizontalLayout_7->addWidget(label_10);
+
+        label_power_val = new QLabel(centralwidget);
+        label_power_val->setObjectName(QStringLiteral("label_power_val"));
+
+        horizontalLayout_7->addWidget(label_power_val);
+
+
+        gridLayout_2->addLayout(horizontalLayout_7, 0, 1, 1, 1);
 
         tabWidget = new QTabWidget(centralwidget);
         tabWidget->setObjectName(QStringLiteral("tabWidget"));
@@ -424,7 +475,7 @@ public:
         tab_2->setObjectName(QStringLiteral("tab_2"));
         tabWidget->addTab(tab_2, QString());
 
-        hboxLayout->addWidget(tabWidget);
+        gridLayout_2->addWidget(tabWidget, 1, 1, 1, 1);
 
         MainWindowDesign->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindowDesign);
@@ -471,6 +522,10 @@ public:
         label_dir_y->setText(QApplication::translate("MainWindowDesign", "\346\255\243\345\220\221", Q_NULLPTR));
         groupBox_12->setTitle(QApplication::translate("MainWindowDesign", "Logging", Q_NULLPTR));
         tab_manager->setTabText(tab_manager->indexOf(tab_status), QApplication::translate("MainWindowDesign", "Ros Communications", Q_NULLPTR));
+        label_8->setText(QApplication::translate("MainWindowDesign", "\347\224\265\346\261\240\347\224\265\351\207\217:", Q_NULLPTR));
+        label_9->setText(QString());
+        label_10->setText(QString());
+        label_power_val->setText(QApplication::translate("MainWindowDesign", "00.00V", Q_NULLPTR));
         groupBox->setTitle(QApplication::translate("MainWindowDesign", "Ros Master", Q_NULLPTR));
         line_edit_topic->setText(QApplication::translate("MainWindowDesign", "unused", Q_NULLPTR));
         label->setText(QApplication::translate("MainWindowDesign", "Ros Master Url", Q_NULLPTR));

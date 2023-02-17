@@ -58,6 +58,7 @@ public Q_SLOTS:
     void slot_raw_value_change(int);
     void slot_pushbtn_click();//几个按钮的点击事件,多个控制按钮连接同一个槽函数
     void slot_update_dashboard(float,float);//将节点发送来的信号响应设置到仪表盘上
+    void slot_update_power(float);
 
 private:
 	Ui::MainWindowDesign ui;

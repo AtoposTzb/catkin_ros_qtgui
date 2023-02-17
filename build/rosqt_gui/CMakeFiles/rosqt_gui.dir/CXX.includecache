@@ -3324,6 +3324,10 @@ qmenubar.h
 qmessagebox.h
 /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qmessagebox.h
 
+/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QProgressBar
+qprogressbar.h
+/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qprogressbar.h
+
 /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QPushButton
 qpushbutton.h
 /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qpushbutton.h
@@ -3590,6 +3594,12 @@ QtWidgets/qtwidgetsglobal.h
 QtWidgets/qdialog.h
 -
 
+/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qprogressbar.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qframe.h
+-
+
 /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qpushbutton.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -3778,6 +3788,8 @@ geometry_msgs/Twist.h
 map
 -
 nav_msgs/Odometry.h
+-
+std_msgs/Float32.h
 -
 
 /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/CCtrlDashBoard.cpp
@@ -4622,6 +4634,22 @@ ros/forwards.h
 
 /opt/ros/melodic/include/rosconsole/macros_generated.h
 
+/opt/ros/melodic/include/std_msgs/Float32.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
 /opt/ros/melodic/include/std_msgs/Header.h
 string
 -
@@ -4704,6 +4732,8 @@ QtWidgets/QMainWindow
 QtWidgets/QMenu
 -
 QtWidgets/QMenuBar
+-
+QtWidgets/QProgressBar
 -
 QtWidgets/QPushButton
 -
