@@ -105,6 +105,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.o: r
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.o: /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/CCtrlDashBoard.hpp
 
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QLocale
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QProcess
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QStringListModel
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QThread
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QVariant
@@ -156,6 +157,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /hom
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qobjectdefs_impl.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qpair.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qpoint.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qprocess.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qprocessordetection.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qrect.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qrefcount.h
@@ -209,6 +211,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /hom
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qrgb.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qrgba64.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qtextcursor.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qtextdocument.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qtextformat.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qtextoption.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qtgui-config.h
@@ -240,6 +243,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /hom
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSpacerItem
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QStatusBar
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTabWidget
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTextEdit
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QVBoxLayout
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QWidget
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qabstractbutton.h
@@ -277,6 +281,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /hom
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstyleoption.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtabbar.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtabwidget.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtextedit.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgets-config.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgetsglobal.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qwidget.h
@@ -659,6 +664,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QLocale
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QMargins
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QObject
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QProcess
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QRect
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QScopedPointer
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QSharedDataPointer
@@ -988,6 +994,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSpacerItem
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QStatusBar
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTabWidget
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTextEdit
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QVBoxLayout
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QWidget
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qabstractbutton.h
@@ -1025,6 +1032,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstyleoption.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtabbar.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtabwidget.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtextedit.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgets-config.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgetsglobal.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qwidget.h
@@ -1123,6 +1131,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QLocale
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QMargins
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QObject
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QProcess
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QRect
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QScopedPointer
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QSharedDataPointer
@@ -1453,6 +1462,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSpacerItem
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QStatusBar
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTabWidget
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTextEdit
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QVBoxLayout
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QWidget
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qabstractbutton.h
@@ -1492,6 +1502,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstyleoption.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtabbar.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtabwidget.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtextedit.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgets-config.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgetsglobal.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qwidget.h

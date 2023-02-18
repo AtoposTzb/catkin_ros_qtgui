@@ -106,6 +106,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.o
  /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/CCtrlDashBoard.hpp
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QLocale
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QProcess
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QStringListModel
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QThread
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QVariant
@@ -157,6 +158,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qobjectdefs_impl.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qpair.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qpoint.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qprocess.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qprocessordetection.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qrect.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qrefcount.h
@@ -210,6 +212,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qrgb.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qrgba64.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qtextcursor.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qtextdocument.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qtextformat.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qtextoption.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qtgui-config.h
@@ -241,6 +244,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSpacerItem
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QStatusBar
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTabWidget
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTextEdit
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QVBoxLayout
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QWidget
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qabstractbutton.h
@@ -278,6 +282,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstyleoption.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtabbar.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtabwidget.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtextedit.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgets-config.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgetsglobal.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qwidget.h
@@ -660,6 +665,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QLocale
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QMargins
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QObject
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QProcess
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QRect
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QScopedPointer
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QSharedDataPointer
@@ -989,6 +995,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSpacerItem
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QStatusBar
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTabWidget
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTextEdit
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QVBoxLayout
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QWidget
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qabstractbutton.h
@@ -1026,6 +1033,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstyleoption.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtabbar.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtabwidget.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtextedit.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgets-config.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgetsglobal.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qwidget.h
@@ -1124,6 +1132,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QLocale
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QMargins
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QObject
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QProcess
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QRect
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QScopedPointer
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QSharedDataPointer
@@ -1454,6 +1463,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSpacerItem
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QStatusBar
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTabWidget
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTextEdit
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QVBoxLayout
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QWidget
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qabstractbutton.h
@@ -1493,6 +1503,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstyleoption.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtabbar.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtabwidget.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtextedit.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgets-config.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgetsglobal.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qwidget.h

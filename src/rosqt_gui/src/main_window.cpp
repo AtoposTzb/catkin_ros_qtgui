@@ -81,6 +81,25 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     //连接图像话题
     connect(&qnode,SIGNAL(image_val(QImage)),this,SLOT(slot_update_image(QImage)));
     connect(ui.pushButton_sub_image,SIGNAL(clicked()),this,SLOT(slot_sub_image()));
+    //激光雷达
+    connect(ui.pushButton_laser,SIGNAL(clicked()),this,SLOT(slot_quick_cmd_laser()));
+}
+
+void MainWindow::slot_quick_cmd_laser()
+{
+    laser_cmd=new QProcess;
+    laser_cmd->start("bash");//通过这个对象去调用一些外部的系统程序，如bash程序：运行命令行的
+    laser_cmd->write(ui.textEdit_laser_cmd->toPlainText().toLocal8Bit()+'\n');//通过write方法去写入我们要运行的命令，'/n'代表命令输入结束
+    //再设计一个黑框框模拟信号回显
+    connect(laser_cmd,SIGNAL(readyReadStandardError()),this,SLOT(slot_quick_output()));
+    connect(laser_cmd,SIGNAL(readyReadStandardOutput()),this,SLOT(slot_quick_output()));
+}
+
+void MainWindow::slot_quick_output()
+{
+    //在黑框框output中使用追加的方式显示并设置字体颜色
+    ui.textEdit_quick_output->append("<font color=\"#FF0000\">"+laser_cmd->readAllStandardError()+"</font");
+    ui.textEdit_quick_output->append("<font color=\"#FFFFFF\">"+laser_cmd->readAllStandardOutput()+"</font");
 }
 
 void MainWindow::slot_update_image(QImage im)

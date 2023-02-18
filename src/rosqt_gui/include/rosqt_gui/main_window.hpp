@@ -16,7 +16,8 @@
 #include "ui_main_window.h"
 #include "qnode.hpp"
 #include "CCtrlDashBoard.hpp"
-
+#include <QImage>
+#include <QProcess>//激光雷达
 /*****************************************************************************
 ** Namespace
 *****************************************************************************/
@@ -61,12 +62,15 @@ public Q_SLOTS:
     void slot_update_power(float);
     void slot_update_image(QImage);
     void slot_sub_image();
+    void slot_quick_cmd_laser();
+    void slot_quick_output();
 
 private:
 	Ui::MainWindowDesign ui;
 	QNode qnode;
     CCtrlDashBoard* speed_x_dashBoard;
     CCtrlDashBoard* speed_y_dashBoard;
+    QProcess *laser_cmd;
 };
 
 }  // namespace rosqt_gui

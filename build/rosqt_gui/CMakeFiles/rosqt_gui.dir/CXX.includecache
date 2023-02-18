@@ -30,6 +30,10 @@ qmargins.h
 qobject.h
 /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qobject.h
 
+/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QProcess
+qprocess.h
+/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qprocess.h
+
 /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QRect
 qrect.h
 /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qrect.h
@@ -3348,6 +3352,10 @@ qstatusbar.h
 qtabwidget.h
 /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtabwidget.h
 
+/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTextEdit
+qtextedit.h
+/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtextedit.h
+
 /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QVBoxLayout
 qboxlayout.h
 /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qboxlayout.h
@@ -3692,6 +3700,20 @@ QtWidgets/qwidget.h
 QtGui/qicon.h
 -
 
+/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtextedit.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractscrollarea.h
+-
+QtGui/qtextdocument.h
+-
+QtGui/qtextoption.h
+-
+QtGui/qtextcursor.h
+-
+QtGui/qtextformat.h
+-
+
 /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgets-config.h
 
 /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgetsglobal.h
@@ -3771,6 +3793,10 @@ qnode.hpp
 /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/qnode.hpp
 CCtrlDashBoard.hpp
 /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/CCtrlDashBoard.hpp
+QImage
+-
+QProcess
+-
 
 /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/qnode.hpp
 ros/ros.h
@@ -4922,6 +4948,8 @@ QtWidgets/QSpacerItem
 QtWidgets/QStatusBar
 -
 QtWidgets/QTabWidget
+-
+QtWidgets/QTextEdit
 -
 QtWidgets/QVBoxLayout
 -

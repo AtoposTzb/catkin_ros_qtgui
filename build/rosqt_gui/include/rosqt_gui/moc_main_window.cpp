@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_rosqt_gui__MainWindow_t {
-    QByteArrayData data[15];
-    char stringdata0[284];
+    QByteArrayData data[17];
+    char stringdata0[323];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -45,7 +45,9 @@ QT_MOC_LITERAL(10, 192, 18), // "slot_pushbtn_click"
 QT_MOC_LITERAL(11, 211, 21), // "slot_update_dashboard"
 QT_MOC_LITERAL(12, 233, 17), // "slot_update_power"
 QT_MOC_LITERAL(13, 251, 17), // "slot_update_image"
-QT_MOC_LITERAL(14, 269, 14) // "slot_sub_image"
+QT_MOC_LITERAL(14, 269, 14), // "slot_sub_image"
+QT_MOC_LITERAL(15, 284, 20), // "slot_quick_cmd_laser"
+QT_MOC_LITERAL(16, 305, 17) // "slot_quick_output"
 
     },
     "rosqt_gui::MainWindow\0on_actionAbout_triggered\0"
@@ -55,7 +57,8 @@ QT_MOC_LITERAL(14, 269, 14) // "slot_sub_image"
     "slot_linear_value_change\0slot_raw_value_change\0"
     "slot_pushbtn_click\0slot_update_dashboard\0"
     "slot_update_power\0slot_update_image\0"
-    "slot_sub_image"
+    "slot_sub_image\0slot_quick_cmd_laser\0"
+    "slot_quick_output"
 };
 #undef QT_MOC_LITERAL
 
@@ -65,7 +68,7 @@ static const uint qt_meta_data_rosqt_gui__MainWindow[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-      11,   14, // methods
+      13,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -73,17 +76,19 @@ static const uint qt_meta_data_rosqt_gui__MainWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   69,    2, 0x0a /* Public */,
-       3,    1,   70,    2, 0x0a /* Public */,
-       5,    1,   73,    2, 0x0a /* Public */,
-       7,    0,   76,    2, 0x0a /* Public */,
-       8,    1,   77,    2, 0x0a /* Public */,
-       9,    1,   80,    2, 0x0a /* Public */,
-      10,    0,   83,    2, 0x0a /* Public */,
-      11,    2,   84,    2, 0x0a /* Public */,
-      12,    1,   89,    2, 0x0a /* Public */,
-      13,    1,   92,    2, 0x0a /* Public */,
-      14,    0,   95,    2, 0x0a /* Public */,
+       1,    0,   79,    2, 0x0a /* Public */,
+       3,    1,   80,    2, 0x0a /* Public */,
+       5,    1,   83,    2, 0x0a /* Public */,
+       7,    0,   86,    2, 0x0a /* Public */,
+       8,    1,   87,    2, 0x0a /* Public */,
+       9,    1,   90,    2, 0x0a /* Public */,
+      10,    0,   93,    2, 0x0a /* Public */,
+      11,    2,   94,    2, 0x0a /* Public */,
+      12,    1,   99,    2, 0x0a /* Public */,
+      13,    1,  102,    2, 0x0a /* Public */,
+      14,    0,  105,    2, 0x0a /* Public */,
+      15,    0,  106,    2, 0x0a /* Public */,
+      16,    0,  107,    2, 0x0a /* Public */,
 
  // slots: parameters
     QMetaType::Void,
@@ -96,6 +101,8 @@ static const uint qt_meta_data_rosqt_gui__MainWindow[] = {
     QMetaType::Void, QMetaType::Float, QMetaType::Float,    2,    2,
     QMetaType::Void, QMetaType::Float,    2,
     QMetaType::Void, QMetaType::QImage,    2,
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
 
        0        // eod
@@ -118,6 +125,8 @@ void rosqt_gui::MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c
         case 8: _t->slot_update_power((*reinterpret_cast< float(*)>(_a[1]))); break;
         case 9: _t->slot_update_image((*reinterpret_cast< QImage(*)>(_a[1]))); break;
         case 10: _t->slot_sub_image(); break;
+        case 11: _t->slot_quick_cmd_laser(); break;
+        case 12: _t->slot_quick_output(); break;
         default: ;
         }
     }
@@ -148,13 +157,13 @@ int rosqt_gui::MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 11)
+        if (_id < 13)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 11;
+        _id -= 13;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 11)
+        if (_id < 13)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 11;
+        _id -= 13;
     }
     return _id;
 }
