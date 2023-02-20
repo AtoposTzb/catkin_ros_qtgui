@@ -76,6 +76,8 @@ public Q_SLOTS:
     void slot_display_Path(int);
     void slot_set_start_pose();
     void slot_set_goal_pose();
+    void slot_display_global_map(int);
+    void slot_display_local_map(int);
 
 private:
 	Ui::MainWindowDesign ui;
@@ -83,6 +85,8 @@ private:
     CCtrlDashBoard* speed_x_dashBoard;
     CCtrlDashBoard* speed_y_dashBoard;
     QProcess *laser_cmd;
+
+//rviz
     qrviz *myqrviz;
     QComboBox* fixed_box;
     QSpinBox* Cell_Count_Box;
@@ -92,6 +96,14 @@ private:
     QComboBox* Map_Color_Scheme_box;
     QComboBox* Path_Topic_box;
     QComboBox* Path_Color_box;
+    QComboBox* Global_CostMap_Topic_box;
+    QComboBox* GlobalMapColorScheme_box;
+    QComboBox* Global_Planner_Topic_box;
+    QComboBox* Global_Planner_Color_box;
+    QComboBox* Local_CostMap_Topic_box;
+    QComboBox* LocalMapColorScheme_box;
+    QComboBox* Local_Planner_Topic_box;
+    QComboBox* Local_Planner_Color_box;
 };
 
 }  // namespace rosqt_gui

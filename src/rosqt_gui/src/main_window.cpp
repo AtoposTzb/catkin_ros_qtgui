@@ -236,6 +236,117 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     Path->addChild(PathColorScheme);
     ui.treeWidget->setItemWidget(PathColorScheme,1,Path_Color_box);
 
+    //机器人Navigate相关**************************
+    //Golabal map******************************
+    QTreeWidgetItem* GlobalMap = new QTreeWidgetItem(QStringList()<<"Global Map");
+    GlobalMap->setIcon(0,QIcon(":/images/default_package_icon.png"));
+    QCheckBox* GlobalMap_Check=new QCheckBox();
+    connect(GlobalMap_Check,SIGNAL(stateChanged(int)),this,SLOT(slot_display_global_map(int)));
+    ui.treeWidget->addTopLevelItem(GlobalMap);
+    ui.treeWidget->setItemWidget(GlobalMap,1,GlobalMap_Check);
+    //Global CostMap
+    QTreeWidgetItem* Global_CostMap = new QTreeWidgetItem(QStringList()<<"Costmap");
+    //设置图标
+    Global_CostMap->setIcon(0,QIcon(":/images/rviz_images/Map.png"));
+    //Global Map添加子节点
+    GlobalMap->addChild(Global_CostMap);
+    //Map topic
+    QTreeWidgetItem* Global_CostMap_Topic = new QTreeWidgetItem(QStringList()<<"Topic");
+    Global_CostMap_Topic_box = new QComboBox();
+    Global_CostMap_Topic_box->addItem("/move_base/global_costmap/costmap");
+    Global_CostMap_Topic_box->setEditable(true);
+    Global_CostMap_Topic_box->setMaximumWidth(150);
+    Global_CostMap->addChild(Global_CostMap_Topic);
+    ui.treeWidget->setItemWidget(Global_CostMap_Topic,1,Global_CostMap_Topic_box) ;
+    //Map color scheme
+    QTreeWidgetItem* GlobalMapColorScheme=new QTreeWidgetItem(QStringList()<<"Color Scheme");
+    GlobalMapColorScheme_box = new QComboBox() ;
+    GlobalMapColorScheme_box->addItem("map");
+    GlobalMapColorScheme_box->addItem("costmap");
+    GlobalMapColorScheme_box->addItem("raw");
+    GlobalMapColorScheme_box->setMaximumWidth(150);
+    Global_CostMap->addChild(GlobalMapColorScheme);
+    ui.treeWidget->setItemWidget(GlobalMapColorScheme,1,GlobalMapColorScheme_box);
+
+    //Global Planner
+    QTreeWidgetItem* Global_Planner = new QTreeWidgetItem(QStringList()<<"Planner");
+    //设置图标
+    Global_Planner->setIcon(0,QIcon(":/images/rviz_images/Path.png"));
+    //向Global Map添加Path Top节点
+    GlobalMap->addChild(Global_Planner);
+
+    //Path topic
+    QTreeWidgetItem* Global_Planner_Topic = new QTreeWidgetItem(QStringList()<<"Topic");
+    Global_Planner_Topic_box = new QComboBox();
+    Global_Planner_Topic_box->addItem("/move_base/DWAPlannerROS/global_plan");
+    Global_Planner_Topic_box->setEditable(true);
+    Global_Planner_Topic_box->setMaximumWidth(150);
+    Global_Planner->addChild(Global_Planner_Topic);
+    ui.treeWidget->setItemWidget(Global_Planner_Topic, 1 ,Global_Planner_Topic_box);
+    //Path color scheme
+    QTreeWidgetItem* Global_Planner_Color_Scheme = new QTreeWidgetItem(QStringList()<<"Color Scheme");
+    Global_Planner_Color_box=new QComboBox() ;
+    Global_Planner_Color_box->addItem("255;0;0");
+    Global_Planner_Color_box->setEditable(true);
+    Global_Planner_Color_box->setMaximumWidth(150) ;
+    Global_Planner->addChild(Global_Planner_Color_Scheme);
+    ui.treeWidget->setItemWidget (Global_Planner_Color_Scheme,1 ,Global_Planner_Color_box);
+
+    //Local map*************************************
+    QTreeWidgetItem* LocalMap = new QTreeWidgetItem(QStringList()<<"Local Map");
+    LocalMap->setIcon(0,QIcon(":/images/default_package_icon.png"));
+    QCheckBox* LocalMap_Check = new QCheckBox();
+    connect(LocalMap_Check,SIGNAL(stateChanged(int)),this,SLOT(slot_display_local_map(int)));
+    ui.treeWidget->addTopLevelItem(LocalMap);
+    ui.treeWidget->setItemWidget(LocalMap,1,LocalMap_Check);
+    //Local CostMap
+    QTreeWidgetItem* Local_CostMap = new QTreeWidgetItem(QStringList()<<"Costmap");
+    //设置图标
+    Local_CostMap->setIcon(0,QIcon(":/images/rviz_images/Map.png"));
+    //Local Map添加子节点
+    LocalMap-> addChild(Local_CostMap);
+    //Map topic
+    QTreeWidgetItem* Local_CostMap_Topic = new QTreeWidgetItem(QStringList()<<"Topic");
+    Local_CostMap_Topic_box = new QComboBox();
+    Local_CostMap_Topic_box-> addItem("/move_base/local_costmap/costmap");
+    Local_CostMap_Topic_box->setEditable(true);
+    Local_CostMap_Topic_box->setMaximumWidth(150);
+    Local_CostMap->addChild(Local_CostMap_Topic);
+    ui.treeWidget->setItemWidget(Local_CostMap_Topic,1,Local_CostMap_Topic_box);
+    //Map color scheme
+    QTreeWidgetItem* LocalMapColorScheme = new QTreeWidgetItem(QStringList()<<"Color Scheme");
+    LocalMapColorScheme_box = new QComboBox();
+    LocalMapColorScheme_box->addItem("map") ;
+    LocalMapColorScheme_box->addItem("costmap");
+    LocalMapColorScheme_box->addItem("raw");
+    LocalMapColorScheme_box->setMaximumWidth(150);
+    Local_CostMap->addChild(LocalMapColorScheme);
+    ui.treeWidget->setItemWidget(LocalMapColorScheme,1,LocalMapColorScheme_box);
+    //Local Planner
+    QTreeWidgetItem* Local_Planner = new QTreeWidgetItem (QStringList()<<"Planner");
+    //设置图标
+    Local_Planner->setIcon(0,QIcon(":/images/rviz_images/Path.png"));
+    //向TLocal Map添加Path Top节点
+    LocalMap->addChild(Local_Planner);
+
+    //Path topic
+    QTreeWidgetItem* Local_Planner_Topic = new QTreeWidgetItem(QStringList()<<"Topic");
+    Local_Planner_Topic_box = new QComboBox();
+    Local_Planner_Topic_box->addItem("/move_base/DWAPlannerROS/local_plan");
+    Local_Planner_Topic_box->setEditable(true);
+    Local_Planner_Topic_box->setMaximumWidth(150);
+    Local_Planner->addChild(Local_Planner_Topic);
+    ui.treeWidget->setItemWidget(Local_Planner_Topic,1,Local_Planner_Topic_box);
+    //Path color scheme
+    QTreeWidgetItem* Local_Planner_Color_Scheme = new QTreeWidgetItem(QStringList()<<"Color Scheme");
+    Local_Planner_Color_box = new QComboBox();
+    Local_Planner_Color_box->addItem("0;12;255");
+    Local_Planner_Color_box->setEditable(true);
+    Local_Planner_Color_box->setMaximumWidth(150) ;
+    Local_Planner->addChild(Local_Planner_Color_Scheme);
+    ui.treeWidget->setItemWidget(Local_Planner_Color_Scheme,1,Local_Planner_Color_box);
+
+
 
     //连接里程信息
     connect(&qnode,SIGNAL(speed_vel(float,float)),this,SLOT(slot_update_dashboard(float,float)));
@@ -251,6 +362,17 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     //set start pose
     connect(ui.set_start_btn,SIGNAL(clicked()),this,SLOT(slot_set_start_pose()));
     connect(ui.set_goal_btn,SIGNAL(clicked()),this,SLOT(slot_set_goal_pose()));
+}
+
+
+void MainWindow::slot_display_global_map(int state)
+{
+    bool enable = state > 1?true:false;//三目运算符判断是否被选中
+}
+
+void MainWindow::slot_display_local_map(int state)
+{
+    bool enable = state > 1?true:false;//三目运算符判断是否被选中
 }
 
 void MainWindow::slot_set_start_pose()
