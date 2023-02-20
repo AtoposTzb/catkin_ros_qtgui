@@ -19,12 +19,18 @@ public:
     void Display_Srid(int Cell_Count , QColor color, bool enable);
     void Display_TF(bool enable);
     void Display_LaserScan(QString laser_topic,bool enable);
+    void Display_RobotModel(bool enable);
+    void Display_Map(QString topic,QString color_scheme,bool enable);
+    void Display_Path(QString topic,QColor color,bool enable);
 private:
     rviz::RenderPanel *render_panel;
     rviz::VisualizationManager* manager_;
     rviz::Display* Grid_ = NULL;
     rviz::Display* TF_ = NULL;
     rviz::Display* LaserScan_ = NULL;
+    //rviz::Display* RobotModel_ = NULL;
+    rviz::Display* Map_ = NULL;
+    rviz::Display* Path_ = NULL;
 signals:
 
 };

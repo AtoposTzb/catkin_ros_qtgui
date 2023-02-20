@@ -68,3 +68,42 @@ void qrviz::Display_LaserScan(QString laser_topic, bool enable)
     LaserScan_->subProp("Topic")->setValue(laser_topic);//属性设置
     ROS_ASSERT(LaserScan_ != NULL);
 }
+
+rviz::Display* RobotModel_ = NULL;//BUG
+void qrviz::Display_RobotModel(bool enable)
+{
+    if(RobotModel_ != NULL)//保持图层的唯一性
+    {
+        delete RobotModel_;
+        RobotModel_ = NULL;
+    }
+    LaserScan_ = manager_->createDisplay("rviz/RobotModel", "myRobotModel" , enable);
+    ROS_ASSERT(LaserScan_ != NULL);
+}
+
+void qrviz::Display_Map(QString topic, QString color_scheme, bool enable)
+{
+    if(Map_ != NULL)//保持图层的唯一性
+    {
+        delete Map_;
+        Map_ = NULL;
+    }
+    Map_ = manager_->createDisplay("rviz/Map", "myMap" , enable);
+    ROS_ASSERT(Map_ != NULL);
+    Map_->subProp("Topic")->setValue(topic);//属性设置
+    Map_->subProp("Color Scheme")->setValue(color_scheme) ;//图层样式
+}
+
+void qrviz::Display_Path(QString topic, QColor color, bool enable)
+{
+    if(Path_ != NULL)//保持图层的唯一性
+    {
+        delete Path_;
+        Path_ = NULL;
+    }
+    Path_ = manager_->createDisplay("rviz/Path","myPath", enable);
+    ROS_ASSERT(Path_ != NULL);
+    Path_->subProp("Topic")->setValue(topic);//属性设置
+    Path_->subProp("Color")->setValue(color) ;//图层样式
+
+}

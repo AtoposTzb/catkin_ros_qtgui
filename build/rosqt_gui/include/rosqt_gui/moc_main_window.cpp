@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_rosqt_gui__MainWindow_t {
-    QByteArrayData data[21];
-    char stringdata0[405];
+    QByteArrayData data[24];
+    char stringdata0[464];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -51,7 +51,10 @@ QT_MOC_LITERAL(16, 305, 17), // "slot_quick_output"
 QT_MOC_LITERAL(17, 323, 28), // "slot_treewidget_value_change"
 QT_MOC_LITERAL(18, 352, 17), // "slot_display_grid"
 QT_MOC_LITERAL(19, 370, 15), // "slot_display_tf"
-QT_MOC_LITERAL(20, 386, 18) // "slot_display_laser"
+QT_MOC_LITERAL(20, 386, 18), // "slot_display_laser"
+QT_MOC_LITERAL(21, 405, 23), // "slot_display_RobotModel"
+QT_MOC_LITERAL(22, 429, 16), // "slot_display_Map"
+QT_MOC_LITERAL(23, 446, 17) // "slot_display_Path"
 
     },
     "rosqt_gui::MainWindow\0on_actionAbout_triggered\0"
@@ -64,7 +67,8 @@ QT_MOC_LITERAL(20, 386, 18) // "slot_display_laser"
     "slot_sub_image\0slot_quick_cmd_laser\0"
     "slot_quick_output\0slot_treewidget_value_change\0"
     "slot_display_grid\0slot_display_tf\0"
-    "slot_display_laser"
+    "slot_display_laser\0slot_display_RobotModel\0"
+    "slot_display_Map\0slot_display_Path"
 };
 #undef QT_MOC_LITERAL
 
@@ -74,7 +78,7 @@ static const uint qt_meta_data_rosqt_gui__MainWindow[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-      17,   14, // methods
+      20,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -82,23 +86,26 @@ static const uint qt_meta_data_rosqt_gui__MainWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   99,    2, 0x0a /* Public */,
-       3,    1,  100,    2, 0x0a /* Public */,
-       5,    1,  103,    2, 0x0a /* Public */,
-       7,    0,  106,    2, 0x0a /* Public */,
-       8,    1,  107,    2, 0x0a /* Public */,
-       9,    1,  110,    2, 0x0a /* Public */,
-      10,    0,  113,    2, 0x0a /* Public */,
-      11,    2,  114,    2, 0x0a /* Public */,
-      12,    1,  119,    2, 0x0a /* Public */,
-      13,    1,  122,    2, 0x0a /* Public */,
-      14,    0,  125,    2, 0x0a /* Public */,
-      15,    0,  126,    2, 0x0a /* Public */,
-      16,    0,  127,    2, 0x0a /* Public */,
-      17,    1,  128,    2, 0x0a /* Public */,
-      18,    1,  131,    2, 0x0a /* Public */,
-      19,    1,  134,    2, 0x0a /* Public */,
-      20,    1,  137,    2, 0x0a /* Public */,
+       1,    0,  114,    2, 0x0a /* Public */,
+       3,    1,  115,    2, 0x0a /* Public */,
+       5,    1,  118,    2, 0x0a /* Public */,
+       7,    0,  121,    2, 0x0a /* Public */,
+       8,    1,  122,    2, 0x0a /* Public */,
+       9,    1,  125,    2, 0x0a /* Public */,
+      10,    0,  128,    2, 0x0a /* Public */,
+      11,    2,  129,    2, 0x0a /* Public */,
+      12,    1,  134,    2, 0x0a /* Public */,
+      13,    1,  137,    2, 0x0a /* Public */,
+      14,    0,  140,    2, 0x0a /* Public */,
+      15,    0,  141,    2, 0x0a /* Public */,
+      16,    0,  142,    2, 0x0a /* Public */,
+      17,    1,  143,    2, 0x0a /* Public */,
+      18,    1,  146,    2, 0x0a /* Public */,
+      19,    1,  149,    2, 0x0a /* Public */,
+      20,    1,  152,    2, 0x0a /* Public */,
+      21,    1,  155,    2, 0x0a /* Public */,
+      22,    1,  158,    2, 0x0a /* Public */,
+      23,    1,  161,    2, 0x0a /* Public */,
 
  // slots: parameters
     QMetaType::Void,
@@ -115,6 +122,9 @@ static const uint qt_meta_data_rosqt_gui__MainWindow[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void, QMetaType::QString,    2,
+    QMetaType::Void, QMetaType::Int,    2,
+    QMetaType::Void, QMetaType::Int,    2,
+    QMetaType::Void, QMetaType::Int,    2,
     QMetaType::Void, QMetaType::Int,    2,
     QMetaType::Void, QMetaType::Int,    2,
     QMetaType::Void, QMetaType::Int,    2,
@@ -145,6 +155,9 @@ void rosqt_gui::MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c
         case 14: _t->slot_display_grid((*reinterpret_cast< int(*)>(_a[1]))); break;
         case 15: _t->slot_display_tf((*reinterpret_cast< int(*)>(_a[1]))); break;
         case 16: _t->slot_display_laser((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 17: _t->slot_display_RobotModel((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 18: _t->slot_display_Map((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 19: _t->slot_display_Path((*reinterpret_cast< int(*)>(_a[1]))); break;
         default: ;
         }
     }
@@ -175,13 +188,13 @@ int rosqt_gui::MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 17)
+        if (_id < 20)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 17;
+        _id -= 20;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 17)
+        if (_id < 20)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 17;
+        _id -= 20;
     }
     return _id;
 }

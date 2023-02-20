@@ -150,7 +150,7 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     //LaserScan ui设计
     QTreeWidgetItem* LaserScan = new QTreeWidgetItem(QStringList()<<"LaserScan");
     //设置图标
-    TF->setIcon(0,QIcon("://images/classes/LaserScan.png"));
+    TF->setIcon(0,QIcon(":/images/rviz_images/LaserScan.png"));
     //checkbox
     QCheckBox* Laser_Check = new QCheckBox();
     connect(Laser_Check,SIGNAL(stateChanged(int)),this,SLOT(slot_display_laser(int)));
@@ -167,6 +167,75 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     LaserScan->addChild(LaserTopic);
     ui.treeWidget->setItemWidget(LaserTopic,1,Laser_Topic_box);
 
+    //RobotModel
+    QTreeWidgetItem* RobotModel = new QTreeWidgetItem(QStringList()<<"RobotModel");
+    //设置图标
+    TF->setIcon(0,QIcon(":/images/rviz_images/RobotModel.png"));
+    //checkbox
+    QCheckBox* RobotModel_Check = new QCheckBox();
+    connect(RobotModel_Check,SIGNAL(stateChanged(int)),this,SLOT(slot_display_RobotModel(int)));
+    //向Treewidget添加TF Top节点
+    ui.treeWidget->addTopLevelItem(RobotModel) ;
+    //向TF添加checkbox
+    ui.treeWidget->setItemWidget(RobotModel,1,RobotModel_Check);
+
+    //Map ui
+    QTreeWidgetItem* Map = new QTreeWidgetItem(QStringList()<<"Map");
+    //设置图标
+    Map->setIcon(0,QIcon(":/images/rviz_images/Map.png"));
+    //checkbox
+    QCheckBox* Map_Check = new QCheckBox();
+    connect(Map_Check,SIGNAL(stateChanged(int)) ,this ,SLOT(slot_display_Map(int)));
+    //向Treewidget添加Map Top节点
+    ui.treeWidget->addTopLevelItem(Map);
+    //向Map添加checkbox
+    ui.treeWidget->setItemWidget(Map,1,Map_Check);
+    //Map topic
+    QTreeWidgetItem* MapTopic = new QTreeWidgetItem(QStringList()<<"Topic");
+    Map_Topic_box = new QComboBox();
+    Map_Topic_box->addItem("/map");
+    Map_Topic_box->setEditable(true);
+    Map_Topic_box->setMaximumWidth(150);
+    Map->addChild(MapTopic);
+    ui.treeWidget->setItemWidget(MapTopic,1,Map_Topic_box);
+    //Map color scheme
+    QTreeWidgetItem* MapCoLorScheme = new QTreeWidgetItem(QStringList()<<"Color Scheme");
+    Map_Color_Scheme_box = new QComboBox();
+    Map_Color_Scheme_box-> addItem("map");
+    Map_Color_Scheme_box->addItem("costmap");
+    Map_Color_Scheme_box->addItem("raw");
+    Map_Color_Scheme_box->setMaximumWidth(150);
+    Map->addChild(MapCoLorScheme);
+    ui.treeWidget->setItemWidget(MapCoLorScheme,1,Map_Color_Scheme_box);
+
+    //Path ui
+    QTreeWidgetItem* Path = new QTreeWidgetItem(QStringList()<<"Path");
+    //设置图标
+    Path->setIcon(0,QIcon(":/images/rviz_images/Path.png"));
+    //checkbox
+    QCheckBox* Path_Check = new QCheckBox();
+    connect(Path_Check,SIGNAL(stateChanged(int)),this,SLOT(slot_display_Path(int)));
+    //向Treewidget添加Path Top节点
+    ui.treeWidget->addTopLevelItem(Path);
+    //向Path添加checkbox
+    ui.treeWidget->setItemWidget(Path,1 ,Path_Check);
+    //Path topic
+    QTreeWidgetItem* PathTopic = new QTreeWidgetItem (QStringList()<<"Topic");
+    Path_Topic_box = new QComboBox();
+    Path_Topic_box-> addItem("/move_base/DWAPlannerROS/local_plan");
+    Path_Topic_box->setEditable(true);
+    Path_Topic_box->setMaximumWidth(150);
+    Path-> addChild(PathTopic);
+    ui. treeWidget->setItemWidget(PathTopic,1,Path_Topic_box) ;
+    //Path color scheme
+    QTreeWidgetItem* PathColorScheme=new QTreeWidgetItem(QStringList()<<"Color");
+    Path_Color_box = new QComboBox();
+    Path_Color_box->addItem("0;12;255");
+    Path_Color_box->setEditable(true);
+    Path_Color_box->setMaximumWidth(150);
+    Path->addChild(PathColorScheme);
+    ui.treeWidget->setItemWidget(PathColorScheme,1,Path_Color_box);
+
 
     //连接里程信息
     connect(&qnode,SIGNAL(speed_vel(float,float)),this,SLOT(slot_update_dashboard(float,float)));
@@ -177,6 +246,28 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     connect(ui.pushButton_sub_image,SIGNAL(clicked()),this,SLOT(slot_sub_image()));
     //激光雷达
     connect(ui.pushButton_laser,SIGNAL(clicked()),this,SLOT(slot_quick_cmd_laser()));
+}
+
+
+void MainWindow::slot_display_Path(int state)
+{
+    bool enable = state > 1?true:false;//三目运算符判断是否被选中
+    QStringList qli = Path_Color_box->currentText().split(";");//冒号分割
+    QColor color = QColor(qli[0].toInt(),qli[1].toInt(),qli[2].toInt());//类型转换
+    myqrviz->Display_Path(Path_Topic_box->currentText(),color,enable);
+
+}
+
+void MainWindow::slot_display_Map(int state)
+{
+    bool enable = state > 1?true:false;//三目运算符判断是否被选中
+    myqrviz->Display_Map(Map_Topic_box->currentText(),Map_Color_Scheme_box->currentText(),enable);
+}
+
+void MainWindow::slot_display_RobotModel(int state)
+{
+    bool enable = state > 1?true:false;//三目运算符判断是否被选中
+    myqrviz->Display_RobotModel(enable);
 }
 
 void MainWindow::slot_display_laser(int state)

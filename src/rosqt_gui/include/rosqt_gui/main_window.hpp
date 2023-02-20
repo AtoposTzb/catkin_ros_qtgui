@@ -71,6 +71,9 @@ public Q_SLOTS:
     void slot_display_grid(int);
     void slot_display_tf(int);
     void slot_display_laser(int);
+    void slot_display_RobotModel(int);
+    void slot_display_Map(int);
+    void slot_display_Path(int);
 
 private:
 	Ui::MainWindowDesign ui;
@@ -83,6 +86,10 @@ private:
     QSpinBox* Cell_Count_Box;
     QComboBox* Grid_Color_Box;
     QComboBox* Laser_Topic_box;
+    QComboBox* Map_Topic_box;
+    QComboBox* Map_Color_Scheme_box;
+    QComboBox* Path_Topic_box;
+    QComboBox* Path_Color_box;
 };
 
 }  // namespace rosqt_gui

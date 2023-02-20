@@ -7,5 +7,52 @@
         <file>images/setting.png</file>
         <file>images/Grid.png</file>
         <file>images/TF.png</file>
+        <file>images/rviz_images/Axes.png</file>
+        <file>images/rviz_images/Camera.png</file>
+        <file>images/rviz_images/DepthCloud.png</file>
+        <file>images/rviz_images/Displays.svg</file>
+        <file>images/rviz_images/Effort.png</file>
+        <file>images/rviz_images/FluidPressure.png</file>
+        <file>images/rviz_images/FocusCamera.svg</file>
+        <file>images/rviz_images/Grid.png</file>
+        <file>images/rviz_images/GridCells.png</file>
+        <file>images/rviz_images/Group.png</file>
+        <file>images/rviz_images/Help.svg</file>
+        <file>images/rviz_images/Illuminance.png</file>
+        <file>images/rviz_images/Image.png</file>
+        <file>images/rviz_images/Interact.png</file>
+        <file>images/rviz_images/InteractiveMarkers.png</file>
+        <file>images/rviz_images/LaserScan.png</file>
+        <file>images/rviz_images/Map.png</file>
+        <file>images/rviz_images/Marker.png</file>
+        <file>images/rviz_images/MarkerArray.png</file>
+        <file>images/rviz_images/Measure.svg</file>
+        <file>images/rviz_images/MoveCamera.png</file>
+        <file>images/rviz_images/Odometry.png</file>
+        <file>images/rviz_images/Path.png</file>
+        <file>images/rviz_images/PointCloud.png</file>
+        <file>images/rviz_images/PointCloud2.png</file>
+        <file>images/rviz_images/PointStamped.png</file>
+        <file>images/rviz_images/Polygon.png</file>
+        <file>images/rviz_images/Pose.png</file>
+        <file>images/rviz_images/PoseArray.png</file>
+        <file>images/rviz_images/PoseWithCovariance.png</file>
+        <file>images/rviz_images/PublishPoint.svg</file>
+        <file>images/rviz_images/Range.png</file>
+        <file>images/rviz_images/RelativeHumidity.png</file>
+        <file>images/rviz_images/RobotJoint.png</file>
+        <file>images/rviz_images/RobotLink.png</file>
+        <file>images/rviz_images/RobotLinkNoGeom.png</file>
+        <file>images/rviz_images/RobotModel.png</file>
+        <file>images/rviz_images/Select.png</file>
+        <file>images/rviz_images/Selection.png</file>
+        <file>images/rviz_images/SetGoal.png</file>
+        <file>images/rviz_images/SetInitialPose.png</file>
+        <file>images/rviz_images/Temperature.png</file>
+        <file>images/rviz_images/TF.png</file>
+        <file>images/rviz_images/Time.svg</file>
+        <file>images/rviz_images/Tool Properties.png</file>
+        <file>images/rviz_images/Views.svg</file>
+        <file>images/rviz_images/WrenchStamped.png</file>
     </qresource>
 </RCC>
