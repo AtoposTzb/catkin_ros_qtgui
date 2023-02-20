@@ -18,6 +18,8 @@
 #include "CCtrlDashBoard.hpp"
 #include <QImage>
 #include <QProcess>//激光雷达
+#include <QComboBox>
+#include "qrviz.hpp"
 /*****************************************************************************
 ** Namespace
 *****************************************************************************/
@@ -64,6 +66,7 @@ public Q_SLOTS:
     void slot_sub_image();
     void slot_quick_cmd_laser();
     void slot_quick_output();
+    void slot_treewidget_value_change(QString);
 
 private:
 	Ui::MainWindowDesign ui;
@@ -71,6 +74,8 @@ private:
     CCtrlDashBoard* speed_x_dashBoard;
     CCtrlDashBoard* speed_y_dashBoard;
     QProcess *laser_cmd;
+    qrviz *myqrviz;
+    QComboBox* fixed_box;
 };
 
 }  // namespace rosqt_gui

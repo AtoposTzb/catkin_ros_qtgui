@@ -20,6 +20,7 @@ find_package(catkin REQUIRED COMPONENTS qt_build roscpp
     cv_bridge
     image_transport
     tf
+    rviz
 )
 include_directories(${catkin_INCLUDE_DIRS} ./include)
 
@@ -67,7 +68,7 @@ find_package(Qt5 REQUIRED ${ModuleList})
 # Sections
 ##############################################################################
 
-#####替换这个如下（懒得删而已)###
+#####替换这个如下（懒得删而已)
 #file(GLOB QT_FORMS RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} ui/*.ui)
 #file(GLOB QT_RESOURCES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} resources/*.qrc)
 #file(GLOB_RECURSE QT_MOC RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} FOLLOW_SYMLINKS include/rosqt_gui/*.hpp)

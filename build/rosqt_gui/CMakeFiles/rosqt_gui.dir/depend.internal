@@ -105,8 +105,15 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_CCtrlDashBoard.cpp.o
  /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_CCtrlDashBoard.cpp
  /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/CCtrlDashBoard.hpp
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QDebug
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QHash
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QLocale
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QMap
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QObject
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QProcess
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QSet
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QString
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QStringList
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QStringListModel
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QThread
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QVariant
@@ -187,7 +194,11 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qvarlengtharray.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qvector.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qversiontagging.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QCursor
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QIcon
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QImage
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QList
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QPixmap
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qbrush.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qcolor.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qcursor.h
@@ -227,6 +238,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QApplication
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QButtonGroup
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QCheckBox
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QComboBox
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QFrame
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QGridLayout
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QGroupBox
@@ -245,6 +257,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QStatusBar
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTabWidget
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTextEdit
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTreeWidget
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QVBoxLayout
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QWidget
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qabstractbutton.h
@@ -259,6 +272,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qboxlayout.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qbuttongroup.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qcheckbox.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qcombobox.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qdesktopwidget.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qframe.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qgridlayout.h
@@ -283,6 +297,9 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtabbar.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtabwidget.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtextedit.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtreeview.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtreewidget.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtreewidgetitemiterator.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgets-config.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgetsglobal.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qwidget.h
@@ -290,6 +307,14 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o
  /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/CCtrlDashBoard.hpp
  /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/main_window.hpp
  /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/qnode.hpp
+ /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/qrviz.hpp
+ /opt/ros/melodic/include/class_loader/class_loader.hpp
+ /opt/ros/melodic/include/class_loader/class_loader_core.hpp
+ /opt/ros/melodic/include/class_loader/exceptions.hpp
+ /opt/ros/melodic/include/class_loader/meta_object.hpp
+ /opt/ros/melodic/include/class_loader/multi_library_class_loader.hpp
+ /opt/ros/melodic/include/class_loader/register_macro.hpp
+ /opt/ros/melodic/include/class_loader/visibility_control.hpp
  /opt/ros/melodic/include/cv_bridge/cv_bridge.h
  /opt/ros/melodic/include/geometry_msgs/Point.h
  /opt/ros/melodic/include/geometry_msgs/Pose.h
@@ -308,6 +333,12 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o
  /opt/ros/melodic/include/image_transport/subscriber.h
  /opt/ros/melodic/include/image_transport/transport_hints.h
  /opt/ros/melodic/include/nav_msgs/Odometry.h
+ /opt/ros/melodic/include/pluginlib/././class_loader.hpp
+ /opt/ros/melodic/include/pluginlib/./class_loader_imp.hpp
+ /opt/ros/melodic/include/pluginlib/class_desc.hpp
+ /opt/ros/melodic/include/pluginlib/class_loader.hpp
+ /opt/ros/melodic/include/pluginlib/class_loader_base.hpp
+ /opt/ros/melodic/include/pluginlib/exceptions.hpp
  /opt/ros/melodic/include/ros/advertise_options.h
  /opt/ros/melodic/include/ros/advertise_service_options.h
  /opt/ros/melodic/include/ros/assert.h
@@ -330,6 +361,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o
  /opt/ros/melodic/include/ros/message_traits.h
  /opt/ros/melodic/include/ros/names.h
  /opt/ros/melodic/include/ros/node_handle.h
+ /opt/ros/melodic/include/ros/package.h
  /opt/ros/melodic/include/ros/param.h
  /opt/ros/melodic/include/ros/parameter_adapter.h
  /opt/ros/melodic/include/ros/platform.h
@@ -364,6 +396,24 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o
  /opt/ros/melodic/include/ros/wall_timer.h
  /opt/ros/melodic/include/ros/wall_timer_options.h
  /opt/ros/melodic/include/rosconsole/macros_generated.h
+ /opt/ros/melodic/include/rviz/bit_allocator.h
+ /opt/ros/melodic/include/rviz/class_id_recording_factory.h
+ /opt/ros/melodic/include/rviz/config.h
+ /opt/ros/melodic/include/rviz/display.h
+ /opt/ros/melodic/include/rviz/display_context.h
+ /opt/ros/melodic/include/rviz/factory.h
+ /opt/ros/melodic/include/rviz/load_resource.h
+ /opt/ros/melodic/include/rviz/ogre_helpers/qt_ogre_render_window.h
+ /opt/ros/melodic/include/rviz/ogre_helpers/render_widget.h
+ /opt/ros/melodic/include/rviz/pluginlib_factory.h
+ /opt/ros/melodic/include/rviz/properties/bool_property.h
+ /opt/ros/melodic/include/rviz/properties/property.h
+ /opt/ros/melodic/include/rviz/properties/status_property.h
+ /opt/ros/melodic/include/rviz/render_panel.h
+ /opt/ros/melodic/include/rviz/rviz_export.h
+ /opt/ros/melodic/include/rviz/tool.h
+ /opt/ros/melodic/include/rviz/tool_manager.h
+ /opt/ros/melodic/include/rviz/visualization_manager.h
  /opt/ros/melodic/include/sensor_msgs/CameraInfo.h
  /opt/ros/melodic/include/sensor_msgs/CompressedImage.h
  /opt/ros/melodic/include/sensor_msgs/Image.h
@@ -374,6 +424,133 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o
  /opt/ros/melodic/include/std_msgs/String.h
  /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h
  /opt/ros/melodic/include/xmlrpcpp/XmlRpcValue.h
+ /usr/include/OGRE/GLX/OgreTimerImp.h
+ /usr/include/OGRE/OgreAlignedAllocator.h
+ /usr/include/OGRE/OgreAnimable.h
+ /usr/include/OGRE/OgreAnimation.h
+ /usr/include/OGRE/OgreAnimationState.h
+ /usr/include/OGRE/OgreAnimationTrack.h
+ /usr/include/OGRE/OgreAny.h
+ /usr/include/OGRE/OgreArchive.h
+ /usr/include/OGRE/OgreAtomicScalar.h
+ /usr/include/OGRE/OgreAutoParamDataSource.h
+ /usr/include/OGRE/OgreAxisAlignedBox.h
+ /usr/include/OGRE/OgreBlendMode.h
+ /usr/include/OGRE/OgreBone.h
+ /usr/include/OGRE/OgreBuildSettings.h
+ /usr/include/OGRE/OgreCamera.h
+ /usr/include/OGRE/OgreColourValue.h
+ /usr/include/OGRE/OgreCommon.h
+ /usr/include/OGRE/OgreConfig.h
+ /usr/include/OGRE/OgreConfigOptionMap.h
+ /usr/include/OGRE/OgreController.h
+ /usr/include/OGRE/OgreDataStream.h
+ /usr/include/OGRE/OgreException.h
+ /usr/include/OGRE/OgreFactoryObj.h
+ /usr/include/OGRE/OgreFrameListener.h
+ /usr/include/OGRE/OgreFrustum.h
+ /usr/include/OGRE/OgreGpuProgram.h
+ /usr/include/OGRE/OgreGpuProgramParams.h
+ /usr/include/OGRE/OgreHardwareBuffer.h
+ /usr/include/OGRE/OgreHardwareIndexBuffer.h
+ /usr/include/OGRE/OgreHardwareVertexBuffer.h
+ /usr/include/OGRE/OgreHeaderPrefix.h
+ /usr/include/OGRE/OgreHeaderSuffix.h
+ /usr/include/OGRE/OgreImage.h
+ /usr/include/OGRE/OgreInstanceManager.h
+ /usr/include/OGRE/OgreInstancedGeometry.h
+ /usr/include/OGRE/OgreIteratorRange.h
+ /usr/include/OGRE/OgreIteratorWrapper.h
+ /usr/include/OGRE/OgreIteratorWrappers.h
+ /usr/include/OGRE/OgreKeyFrame.h
+ /usr/include/OGRE/OgreLight.h
+ /usr/include/OGRE/OgreLodListener.h
+ /usr/include/OGRE/OgreLog.h
+ /usr/include/OGRE/OgreLogManager.h
+ /usr/include/OGRE/OgreMaterial.h
+ /usr/include/OGRE/OgreMaterialManager.h
+ /usr/include/OGRE/OgreMaterialSerializer.h
+ /usr/include/OGRE/OgreMath.h
+ /usr/include/OGRE/OgreMatrix3.h
+ /usr/include/OGRE/OgreMatrix4.h
+ /usr/include/OGRE/OgreMemoryAllocatedObject.h
+ /usr/include/OGRE/OgreMemoryAllocatorConfig.h
+ /usr/include/OGRE/OgreMemoryNedAlloc.h
+ /usr/include/OGRE/OgreMemoryNedPooling.h
+ /usr/include/OGRE/OgreMemorySTLAllocator.h
+ /usr/include/OGRE/OgreMemoryStdAlloc.h
+ /usr/include/OGRE/OgreMemoryTracker.h
+ /usr/include/OGRE/OgreMesh.h
+ /usr/include/OGRE/OgreMovableObject.h
+ /usr/include/OGRE/OgreMovablePlane.h
+ /usr/include/OGRE/OgreNameGenerator.h
+ /usr/include/OGRE/OgreNode.h
+ /usr/include/OGRE/OgrePass.h
+ /usr/include/OGRE/OgrePixelFormat.h
+ /usr/include/OGRE/OgrePlane.h
+ /usr/include/OGRE/OgrePlaneBoundedVolume.h
+ /usr/include/OGRE/OgrePlatform.h
+ /usr/include/OGRE/OgrePlatformInformation.h
+ /usr/include/OGRE/OgrePose.h
+ /usr/include/OGRE/OgrePrerequisites.h
+ /usr/include/OGRE/OgreQuaternion.h
+ /usr/include/OGRE/OgreRadixSort.h
+ /usr/include/OGRE/OgreRay.h
+ /usr/include/OGRE/OgreRectangle2D.h
+ /usr/include/OGRE/OgreRenderOperation.h
+ /usr/include/OGRE/OgreRenderQueue.h
+ /usr/include/OGRE/OgreRenderQueueSortingGrouping.h
+ /usr/include/OGRE/OgreRenderSystem.h
+ /usr/include/OGRE/OgreRenderSystemCapabilities.h
+ /usr/include/OGRE/OgreRenderTarget.h
+ /usr/include/OGRE/OgreRenderTargetListener.h
+ /usr/include/OGRE/OgreRenderTexture.h
+ /usr/include/OGRE/OgreRenderable.h
+ /usr/include/OGRE/OgreResource.h
+ /usr/include/OGRE/OgreResourceGroupManager.h
+ /usr/include/OGRE/OgreResourceManager.h
+ /usr/include/OGRE/OgreRotationalSpline.h
+ /usr/include/OGRE/OgreSceneManager.h
+ /usr/include/OGRE/OgreSceneNode.h
+ /usr/include/OGRE/OgreSceneQuery.h
+ /usr/include/OGRE/OgreScriptLoader.h
+ /usr/include/OGRE/OgreSerializer.h
+ /usr/include/OGRE/OgreShadowCameraSetup.h
+ /usr/include/OGRE/OgreShadowCaster.h
+ /usr/include/OGRE/OgreShadowTextureManager.h
+ /usr/include/OGRE/OgreSharedPtr.h
+ /usr/include/OGRE/OgreSimpleRenderable.h
+ /usr/include/OGRE/OgreSimpleSpline.h
+ /usr/include/OGRE/OgreSingleton.h
+ /usr/include/OGRE/OgreSkeleton.h
+ /usr/include/OGRE/OgreSkeletonInstance.h
+ /usr/include/OGRE/OgreSphere.h
+ /usr/include/OGRE/OgreStdHeaders.h
+ /usr/include/OGRE/OgreString.h
+ /usr/include/OGRE/OgreStringConverter.h
+ /usr/include/OGRE/OgreStringInterface.h
+ /usr/include/OGRE/OgreStringVector.h
+ /usr/include/OGRE/OgreTechnique.h
+ /usr/include/OGRE/OgreTexture.h
+ /usr/include/OGRE/OgreTextureManager.h
+ /usr/include/OGRE/OgreTextureUnitState.h
+ /usr/include/OGRE/OgreTimer.h
+ /usr/include/OGRE/OgreUserObjectBindings.h
+ /usr/include/OGRE/OgreVector2.h
+ /usr/include/OGRE/OgreVector3.h
+ /usr/include/OGRE/OgreVector4.h
+ /usr/include/OGRE/OgreVertexBoneAssignment.h
+ /usr/include/OGRE/OgreVertexIndexData.h
+ /usr/include/OGRE/OgreViewport.h
+ /usr/include/OGRE/Threading/OgreThreadDefines.h
+ /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
+ /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
+ /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
+ /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
+ /usr/include/OGRE/Threading/OgreThreadHeaders.h
+ /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
+ /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
+ /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
  rosqt_gui/ui_main_window.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QStringListModel
@@ -548,6 +725,8 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o
  /opt/ros/melodic/include/std_msgs/String.h
  /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h
  /opt/ros/melodic/include/xmlrpcpp/XmlRpcValue.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qrviz.cpp.o
+ /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/include/rosqt_gui/moc_qrviz.cpp
 rosqt_gui/CMakeFiles/rosqt_gui.dir/qrc_images.cpp.o
  /home/qtrostzb/catkin_ros_qt/build/rosqt_gui/qrc_images.cpp
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.o
@@ -660,17 +839,22 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/CCtrlDashBoard.cpp.o
  /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/CCtrlDashBoard.hpp
  /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/CCtrlDashBoard.cpp
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QDebug
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QEvent
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QHash
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QList
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QLocale
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QMap
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QMargins
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QObject
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QProcess
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QRect
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QScopedPointer
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QSet
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QSharedDataPointer
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QSize
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QSizeF
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QString
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QStringList
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QStringListModel
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QThread
@@ -856,12 +1040,16 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qwaitcondition.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qwineventnotifier.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qxmlstream.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QCursor
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QIcon
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QImage
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QList
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QMatrix3x3
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QMatrix4x4
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QOpenGLContext
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QPaintDevice
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QPaintDeviceWindow
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QPixmap
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QSurfaceFormat
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QTransform
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QWindow
@@ -978,6 +1166,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QApplication
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QButtonGroup
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QCheckBox
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QComboBox
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QFrame
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QGridLayout
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QGroupBox
@@ -996,6 +1185,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QStatusBar
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTabWidget
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTextEdit
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTreeWidget
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QVBoxLayout
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QWidget
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qabstractbutton.h
@@ -1010,6 +1200,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qboxlayout.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qbuttongroup.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qcheckbox.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qcombobox.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qdesktopwidget.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qframe.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qgridlayout.h
@@ -1034,13 +1225,24 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtabbar.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtabwidget.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtextedit.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtreeview.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtreewidget.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtreewidgetitemiterator.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgets-config.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgetsglobal.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qwidget.h
  /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/CCtrlDashBoard.hpp
  /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/main_window.hpp
  /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/qnode.hpp
+ /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/qrviz.hpp
  /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/main.cpp
+ /opt/ros/melodic/include/class_loader/class_loader.hpp
+ /opt/ros/melodic/include/class_loader/class_loader_core.hpp
+ /opt/ros/melodic/include/class_loader/exceptions.hpp
+ /opt/ros/melodic/include/class_loader/meta_object.hpp
+ /opt/ros/melodic/include/class_loader/multi_library_class_loader.hpp
+ /opt/ros/melodic/include/class_loader/register_macro.hpp
+ /opt/ros/melodic/include/class_loader/visibility_control.hpp
  /opt/ros/melodic/include/cv_bridge/cv_bridge.h
  /opt/ros/melodic/include/geometry_msgs/Point.h
  /opt/ros/melodic/include/geometry_msgs/Pose.h
@@ -1059,6 +1261,12 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o
  /opt/ros/melodic/include/image_transport/subscriber.h
  /opt/ros/melodic/include/image_transport/transport_hints.h
  /opt/ros/melodic/include/nav_msgs/Odometry.h
+ /opt/ros/melodic/include/pluginlib/././class_loader.hpp
+ /opt/ros/melodic/include/pluginlib/./class_loader_imp.hpp
+ /opt/ros/melodic/include/pluginlib/class_desc.hpp
+ /opt/ros/melodic/include/pluginlib/class_loader.hpp
+ /opt/ros/melodic/include/pluginlib/class_loader_base.hpp
+ /opt/ros/melodic/include/pluginlib/exceptions.hpp
  /opt/ros/melodic/include/ros/advertise_options.h
  /opt/ros/melodic/include/ros/advertise_service_options.h
  /opt/ros/melodic/include/ros/assert.h
@@ -1081,6 +1289,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o
  /opt/ros/melodic/include/ros/message_traits.h
  /opt/ros/melodic/include/ros/names.h
  /opt/ros/melodic/include/ros/node_handle.h
+ /opt/ros/melodic/include/ros/package.h
  /opt/ros/melodic/include/ros/param.h
  /opt/ros/melodic/include/ros/parameter_adapter.h
  /opt/ros/melodic/include/ros/platform.h
@@ -1115,6 +1324,24 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o
  /opt/ros/melodic/include/ros/wall_timer.h
  /opt/ros/melodic/include/ros/wall_timer_options.h
  /opt/ros/melodic/include/rosconsole/macros_generated.h
+ /opt/ros/melodic/include/rviz/bit_allocator.h
+ /opt/ros/melodic/include/rviz/class_id_recording_factory.h
+ /opt/ros/melodic/include/rviz/config.h
+ /opt/ros/melodic/include/rviz/display.h
+ /opt/ros/melodic/include/rviz/display_context.h
+ /opt/ros/melodic/include/rviz/factory.h
+ /opt/ros/melodic/include/rviz/load_resource.h
+ /opt/ros/melodic/include/rviz/ogre_helpers/qt_ogre_render_window.h
+ /opt/ros/melodic/include/rviz/ogre_helpers/render_widget.h
+ /opt/ros/melodic/include/rviz/pluginlib_factory.h
+ /opt/ros/melodic/include/rviz/properties/bool_property.h
+ /opt/ros/melodic/include/rviz/properties/property.h
+ /opt/ros/melodic/include/rviz/properties/status_property.h
+ /opt/ros/melodic/include/rviz/render_panel.h
+ /opt/ros/melodic/include/rviz/rviz_export.h
+ /opt/ros/melodic/include/rviz/tool.h
+ /opt/ros/melodic/include/rviz/tool_manager.h
+ /opt/ros/melodic/include/rviz/visualization_manager.h
  /opt/ros/melodic/include/sensor_msgs/CameraInfo.h
  /opt/ros/melodic/include/sensor_msgs/CompressedImage.h
  /opt/ros/melodic/include/sensor_msgs/Image.h
@@ -1125,19 +1352,151 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o
  /opt/ros/melodic/include/std_msgs/String.h
  /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h
  /opt/ros/melodic/include/xmlrpcpp/XmlRpcValue.h
+ /usr/include/OGRE/GLX/OgreTimerImp.h
+ /usr/include/OGRE/OgreAlignedAllocator.h
+ /usr/include/OGRE/OgreAnimable.h
+ /usr/include/OGRE/OgreAnimation.h
+ /usr/include/OGRE/OgreAnimationState.h
+ /usr/include/OGRE/OgreAnimationTrack.h
+ /usr/include/OGRE/OgreAny.h
+ /usr/include/OGRE/OgreArchive.h
+ /usr/include/OGRE/OgreAtomicScalar.h
+ /usr/include/OGRE/OgreAutoParamDataSource.h
+ /usr/include/OGRE/OgreAxisAlignedBox.h
+ /usr/include/OGRE/OgreBlendMode.h
+ /usr/include/OGRE/OgreBone.h
+ /usr/include/OGRE/OgreBuildSettings.h
+ /usr/include/OGRE/OgreCamera.h
+ /usr/include/OGRE/OgreColourValue.h
+ /usr/include/OGRE/OgreCommon.h
+ /usr/include/OGRE/OgreConfig.h
+ /usr/include/OGRE/OgreConfigOptionMap.h
+ /usr/include/OGRE/OgreController.h
+ /usr/include/OGRE/OgreDataStream.h
+ /usr/include/OGRE/OgreException.h
+ /usr/include/OGRE/OgreFactoryObj.h
+ /usr/include/OGRE/OgreFrameListener.h
+ /usr/include/OGRE/OgreFrustum.h
+ /usr/include/OGRE/OgreGpuProgram.h
+ /usr/include/OGRE/OgreGpuProgramParams.h
+ /usr/include/OGRE/OgreHardwareBuffer.h
+ /usr/include/OGRE/OgreHardwareIndexBuffer.h
+ /usr/include/OGRE/OgreHardwareVertexBuffer.h
+ /usr/include/OGRE/OgreHeaderPrefix.h
+ /usr/include/OGRE/OgreHeaderSuffix.h
+ /usr/include/OGRE/OgreImage.h
+ /usr/include/OGRE/OgreInstanceManager.h
+ /usr/include/OGRE/OgreInstancedGeometry.h
+ /usr/include/OGRE/OgreIteratorRange.h
+ /usr/include/OGRE/OgreIteratorWrapper.h
+ /usr/include/OGRE/OgreIteratorWrappers.h
+ /usr/include/OGRE/OgreKeyFrame.h
+ /usr/include/OGRE/OgreLight.h
+ /usr/include/OGRE/OgreLodListener.h
+ /usr/include/OGRE/OgreLog.h
+ /usr/include/OGRE/OgreLogManager.h
+ /usr/include/OGRE/OgreMaterial.h
+ /usr/include/OGRE/OgreMaterialManager.h
+ /usr/include/OGRE/OgreMaterialSerializer.h
+ /usr/include/OGRE/OgreMath.h
+ /usr/include/OGRE/OgreMatrix3.h
+ /usr/include/OGRE/OgreMatrix4.h
+ /usr/include/OGRE/OgreMemoryAllocatedObject.h
+ /usr/include/OGRE/OgreMemoryAllocatorConfig.h
+ /usr/include/OGRE/OgreMemoryNedAlloc.h
+ /usr/include/OGRE/OgreMemoryNedPooling.h
+ /usr/include/OGRE/OgreMemorySTLAllocator.h
+ /usr/include/OGRE/OgreMemoryStdAlloc.h
+ /usr/include/OGRE/OgreMemoryTracker.h
+ /usr/include/OGRE/OgreMesh.h
+ /usr/include/OGRE/OgreMovableObject.h
+ /usr/include/OGRE/OgreMovablePlane.h
+ /usr/include/OGRE/OgreNameGenerator.h
+ /usr/include/OGRE/OgreNode.h
+ /usr/include/OGRE/OgrePass.h
+ /usr/include/OGRE/OgrePixelFormat.h
+ /usr/include/OGRE/OgrePlane.h
+ /usr/include/OGRE/OgrePlaneBoundedVolume.h
+ /usr/include/OGRE/OgrePlatform.h
+ /usr/include/OGRE/OgrePlatformInformation.h
+ /usr/include/OGRE/OgrePose.h
+ /usr/include/OGRE/OgrePrerequisites.h
+ /usr/include/OGRE/OgreQuaternion.h
+ /usr/include/OGRE/OgreRadixSort.h
+ /usr/include/OGRE/OgreRay.h
+ /usr/include/OGRE/OgreRectangle2D.h
+ /usr/include/OGRE/OgreRenderOperation.h
+ /usr/include/OGRE/OgreRenderQueue.h
+ /usr/include/OGRE/OgreRenderQueueSortingGrouping.h
+ /usr/include/OGRE/OgreRenderSystem.h
+ /usr/include/OGRE/OgreRenderSystemCapabilities.h
+ /usr/include/OGRE/OgreRenderTarget.h
+ /usr/include/OGRE/OgreRenderTargetListener.h
+ /usr/include/OGRE/OgreRenderTexture.h
+ /usr/include/OGRE/OgreRenderable.h
+ /usr/include/OGRE/OgreResource.h
+ /usr/include/OGRE/OgreResourceGroupManager.h
+ /usr/include/OGRE/OgreResourceManager.h
+ /usr/include/OGRE/OgreRotationalSpline.h
+ /usr/include/OGRE/OgreSceneManager.h
+ /usr/include/OGRE/OgreSceneNode.h
+ /usr/include/OGRE/OgreSceneQuery.h
+ /usr/include/OGRE/OgreScriptLoader.h
+ /usr/include/OGRE/OgreSerializer.h
+ /usr/include/OGRE/OgreShadowCameraSetup.h
+ /usr/include/OGRE/OgreShadowCaster.h
+ /usr/include/OGRE/OgreShadowTextureManager.h
+ /usr/include/OGRE/OgreSharedPtr.h
+ /usr/include/OGRE/OgreSimpleRenderable.h
+ /usr/include/OGRE/OgreSimpleSpline.h
+ /usr/include/OGRE/OgreSingleton.h
+ /usr/include/OGRE/OgreSkeleton.h
+ /usr/include/OGRE/OgreSkeletonInstance.h
+ /usr/include/OGRE/OgreSphere.h
+ /usr/include/OGRE/OgreStdHeaders.h
+ /usr/include/OGRE/OgreString.h
+ /usr/include/OGRE/OgreStringConverter.h
+ /usr/include/OGRE/OgreStringInterface.h
+ /usr/include/OGRE/OgreStringVector.h
+ /usr/include/OGRE/OgreTechnique.h
+ /usr/include/OGRE/OgreTexture.h
+ /usr/include/OGRE/OgreTextureManager.h
+ /usr/include/OGRE/OgreTextureUnitState.h
+ /usr/include/OGRE/OgreTimer.h
+ /usr/include/OGRE/OgreUserObjectBindings.h
+ /usr/include/OGRE/OgreVector2.h
+ /usr/include/OGRE/OgreVector3.h
+ /usr/include/OGRE/OgreVector4.h
+ /usr/include/OGRE/OgreVertexBoneAssignment.h
+ /usr/include/OGRE/OgreVertexIndexData.h
+ /usr/include/OGRE/OgreViewport.h
+ /usr/include/OGRE/Threading/OgreThreadDefines.h
+ /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
+ /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
+ /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
+ /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
+ /usr/include/OGRE/Threading/OgreThreadHeaders.h
+ /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
+ /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
+ /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
  rosqt_gui/ui_main_window.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QDebug
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QEvent
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QHash
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QList
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QLocale
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QMap
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QMargins
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QObject
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QProcess
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QRect
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QScopedPointer
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QSet
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QSharedDataPointer
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QSize
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QSizeF
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QString
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QStringList
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QStringListModel
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QThread
@@ -1323,12 +1682,16 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qwaitcondition.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qwineventnotifier.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qxmlstream.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QCursor
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QIcon
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QImage
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QList
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QMatrix3x3
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QMatrix4x4
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QOpenGLContext
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QPaintDevice
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QPaintDeviceWindow
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QPixmap
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QSurfaceFormat
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QTransform
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QWindow
@@ -1445,6 +1808,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QApplication
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QButtonGroup
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QCheckBox
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QComboBox
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QFrame
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QGridLayout
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QGroupBox
@@ -1464,6 +1828,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QStatusBar
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTabWidget
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTextEdit
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTreeWidget
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QVBoxLayout
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QWidget
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qabstractbutton.h
@@ -1478,6 +1843,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qboxlayout.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qbuttongroup.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qcheckbox.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qcombobox.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qdesktopwidget.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qdialog.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qframe.h
@@ -1504,13 +1870,24 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtabbar.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtabwidget.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtextedit.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtreeview.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtreewidget.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtreewidgetitemiterator.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgets-config.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgetsglobal.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qwidget.h
  /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/CCtrlDashBoard.hpp
  /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/main_window.hpp
  /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/qnode.hpp
+ /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/qrviz.hpp
  /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/main_window.cpp
+ /opt/ros/melodic/include/class_loader/class_loader.hpp
+ /opt/ros/melodic/include/class_loader/class_loader_core.hpp
+ /opt/ros/melodic/include/class_loader/exceptions.hpp
+ /opt/ros/melodic/include/class_loader/meta_object.hpp
+ /opt/ros/melodic/include/class_loader/multi_library_class_loader.hpp
+ /opt/ros/melodic/include/class_loader/register_macro.hpp
+ /opt/ros/melodic/include/class_loader/visibility_control.hpp
  /opt/ros/melodic/include/cv_bridge/cv_bridge.h
  /opt/ros/melodic/include/geometry_msgs/Point.h
  /opt/ros/melodic/include/geometry_msgs/Pose.h
@@ -1529,6 +1906,12 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o
  /opt/ros/melodic/include/image_transport/subscriber.h
  /opt/ros/melodic/include/image_transport/transport_hints.h
  /opt/ros/melodic/include/nav_msgs/Odometry.h
+ /opt/ros/melodic/include/pluginlib/././class_loader.hpp
+ /opt/ros/melodic/include/pluginlib/./class_loader_imp.hpp
+ /opt/ros/melodic/include/pluginlib/class_desc.hpp
+ /opt/ros/melodic/include/pluginlib/class_loader.hpp
+ /opt/ros/melodic/include/pluginlib/class_loader_base.hpp
+ /opt/ros/melodic/include/pluginlib/exceptions.hpp
  /opt/ros/melodic/include/ros/advertise_options.h
  /opt/ros/melodic/include/ros/advertise_service_options.h
  /opt/ros/melodic/include/ros/assert.h
@@ -1551,6 +1934,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o
  /opt/ros/melodic/include/ros/message_traits.h
  /opt/ros/melodic/include/ros/names.h
  /opt/ros/melodic/include/ros/node_handle.h
+ /opt/ros/melodic/include/ros/package.h
  /opt/ros/melodic/include/ros/param.h
  /opt/ros/melodic/include/ros/parameter_adapter.h
  /opt/ros/melodic/include/ros/platform.h
@@ -1585,6 +1969,24 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o
  /opt/ros/melodic/include/ros/wall_timer.h
  /opt/ros/melodic/include/ros/wall_timer_options.h
  /opt/ros/melodic/include/rosconsole/macros_generated.h
+ /opt/ros/melodic/include/rviz/bit_allocator.h
+ /opt/ros/melodic/include/rviz/class_id_recording_factory.h
+ /opt/ros/melodic/include/rviz/config.h
+ /opt/ros/melodic/include/rviz/display.h
+ /opt/ros/melodic/include/rviz/display_context.h
+ /opt/ros/melodic/include/rviz/factory.h
+ /opt/ros/melodic/include/rviz/load_resource.h
+ /opt/ros/melodic/include/rviz/ogre_helpers/qt_ogre_render_window.h
+ /opt/ros/melodic/include/rviz/ogre_helpers/render_widget.h
+ /opt/ros/melodic/include/rviz/pluginlib_factory.h
+ /opt/ros/melodic/include/rviz/properties/bool_property.h
+ /opt/ros/melodic/include/rviz/properties/property.h
+ /opt/ros/melodic/include/rviz/properties/status_property.h
+ /opt/ros/melodic/include/rviz/render_panel.h
+ /opt/ros/melodic/include/rviz/rviz_export.h
+ /opt/ros/melodic/include/rviz/tool.h
+ /opt/ros/melodic/include/rviz/tool_manager.h
+ /opt/ros/melodic/include/rviz/visualization_manager.h
  /opt/ros/melodic/include/sensor_msgs/CameraInfo.h
  /opt/ros/melodic/include/sensor_msgs/CompressedImage.h
  /opt/ros/melodic/include/sensor_msgs/Image.h
@@ -1595,6 +1997,133 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o
  /opt/ros/melodic/include/std_msgs/String.h
  /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h
  /opt/ros/melodic/include/xmlrpcpp/XmlRpcValue.h
+ /usr/include/OGRE/GLX/OgreTimerImp.h
+ /usr/include/OGRE/OgreAlignedAllocator.h
+ /usr/include/OGRE/OgreAnimable.h
+ /usr/include/OGRE/OgreAnimation.h
+ /usr/include/OGRE/OgreAnimationState.h
+ /usr/include/OGRE/OgreAnimationTrack.h
+ /usr/include/OGRE/OgreAny.h
+ /usr/include/OGRE/OgreArchive.h
+ /usr/include/OGRE/OgreAtomicScalar.h
+ /usr/include/OGRE/OgreAutoParamDataSource.h
+ /usr/include/OGRE/OgreAxisAlignedBox.h
+ /usr/include/OGRE/OgreBlendMode.h
+ /usr/include/OGRE/OgreBone.h
+ /usr/include/OGRE/OgreBuildSettings.h
+ /usr/include/OGRE/OgreCamera.h
+ /usr/include/OGRE/OgreColourValue.h
+ /usr/include/OGRE/OgreCommon.h
+ /usr/include/OGRE/OgreConfig.h
+ /usr/include/OGRE/OgreConfigOptionMap.h
+ /usr/include/OGRE/OgreController.h
+ /usr/include/OGRE/OgreDataStream.h
+ /usr/include/OGRE/OgreException.h
+ /usr/include/OGRE/OgreFactoryObj.h
+ /usr/include/OGRE/OgreFrameListener.h
+ /usr/include/OGRE/OgreFrustum.h
+ /usr/include/OGRE/OgreGpuProgram.h
+ /usr/include/OGRE/OgreGpuProgramParams.h
+ /usr/include/OGRE/OgreHardwareBuffer.h
+ /usr/include/OGRE/OgreHardwareIndexBuffer.h
+ /usr/include/OGRE/OgreHardwareVertexBuffer.h
+ /usr/include/OGRE/OgreHeaderPrefix.h
+ /usr/include/OGRE/OgreHeaderSuffix.h
+ /usr/include/OGRE/OgreImage.h
+ /usr/include/OGRE/OgreInstanceManager.h
+ /usr/include/OGRE/OgreInstancedGeometry.h
+ /usr/include/OGRE/OgreIteratorRange.h
+ /usr/include/OGRE/OgreIteratorWrapper.h
+ /usr/include/OGRE/OgreIteratorWrappers.h
+ /usr/include/OGRE/OgreKeyFrame.h
+ /usr/include/OGRE/OgreLight.h
+ /usr/include/OGRE/OgreLodListener.h
+ /usr/include/OGRE/OgreLog.h
+ /usr/include/OGRE/OgreLogManager.h
+ /usr/include/OGRE/OgreMaterial.h
+ /usr/include/OGRE/OgreMaterialManager.h
+ /usr/include/OGRE/OgreMaterialSerializer.h
+ /usr/include/OGRE/OgreMath.h
+ /usr/include/OGRE/OgreMatrix3.h
+ /usr/include/OGRE/OgreMatrix4.h
+ /usr/include/OGRE/OgreMemoryAllocatedObject.h
+ /usr/include/OGRE/OgreMemoryAllocatorConfig.h
+ /usr/include/OGRE/OgreMemoryNedAlloc.h
+ /usr/include/OGRE/OgreMemoryNedPooling.h
+ /usr/include/OGRE/OgreMemorySTLAllocator.h
+ /usr/include/OGRE/OgreMemoryStdAlloc.h
+ /usr/include/OGRE/OgreMemoryTracker.h
+ /usr/include/OGRE/OgreMesh.h
+ /usr/include/OGRE/OgreMovableObject.h
+ /usr/include/OGRE/OgreMovablePlane.h
+ /usr/include/OGRE/OgreNameGenerator.h
+ /usr/include/OGRE/OgreNode.h
+ /usr/include/OGRE/OgrePass.h
+ /usr/include/OGRE/OgrePixelFormat.h
+ /usr/include/OGRE/OgrePlane.h
+ /usr/include/OGRE/OgrePlaneBoundedVolume.h
+ /usr/include/OGRE/OgrePlatform.h
+ /usr/include/OGRE/OgrePlatformInformation.h
+ /usr/include/OGRE/OgrePose.h
+ /usr/include/OGRE/OgrePrerequisites.h
+ /usr/include/OGRE/OgreQuaternion.h
+ /usr/include/OGRE/OgreRadixSort.h
+ /usr/include/OGRE/OgreRay.h
+ /usr/include/OGRE/OgreRectangle2D.h
+ /usr/include/OGRE/OgreRenderOperation.h
+ /usr/include/OGRE/OgreRenderQueue.h
+ /usr/include/OGRE/OgreRenderQueueSortingGrouping.h
+ /usr/include/OGRE/OgreRenderSystem.h
+ /usr/include/OGRE/OgreRenderSystemCapabilities.h
+ /usr/include/OGRE/OgreRenderTarget.h
+ /usr/include/OGRE/OgreRenderTargetListener.h
+ /usr/include/OGRE/OgreRenderTexture.h
+ /usr/include/OGRE/OgreRenderable.h
+ /usr/include/OGRE/OgreResource.h
+ /usr/include/OGRE/OgreResourceGroupManager.h
+ /usr/include/OGRE/OgreResourceManager.h
+ /usr/include/OGRE/OgreRotationalSpline.h
+ /usr/include/OGRE/OgreSceneManager.h
+ /usr/include/OGRE/OgreSceneNode.h
+ /usr/include/OGRE/OgreSceneQuery.h
+ /usr/include/OGRE/OgreScriptLoader.h
+ /usr/include/OGRE/OgreSerializer.h
+ /usr/include/OGRE/OgreShadowCameraSetup.h
+ /usr/include/OGRE/OgreShadowCaster.h
+ /usr/include/OGRE/OgreShadowTextureManager.h
+ /usr/include/OGRE/OgreSharedPtr.h
+ /usr/include/OGRE/OgreSimpleRenderable.h
+ /usr/include/OGRE/OgreSimpleSpline.h
+ /usr/include/OGRE/OgreSingleton.h
+ /usr/include/OGRE/OgreSkeleton.h
+ /usr/include/OGRE/OgreSkeletonInstance.h
+ /usr/include/OGRE/OgreSphere.h
+ /usr/include/OGRE/OgreStdHeaders.h
+ /usr/include/OGRE/OgreString.h
+ /usr/include/OGRE/OgreStringConverter.h
+ /usr/include/OGRE/OgreStringInterface.h
+ /usr/include/OGRE/OgreStringVector.h
+ /usr/include/OGRE/OgreTechnique.h
+ /usr/include/OGRE/OgreTexture.h
+ /usr/include/OGRE/OgreTextureManager.h
+ /usr/include/OGRE/OgreTextureUnitState.h
+ /usr/include/OGRE/OgreTimer.h
+ /usr/include/OGRE/OgreUserObjectBindings.h
+ /usr/include/OGRE/OgreVector2.h
+ /usr/include/OGRE/OgreVector3.h
+ /usr/include/OGRE/OgreVector4.h
+ /usr/include/OGRE/OgreVertexBoneAssignment.h
+ /usr/include/OGRE/OgreVertexIndexData.h
+ /usr/include/OGRE/OgreViewport.h
+ /usr/include/OGRE/Threading/OgreThreadDefines.h
+ /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
+ /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
+ /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
+ /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
+ /usr/include/OGRE/Threading/OgreThreadHeaders.h
+ /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
+ /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
+ /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h
  rosqt_gui/ui_main_window.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QStringListModel
@@ -1770,3 +2299,342 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o
  /opt/ros/melodic/include/std_msgs/String.h
  /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h
  /opt/ros/melodic/include/xmlrpcpp/XmlRpcValue.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qrviz.cpp.o
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QDebug
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QHash
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QMap
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QObject
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QSet
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QString
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QStringList
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/QVariant
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qalgorithms.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qarraydata.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qatomic.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qatomic_bootstrap.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qatomic_cxx11.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qatomic_msvc.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qbasicatomic.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qbytearray.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qbytearraylist.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qchar.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qcompilerdetection.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qconfig-bootstrapped.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qconfig.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qcontainerfwd.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qcontiguouscache.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qcoreevent.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qdatastream.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qdebug.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qfile.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qfiledevice.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qflags.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qgenericatomic.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qglobal.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qglobalstatic.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qhash.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qhashfunctions.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qiodevice.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qiterator.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qline.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qlist.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qlocale.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qlogging.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qmap.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qmargins.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qmetatype.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qmutex.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qnamespace.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qnumeric.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qobject.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qobject_impl.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qobjectdefs.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qobjectdefs_impl.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qpair.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qpoint.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qprocessordetection.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qrect.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qrefcount.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qregexp.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qscopedpointer.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qset.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qshareddata.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qsharedpointer.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qsharedpointer_impl.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qsize.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qstring.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qstringbuilder.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qstringlist.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qstringmatcher.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qsysinfo.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qsystemdetection.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qtcore-config.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qtextstream.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qtypeinfo.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qurl.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qurlquery.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qvariant.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qvarlengtharray.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qvector.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtCore/qversiontagging.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QCursor
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QIcon
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QList
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/QPixmap
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qbrush.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qcolor.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qcursor.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qevent.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qfont.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qfontinfo.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qfontmetrics.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qicon.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qimage.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qkeysequence.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qmatrix.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qpaintdevice.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qpainterpath.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qpalette.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qpixelformat.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qpixmap.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qpolygon.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qregion.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qrgb.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qrgba64.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qtgui-config.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qtguiglobal.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qtouchdevice.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qtransform.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qvector2d.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qwindowdefs.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtGui/qwindowdefs_win.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QFrame
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QVBoxLayout
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QWidget
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qboxlayout.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qframe.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qgridlayout.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qlayout.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qlayoutitem.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qsizepolicy.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgets-config.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qtwidgetsglobal.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qwidget.h
+ /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/qrviz.hpp
+ /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/src/qrviz.cpp
+ /opt/ros/melodic/include/class_loader/class_loader.hpp
+ /opt/ros/melodic/include/class_loader/class_loader_core.hpp
+ /opt/ros/melodic/include/class_loader/exceptions.hpp
+ /opt/ros/melodic/include/class_loader/meta_object.hpp
+ /opt/ros/melodic/include/class_loader/multi_library_class_loader.hpp
+ /opt/ros/melodic/include/class_loader/register_macro.hpp
+ /opt/ros/melodic/include/class_loader/visibility_control.hpp
+ /opt/ros/melodic/include/pluginlib/././class_loader.hpp
+ /opt/ros/melodic/include/pluginlib/./class_loader_imp.hpp
+ /opt/ros/melodic/include/pluginlib/class_desc.hpp
+ /opt/ros/melodic/include/pluginlib/class_loader.hpp
+ /opt/ros/melodic/include/pluginlib/class_loader_base.hpp
+ /opt/ros/melodic/include/pluginlib/exceptions.hpp
+ /opt/ros/melodic/include/ros/advertise_options.h
+ /opt/ros/melodic/include/ros/advertise_service_options.h
+ /opt/ros/melodic/include/ros/assert.h
+ /opt/ros/melodic/include/ros/builtin_message_traits.h
+ /opt/ros/melodic/include/ros/common.h
+ /opt/ros/melodic/include/ros/console.h
+ /opt/ros/melodic/include/ros/console_backend.h
+ /opt/ros/melodic/include/ros/datatypes.h
+ /opt/ros/melodic/include/ros/duration.h
+ /opt/ros/melodic/include/ros/exception.h
+ /opt/ros/melodic/include/ros/exceptions.h
+ /opt/ros/melodic/include/ros/forwards.h
+ /opt/ros/melodic/include/ros/init.h
+ /opt/ros/melodic/include/ros/macros.h
+ /opt/ros/melodic/include/ros/master.h
+ /opt/ros/melodic/include/ros/message.h
+ /opt/ros/melodic/include/ros/message_event.h
+ /opt/ros/melodic/include/ros/message_forward.h
+ /opt/ros/melodic/include/ros/message_traits.h
+ /opt/ros/melodic/include/ros/names.h
+ /opt/ros/melodic/include/ros/node_handle.h
+ /opt/ros/melodic/include/ros/package.h
+ /opt/ros/melodic/include/ros/param.h
+ /opt/ros/melodic/include/ros/parameter_adapter.h
+ /opt/ros/melodic/include/ros/platform.h
+ /opt/ros/melodic/include/ros/publisher.h
+ /opt/ros/melodic/include/ros/rate.h
+ /opt/ros/melodic/include/ros/ros.h
+ /opt/ros/melodic/include/ros/roscpp_serialization_macros.h
+ /opt/ros/melodic/include/ros/rostime_decl.h
+ /opt/ros/melodic/include/ros/serialization.h
+ /opt/ros/melodic/include/ros/serialized_message.h
+ /opt/ros/melodic/include/ros/service.h
+ /opt/ros/melodic/include/ros/service_callback_helper.h
+ /opt/ros/melodic/include/ros/service_client.h
+ /opt/ros/melodic/include/ros/service_client_options.h
+ /opt/ros/melodic/include/ros/service_server.h
+ /opt/ros/melodic/include/ros/service_traits.h
+ /opt/ros/melodic/include/ros/single_subscriber_publisher.h
+ /opt/ros/melodic/include/ros/spinner.h
+ /opt/ros/melodic/include/ros/static_assert.h
+ /opt/ros/melodic/include/ros/steady_timer.h
+ /opt/ros/melodic/include/ros/steady_timer_options.h
+ /opt/ros/melodic/include/ros/subscribe_options.h
+ /opt/ros/melodic/include/ros/subscriber.h
+ /opt/ros/melodic/include/ros/subscription_callback_helper.h
+ /opt/ros/melodic/include/ros/this_node.h
+ /opt/ros/melodic/include/ros/time.h
+ /opt/ros/melodic/include/ros/timer.h
+ /opt/ros/melodic/include/ros/timer_options.h
+ /opt/ros/melodic/include/ros/topic.h
+ /opt/ros/melodic/include/ros/transport_hints.h
+ /opt/ros/melodic/include/ros/types.h
+ /opt/ros/melodic/include/ros/wall_timer.h
+ /opt/ros/melodic/include/ros/wall_timer_options.h
+ /opt/ros/melodic/include/rosconsole/macros_generated.h
+ /opt/ros/melodic/include/rviz/bit_allocator.h
+ /opt/ros/melodic/include/rviz/class_id_recording_factory.h
+ /opt/ros/melodic/include/rviz/config.h
+ /opt/ros/melodic/include/rviz/display.h
+ /opt/ros/melodic/include/rviz/display_context.h
+ /opt/ros/melodic/include/rviz/factory.h
+ /opt/ros/melodic/include/rviz/load_resource.h
+ /opt/ros/melodic/include/rviz/ogre_helpers/qt_ogre_render_window.h
+ /opt/ros/melodic/include/rviz/ogre_helpers/render_widget.h
+ /opt/ros/melodic/include/rviz/pluginlib_factory.h
+ /opt/ros/melodic/include/rviz/properties/bool_property.h
+ /opt/ros/melodic/include/rviz/properties/property.h
+ /opt/ros/melodic/include/rviz/properties/status_property.h
+ /opt/ros/melodic/include/rviz/render_panel.h
+ /opt/ros/melodic/include/rviz/rviz_export.h
+ /opt/ros/melodic/include/rviz/tool.h
+ /opt/ros/melodic/include/rviz/tool_manager.h
+ /opt/ros/melodic/include/rviz/visualization_manager.h
+ /opt/ros/melodic/include/xmlrpcpp/XmlRpcDecl.h
+ /opt/ros/melodic/include/xmlrpcpp/XmlRpcValue.h
+ /usr/include/OGRE/GLX/OgreTimerImp.h
+ /usr/include/OGRE/OgreAlignedAllocator.h
+ /usr/include/OGRE/OgreAnimable.h
+ /usr/include/OGRE/OgreAnimation.h
+ /usr/include/OGRE/OgreAnimationState.h
+ /usr/include/OGRE/OgreAnimationTrack.h
+ /usr/include/OGRE/OgreAny.h
+ /usr/include/OGRE/OgreArchive.h
+ /usr/include/OGRE/OgreAtomicScalar.h
+ /usr/include/OGRE/OgreAutoParamDataSource.h
+ /usr/include/OGRE/OgreAxisAlignedBox.h
+ /usr/include/OGRE/OgreBlendMode.h
+ /usr/include/OGRE/OgreBone.h
+ /usr/include/OGRE/OgreBuildSettings.h
+ /usr/include/OGRE/OgreCamera.h
+ /usr/include/OGRE/OgreColourValue.h
+ /usr/include/OGRE/OgreCommon.h
+ /usr/include/OGRE/OgreConfig.h
+ /usr/include/OGRE/OgreConfigOptionMap.h
+ /usr/include/OGRE/OgreController.h
+ /usr/include/OGRE/OgreDataStream.h
+ /usr/include/OGRE/OgreException.h
+ /usr/include/OGRE/OgreFactoryObj.h
+ /usr/include/OGRE/OgreFrameListener.h
+ /usr/include/OGRE/OgreFrustum.h
+ /usr/include/OGRE/OgreGpuProgram.h
+ /usr/include/OGRE/OgreGpuProgramParams.h
+ /usr/include/OGRE/OgreHardwareBuffer.h
+ /usr/include/OGRE/OgreHardwareIndexBuffer.h
+ /usr/include/OGRE/OgreHardwareVertexBuffer.h
+ /usr/include/OGRE/OgreHeaderPrefix.h
+ /usr/include/OGRE/OgreHeaderSuffix.h
+ /usr/include/OGRE/OgreImage.h
+ /usr/include/OGRE/OgreInstanceManager.h
+ /usr/include/OGRE/OgreInstancedGeometry.h
+ /usr/include/OGRE/OgreIteratorRange.h
+ /usr/include/OGRE/OgreIteratorWrapper.h
+ /usr/include/OGRE/OgreIteratorWrappers.h
+ /usr/include/OGRE/OgreKeyFrame.h
+ /usr/include/OGRE/OgreLight.h
+ /usr/include/OGRE/OgreLodListener.h
+ /usr/include/OGRE/OgreLog.h
+ /usr/include/OGRE/OgreLogManager.h
+ /usr/include/OGRE/OgreMaterial.h
+ /usr/include/OGRE/OgreMaterialManager.h
+ /usr/include/OGRE/OgreMaterialSerializer.h
+ /usr/include/OGRE/OgreMath.h
+ /usr/include/OGRE/OgreMatrix3.h
+ /usr/include/OGRE/OgreMatrix4.h
+ /usr/include/OGRE/OgreMemoryAllocatedObject.h
+ /usr/include/OGRE/OgreMemoryAllocatorConfig.h
+ /usr/include/OGRE/OgreMemoryNedAlloc.h
+ /usr/include/OGRE/OgreMemoryNedPooling.h
+ /usr/include/OGRE/OgreMemorySTLAllocator.h
+ /usr/include/OGRE/OgreMemoryStdAlloc.h
+ /usr/include/OGRE/OgreMemoryTracker.h
+ /usr/include/OGRE/OgreMesh.h
+ /usr/include/OGRE/OgreMovableObject.h
+ /usr/include/OGRE/OgreMovablePlane.h
+ /usr/include/OGRE/OgreNameGenerator.h
+ /usr/include/OGRE/OgreNode.h
+ /usr/include/OGRE/OgrePass.h
+ /usr/include/OGRE/OgrePixelFormat.h
+ /usr/include/OGRE/OgrePlane.h
+ /usr/include/OGRE/OgrePlaneBoundedVolume.h
+ /usr/include/OGRE/OgrePlatform.h
+ /usr/include/OGRE/OgrePlatformInformation.h
+ /usr/include/OGRE/OgrePose.h
+ /usr/include/OGRE/OgrePrerequisites.h
+ /usr/include/OGRE/OgreQuaternion.h
+ /usr/include/OGRE/OgreRadixSort.h
+ /usr/include/OGRE/OgreRay.h
+ /usr/include/OGRE/OgreRectangle2D.h
+ /usr/include/OGRE/OgreRenderOperation.h
+ /usr/include/OGRE/OgreRenderQueue.h
+ /usr/include/OGRE/OgreRenderQueueSortingGrouping.h
+ /usr/include/OGRE/OgreRenderSystem.h
+ /usr/include/OGRE/OgreRenderSystemCapabilities.h
+ /usr/include/OGRE/OgreRenderTarget.h
+ /usr/include/OGRE/OgreRenderTargetListener.h
+ /usr/include/OGRE/OgreRenderTexture.h
+ /usr/include/OGRE/OgreRenderable.h
+ /usr/include/OGRE/OgreResource.h
+ /usr/include/OGRE/OgreResourceGroupManager.h
+ /usr/include/OGRE/OgreResourceManager.h
+ /usr/include/OGRE/OgreRotationalSpline.h
+ /usr/include/OGRE/OgreSceneManager.h
+ /usr/include/OGRE/OgreSceneNode.h
+ /usr/include/OGRE/OgreSceneQuery.h
+ /usr/include/OGRE/OgreScriptLoader.h
+ /usr/include/OGRE/OgreSerializer.h
+ /usr/include/OGRE/OgreShadowCameraSetup.h
+ /usr/include/OGRE/OgreShadowCaster.h
+ /usr/include/OGRE/OgreShadowTextureManager.h
+ /usr/include/OGRE/OgreSharedPtr.h
+ /usr/include/OGRE/OgreSimpleRenderable.h
+ /usr/include/OGRE/OgreSimpleSpline.h
+ /usr/include/OGRE/OgreSingleton.h
+ /usr/include/OGRE/OgreSkeleton.h
+ /usr/include/OGRE/OgreSkeletonInstance.h
+ /usr/include/OGRE/OgreSphere.h
+ /usr/include/OGRE/OgreStdHeaders.h
+ /usr/include/OGRE/OgreString.h
+ /usr/include/OGRE/OgreStringConverter.h
+ /usr/include/OGRE/OgreStringInterface.h
+ /usr/include/OGRE/OgreStringVector.h
+ /usr/include/OGRE/OgreTechnique.h
+ /usr/include/OGRE/OgreTexture.h
+ /usr/include/OGRE/OgreTextureManager.h
+ /usr/include/OGRE/OgreTextureUnitState.h
+ /usr/include/OGRE/OgreTimer.h
+ /usr/include/OGRE/OgreUserObjectBindings.h
+ /usr/include/OGRE/OgreVector2.h
+ /usr/include/OGRE/OgreVector3.h
+ /usr/include/OGRE/OgreVector4.h
+ /usr/include/OGRE/OgreVertexBoneAssignment.h
+ /usr/include/OGRE/OgreVertexIndexData.h
+ /usr/include/OGRE/OgreViewport.h
+ /usr/include/OGRE/Threading/OgreThreadDefines.h
+ /usr/include/OGRE/Threading/OgreThreadDefinesBoost.h
+ /usr/include/OGRE/Threading/OgreThreadDefinesNone.h
+ /usr/include/OGRE/Threading/OgreThreadDefinesPoco.h
+ /usr/include/OGRE/Threading/OgreThreadDefinesTBB.h
+ /usr/include/OGRE/Threading/OgreThreadHeaders.h
+ /usr/include/OGRE/Threading/OgreThreadHeadersBoost.h
+ /usr/include/OGRE/Threading/OgreThreadHeadersPoco.h
+ /usr/include/OGRE/Threading/OgreThreadHeadersTBB.h

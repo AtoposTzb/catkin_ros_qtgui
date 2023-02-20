@@ -1,7 +1,9 @@
 <RCC>
     <qresource prefix="/">
-        <file>images/icon.png</file>
         <file>images/battery.png</file>
         <file>images/dian.png</file>
+        <file>images/display.png</file>
+        <file>images/icon.png</file>
+        <file>images/setting.png</file>
     </qresource>
 </RCC>

@@ -33,6 +33,7 @@
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTabWidget>
 #include <QtWidgets/QTextEdit>
+#include <QtWidgets/QTreeWidget>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -76,6 +77,13 @@ public:
     QVBoxLayout *verticalLayout_2;
     QLineEdit *lineEdit_image_topic;
     QPushButton *pushButton_sub_image;
+    QWidget *tab_3;
+    QVBoxLayout *verticalLayout_15;
+    QVBoxLayout *verticalLayout_14;
+    QHBoxLayout *horizontalLayout_12;
+    QPushButton *pushButton;
+    QPushButton *pushButton_2;
+    QVBoxLayout *Layout_rviz;
     QTabWidget *tabWidget;
     QWidget *tab;
     QVBoxLayout *verticalLayout_7;
@@ -127,6 +135,13 @@ public:
     QSpacerItem *horizontalSpacer_3;
     QSpacerItem *verticalSpacer_2;
     QTextEdit *textEdit_quick_output;
+    QWidget *tab_4;
+    QVBoxLayout *verticalLayout_12;
+    QVBoxLayout *verticalLayout_11;
+    QHBoxLayout *horizontalLayout_11;
+    QLabel *label_11;
+    QLabel *label_12;
+    QTreeWidget *treeWidget;
     QMenuBar *menubar;
     QMenu *menu_File;
     QStatusBar *statusbar;
@@ -308,6 +323,36 @@ public:
         verticalLayout_9->addLayout(verticalLayout_8);
 
         tab_manager->addTab(tab_status, QString());
+        tab_3 = new QWidget();
+        tab_3->setObjectName(QStringLiteral("tab_3"));
+        verticalLayout_15 = new QVBoxLayout(tab_3);
+        verticalLayout_15->setObjectName(QStringLiteral("verticalLayout_15"));
+        verticalLayout_14 = new QVBoxLayout();
+        verticalLayout_14->setObjectName(QStringLiteral("verticalLayout_14"));
+        horizontalLayout_12 = new QHBoxLayout();
+        horizontalLayout_12->setObjectName(QStringLiteral("horizontalLayout_12"));
+        pushButton = new QPushButton(tab_3);
+        pushButton->setObjectName(QStringLiteral("pushButton"));
+
+        horizontalLayout_12->addWidget(pushButton);
+
+        pushButton_2 = new QPushButton(tab_3);
+        pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
+
+        horizontalLayout_12->addWidget(pushButton_2);
+
+
+        verticalLayout_14->addLayout(horizontalLayout_12);
+
+        Layout_rviz = new QVBoxLayout();
+        Layout_rviz->setObjectName(QStringLiteral("Layout_rviz"));
+
+        verticalLayout_14->addLayout(Layout_rviz);
+
+
+        verticalLayout_15->addLayout(verticalLayout_14);
+
+        tab_manager->addTab(tab_3, QString());
 
         gridLayout_2->addWidget(tab_manager, 0, 0, 2, 1);
 
@@ -577,6 +622,45 @@ public:
         verticalLayout_10->addWidget(textEdit_quick_output);
 
         tabWidget->addTab(tab_2, QString());
+        tab_4 = new QWidget();
+        tab_4->setObjectName(QStringLiteral("tab_4"));
+        verticalLayout_12 = new QVBoxLayout(tab_4);
+        verticalLayout_12->setObjectName(QStringLiteral("verticalLayout_12"));
+        verticalLayout_11 = new QVBoxLayout();
+        verticalLayout_11->setObjectName(QStringLiteral("verticalLayout_11"));
+        horizontalLayout_11 = new QHBoxLayout();
+        horizontalLayout_11->setObjectName(QStringLiteral("horizontalLayout_11"));
+        label_11 = new QLabel(tab_4);
+        label_11->setObjectName(QStringLiteral("label_11"));
+        label_11->setMinimumSize(QSize(16, 16));
+        label_11->setMaximumSize(QSize(16, 16));
+        label_11->setPixmap(QPixmap(QString::fromUtf8(":/images/display.png")));
+        label_11->setScaledContents(true);
+
+        horizontalLayout_11->addWidget(label_11);
+
+        label_12 = new QLabel(tab_4);
+        label_12->setObjectName(QStringLiteral("label_12"));
+
+        horizontalLayout_11->addWidget(label_12);
+
+
+        verticalLayout_11->addLayout(horizontalLayout_11);
+
+        treeWidget = new QTreeWidget(tab_4);
+        QTreeWidgetItem *__qtreewidgetitem = new QTreeWidgetItem();
+        __qtreewidgetitem->setText(0, QStringLiteral("1"));
+        treeWidget->setHeaderItem(__qtreewidgetitem);
+        treeWidget->setObjectName(QStringLiteral("treeWidget"));
+        treeWidget->header()->setDefaultSectionSize(150);
+        treeWidget->header()->setMinimumSectionSize(150);
+
+        verticalLayout_11->addWidget(treeWidget);
+
+
+        verticalLayout_12->addLayout(verticalLayout_11);
+
+        tabWidget->addTab(tab_4, QString());
 
         gridLayout_2->addWidget(tabWidget, 1, 1, 1, 1);
 
@@ -603,8 +687,8 @@ public:
         QObject::connect(action_Quit, SIGNAL(triggered()), MainWindowDesign, SLOT(close()));
         QObject::connect(quit_button, SIGNAL(clicked()), MainWindowDesign, SLOT(close()));
 
-        tab_manager->setCurrentIndex(0);
-        tabWidget->setCurrentIndex(1);
+        tab_manager->setCurrentIndex(1);
+        tabWidget->setCurrentIndex(2);
 
 
         QMetaObject::connectSlotsByName(MainWindowDesign);
@@ -632,6 +716,9 @@ public:
         label_image->setText(QApplication::translate("MainWindowDesign", "NO IMAGE", Q_NULLPTR));
         pushButton_sub_image->setText(QApplication::translate("MainWindowDesign", "\350\256\242\351\230\205", Q_NULLPTR));
         tab_manager->setTabText(tab_manager->indexOf(tab_status), QApplication::translate("MainWindowDesign", "Ros Communications", Q_NULLPTR));
+        pushButton->setText(QApplication::translate("MainWindowDesign", "PushButton", Q_NULLPTR));
+        pushButton_2->setText(QApplication::translate("MainWindowDesign", "PushButton", Q_NULLPTR));
+        tab_manager->setTabText(tab_manager->indexOf(tab_3), QApplication::translate("MainWindowDesign", "rviz", Q_NULLPTR));
         groupBox->setTitle(QApplication::translate("MainWindowDesign", "Ros Master", Q_NULLPTR));
         line_edit_topic->setText(QApplication::translate("MainWindowDesign", "unused", Q_NULLPTR));
         label->setText(QApplication::translate("MainWindowDesign", "Ros Master Url", Q_NULLPTR));
@@ -693,6 +780,9 @@ public:
         groupBox_2->setTitle(QApplication::translate("MainWindowDesign", "\346\277\200\345\205\211\351\233\267\350\276\276", Q_NULLPTR));
         pushButton_laser->setText(QApplication::translate("MainWindowDesign", "\346\211\223\345\274\200\346\277\200\345\205\211\351\233\267\350\276\276", Q_NULLPTR));
         tabWidget->setTabText(tabWidget->indexOf(tab_2), QApplication::translate("MainWindowDesign", "Tab 2", Q_NULLPTR));
+        label_11->setText(QString());
+        label_12->setText(QApplication::translate("MainWindowDesign", "Display", Q_NULLPTR));
+        tabWidget->setTabText(tabWidget->indexOf(tab_4), QApplication::translate("MainWindowDesign", "rviz", Q_NULLPTR));
         menu_File->setTitle(QApplication::translate("MainWindowDesign", "&App", Q_NULLPTR));
     } // retranslateUi
 

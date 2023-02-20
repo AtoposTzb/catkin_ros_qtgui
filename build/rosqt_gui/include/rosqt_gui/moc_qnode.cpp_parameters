@@ -2,6 +2,9 @@
 -I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
 -I/usr/include
 -I/usr/include/opencv
+-I/usr/include/eigen3
+-I/usr/include/OGRE/Overlay
+-I/usr/include/OGRE
 -I/home/qtrostzb/catkin_ros_qt/src/rosqt_gui/./include
 -I/home/qtrostzb/catkin_ros_qt/src/rosqt_gui
 -I/home/qtrostzb/catkin_ros_qt/build/rosqt_gui

@@ -74,6 +74,31 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     ui.horizontalSlider_linear->setValue(50);//设置默认
     ui.horizontalSlider_raw->setValue(50);
 
+    //rviz
+//    ui.treeWidget->setWindowTitle("Display");
+//    ui.treeWidget->setWindowIcon(QIcon(":/images/display.png")); 使用label替换
+    //header
+    ui.treeWidget->setHeaderLabels(QStringList()<<"key"<<"value");
+    ui.treeWidget->setHeaderHidden(true);
+
+    //GLobal options
+    QTreeWidgetItem* Global = new QTreeWidgetItem(QStringList()<<"Global Options");
+    Global->setIcon(0,QIcon(":images/setting.png"));
+    ui.treeWidget->addTopLevelItem(Global);
+    Global->setExpanded(true);
+    //FixFrame
+    QTreeWidgetItem* Fixed_frame = new QTreeWidgetItem(QStringList()<<"Fixed Frame");
+    fixed_box = new QComboBox() ;
+    fixed_box->addItem("map");
+    fixed_box->setMaximumWidth(150);
+    fixed_box->setEditable(true);
+
+    connect(fixed_box,SIGNAL(currentTextChanged(QString)),this,SLOT(slot_treewidget_value_change(QString)));
+    Global->addChild(Fixed_frame);
+    ui.treeWidget->setItemWidget(Fixed_frame,1,fixed_box);
+
+
+
     //连接里程信息
     connect(&qnode,SIGNAL(speed_vel(float,float)),this,SLOT(slot_update_dashboard(float,float)));
     //连接电池电压
@@ -84,6 +109,12 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     //激光雷达
     connect(ui.pushButton_laser,SIGNAL(clicked()),this,SLOT(slot_quick_cmd_laser()));
 }
+
+void MainWindow::slot_treewidget_value_change(QString)
+{
+    myqrviz->Set_FixedFrame(fixed_box->currentText());
+}
+
 
 void MainWindow::slot_quick_cmd_laser()
 {
@@ -202,18 +233,24 @@ void MainWindow::on_button_connect_clicked(bool check ) {
 	if ( ui.checkbox_use_environment->isChecked() ) {
 		if ( !qnode.init() ) {
 			showNoMasterMessage();
+            ui.treeWidget->setEnabled(false);//myrviz 对象没有连接上master时,设置为不可用
 		} else {
 			ui.button_connect->setEnabled(false);
+            ui.treeWidget->setEnabled(true);//连接成功时设置为可用,防止被意外调用
+            myqrviz = new qrviz(ui.Layout_rviz);
 		}
 	} else {
 		if ( ! qnode.init(ui.line_edit_master->text().toStdString(),
 				   ui.line_edit_host->text().toStdString()) ) {
 			showNoMasterMessage();
+            ui.treeWidget->setEnabled(false);//myrviz 对象没有连接上master时,设置为不可用
 		} else {
 			ui.button_connect->setEnabled(false);
 			ui.line_edit_master->setReadOnly(true);
 			ui.line_edit_host->setReadOnly(true);
 			ui.line_edit_topic->setReadOnly(true);
+            ui.treeWidget->setEnabled(true);//连接成功时设置为可用,防止被意外调用
+            myqrviz = new qrviz(ui.Layout_rviz);
 		}
 	}
 }
