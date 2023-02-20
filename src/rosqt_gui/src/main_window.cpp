@@ -246,8 +246,22 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     connect(ui.pushButton_sub_image,SIGNAL(clicked()),this,SLOT(slot_sub_image()));
     //激光雷达
     connect(ui.pushButton_laser,SIGNAL(clicked()),this,SLOT(slot_quick_cmd_laser()));
+
+
+    //set start pose
+    connect(ui.set_start_btn,SIGNAL(clicked()),this,SLOT(slot_set_start_pose()));
+    connect(ui.set_goal_btn,SIGNAL(clicked()),this,SLOT(slot_set_goal_pose()));
 }
 
+void MainWindow::slot_set_start_pose()
+{
+    myqrviz->Set_Start_Pose();
+}
+
+void MainWindow::slot_set_goal_pose()
+{
+    myqrviz->Set_Goal_Pose();
+}
 
 void MainWindow::slot_display_Path(int state)
 {

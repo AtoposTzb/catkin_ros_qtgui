@@ -288,16 +288,24 @@
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_12">
             <item>
-             <widget class="QPushButton" name="pushButton">
+             <widget class="QPushButton" name="set_start_btn">
               <property name="text">
-               <string>PushButton</string>
+               <string>2D Pose Estimate</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../resources/images.qrc">
+                <normaloff>:/images/rviz_images/SetInitialPose.png</normaloff>:/images/rviz_images/SetInitialPose.png</iconset>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QPushButton" name="pushButton_2">
+             <widget class="QPushButton" name="set_goal_btn">
               <property name="text">
-               <string>PushButton</string>
+               <string>2D Nav Goal</string>
+              </property>
+              <property name="icon">
+               <iconset resource="../resources/images.qrc">
+                <normaloff>:/images/rviz_images/SetGoal.png</normaloff>:/images/rviz_images/SetGoal.png</iconset>
               </property>
              </widget>
             </item>

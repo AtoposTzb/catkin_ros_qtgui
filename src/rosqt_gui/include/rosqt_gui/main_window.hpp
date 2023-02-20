@@ -74,6 +74,8 @@ public Q_SLOTS:
     void slot_display_RobotModel(int);
     void slot_display_Map(int);
     void slot_display_Path(int);
+    void slot_set_start_pose();
+    void slot_set_goal_pose();
 
 private:
 	Ui::MainWindowDesign ui;

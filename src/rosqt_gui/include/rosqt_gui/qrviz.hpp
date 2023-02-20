@@ -22,6 +22,8 @@ public:
     void Display_RobotModel(bool enable);
     void Display_Map(QString topic,QString color_scheme,bool enable);
     void Display_Path(QString topic,QColor color,bool enable);
+    void Set_Start_Pose();
+    void Set_Goal_Pose();
 private:
     rviz::RenderPanel *render_panel;
     rviz::VisualizationManager* manager_;
@@ -31,6 +33,8 @@ private:
     //rviz::Display* RobotModel_ = NULL;
     rviz::Display* Map_ = NULL;
     rviz::Display* Path_ = NULL;
+    rviz::ToolManager* tool_manager_;//实例化工具对象
+
 signals:
 
 };

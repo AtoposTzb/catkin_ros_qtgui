@@ -13,6 +13,7 @@ qrviz::qrviz(QVBoxLayout *layout)
     layout->addWidget(render_panel);
     //创建rvi z控制对象
     manager_ = new rviz::VisualizationManager(render_panel);
+    tool_manager_ = manager_->getToolManager();
     ROS_ASSERT(manager_ != NULL);//解决闪退BUG
     //初始化render_panel 实现放大缩小等操作
     render_panel->initialize(manager_->getSceneManager(), manager_);
@@ -106,4 +107,22 @@ void qrviz::Display_Path(QString topic, QColor color, bool enable)
     Path_->subProp("Topic")->setValue(topic);//属性设置
     Path_->subProp("Color")->setValue(color) ;//图层样式
 
+}
+
+void qrviz::Set_Start_Pose()
+{
+    rviz::Tool* current_tool = tool_manager_->addTool("rviz/SetInitialPose");
+    //设置当前使用的工具
+    tool_manager_->setCurrentTool(current_tool);
+}
+
+void qrviz::Set_Goal_Pose()
+{
+    rviz::Tool* current_tool = tool_manager_->addTool("rviz/SetGoal");
+    //获取属性容器
+    rviz::Property* pro=current_tool ->getPropertyContainer();
+    //设置发布导航目标点的topic
+    pro->subProp("Topic")->setValue("/move_base_simple/goal");
+    //设置当前使用的工具
+    tool_manager_->setCurrentTool(current_tool);
 }

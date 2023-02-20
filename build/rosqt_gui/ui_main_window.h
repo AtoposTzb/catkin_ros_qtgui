@@ -81,8 +81,8 @@ public:
     QVBoxLayout *verticalLayout_15;
     QVBoxLayout *verticalLayout_14;
     QHBoxLayout *horizontalLayout_12;
-    QPushButton *pushButton;
-    QPushButton *pushButton_2;
+    QPushButton *set_start_btn;
+    QPushButton *set_goal_btn;
     QVBoxLayout *Layout_rviz;
     QTabWidget *tabWidget;
     QWidget *tab;
@@ -331,15 +331,21 @@ public:
         verticalLayout_14->setObjectName(QStringLiteral("verticalLayout_14"));
         horizontalLayout_12 = new QHBoxLayout();
         horizontalLayout_12->setObjectName(QStringLiteral("horizontalLayout_12"));
-        pushButton = new QPushButton(tab_3);
-        pushButton->setObjectName(QStringLiteral("pushButton"));
+        set_start_btn = new QPushButton(tab_3);
+        set_start_btn->setObjectName(QStringLiteral("set_start_btn"));
+        QIcon icon1;
+        icon1.addFile(QStringLiteral(":/images/rviz_images/SetInitialPose.png"), QSize(), QIcon::Normal, QIcon::Off);
+        set_start_btn->setIcon(icon1);
 
-        horizontalLayout_12->addWidget(pushButton);
+        horizontalLayout_12->addWidget(set_start_btn);
 
-        pushButton_2 = new QPushButton(tab_3);
-        pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
+        set_goal_btn = new QPushButton(tab_3);
+        set_goal_btn->setObjectName(QStringLiteral("set_goal_btn"));
+        QIcon icon2;
+        icon2.addFile(QStringLiteral(":/images/rviz_images/SetGoal.png"), QSize(), QIcon::Normal, QIcon::Off);
+        set_goal_btn->setIcon(icon2);
 
-        horizontalLayout_12->addWidget(pushButton_2);
+        horizontalLayout_12->addWidget(set_goal_btn);
 
 
         verticalLayout_14->addLayout(horizontalLayout_12);
@@ -716,8 +722,8 @@ public:
         label_image->setText(QApplication::translate("MainWindowDesign", "NO IMAGE", Q_NULLPTR));
         pushButton_sub_image->setText(QApplication::translate("MainWindowDesign", "\350\256\242\351\230\205", Q_NULLPTR));
         tab_manager->setTabText(tab_manager->indexOf(tab_status), QApplication::translate("MainWindowDesign", "Ros Communications", Q_NULLPTR));
-        pushButton->setText(QApplication::translate("MainWindowDesign", "PushButton", Q_NULLPTR));
-        pushButton_2->setText(QApplication::translate("MainWindowDesign", "PushButton", Q_NULLPTR));
+        set_start_btn->setText(QApplication::translate("MainWindowDesign", "2D Pose Estimate", Q_NULLPTR));
+        set_goal_btn->setText(QApplication::translate("MainWindowDesign", "2D Nav Goal", Q_NULLPTR));
         tab_manager->setTabText(tab_manager->indexOf(tab_3), QApplication::translate("MainWindowDesign", "rviz", Q_NULLPTR));
         groupBox->setTitle(QApplication::translate("MainWindowDesign", "Ros Master", Q_NULLPTR));
         line_edit_topic->setText(QApplication::translate("MainWindowDesign", "unused", Q_NULLPTR));
