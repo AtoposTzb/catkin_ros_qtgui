@@ -16,11 +16,15 @@ class qrviz
 public:
     qrviz(QVBoxLayout *layout);
     void Set_FixedFrame(QString Frame_name);
-    void Display_Srid( int Cell_Count , QColor color, bool enable);
+    void Display_Srid(int Cell_Count , QColor color, bool enable);
+    void Display_TF(bool enable);
+    void Display_LaserScan(QString laser_topic,bool enable);
 private:
     rviz::RenderPanel *render_panel;
     rviz::VisualizationManager* manager_;
     rviz::Display* Grid_ = NULL;
+    rviz::Display* TF_ = NULL;
+    rviz::Display* LaserScan_ = NULL;
 signals:
 
 };

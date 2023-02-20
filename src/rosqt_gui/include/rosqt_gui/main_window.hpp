@@ -69,6 +69,8 @@ public Q_SLOTS:
     void slot_quick_output();
     void slot_treewidget_value_change(QString);
     void slot_display_grid(int);
+    void slot_display_tf(int);
+    void slot_display_laser(int);
 
 private:
 	Ui::MainWindowDesign ui;
@@ -80,6 +82,7 @@ private:
     QComboBox* fixed_box;
     QSpinBox* Cell_Count_Box;
     QComboBox* Grid_Color_Box;
+    QComboBox* Laser_Topic_box;
 };
 
 }  // namespace rosqt_gui

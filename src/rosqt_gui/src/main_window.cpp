@@ -97,7 +97,7 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     Global->addChild(Fixed_frame);
     ui.treeWidget->setItemWidget(Fixed_frame,1,fixed_box);
 
-    //Grid
+    //Grid ui设计
     QTreeWidgetItem* Grid=new QTreeWidgetItem(QStringList()<<"Grid");
     //设置图标
     Grid->setIcon(0,QIcon(":/images/Grid.png"));
@@ -135,6 +135,38 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
 
 
 
+    //TF ui设计
+    QTreeWidgetItem* TF = new QTreeWidgetItem(QStringList()<<"TF");
+    //设置图标
+    TF->setIcon(0,QIcon(":/images/TF.png"));
+    //checkbox
+    QCheckBox* TF_Check = new QCheckBox();
+    connect(TF_Check,SIGNAL(stateChanged(int)),this,SLOT(slot_display_tf(int)));
+    //向Treewidget添加Tf Top节点
+    ui.treeWidget->addTopLevelItem(TF);
+    //向TF添加checkbox
+    ui.treeWidget->setItemWidget(TF,1,TF_Check);
+
+    //LaserScan ui设计
+    QTreeWidgetItem* LaserScan = new QTreeWidgetItem(QStringList()<<"LaserScan");
+    //设置图标
+    TF->setIcon(0,QIcon("://images/classes/LaserScan.png"));
+    //checkbox
+    QCheckBox* Laser_Check = new QCheckBox();
+    connect(Laser_Check,SIGNAL(stateChanged(int)),this,SLOT(slot_display_laser(int)));
+    //向Treewidget添加TF Top节点
+    ui.treeWidget->addTopLevelItem(LaserScan) ;
+    //向TF添加checkbox
+    ui.treeWidget->setItemWidget(LaserScan,1,Laser_Check);
+    //laser topic
+    QTreeWidgetItem* LaserTopic = new QTreeWidgetItem(QStringList()<<"Topic");
+    Laser_Topic_box=new QComboBox();
+    Laser_Topic_box->addItem("/scan");
+    Laser_Topic_box->setEditable(true) ;
+    Laser_Topic_box->setMaximumWidth(150) ;
+    LaserScan->addChild(LaserTopic);
+    ui.treeWidget->setItemWidget(LaserTopic,1,Laser_Topic_box);
+
 
     //连接里程信息
     connect(&qnode,SIGNAL(speed_vel(float,float)),this,SLOT(slot_update_dashboard(float,float)));
@@ -147,9 +179,20 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     connect(ui.pushButton_laser,SIGNAL(clicked()),this,SLOT(slot_quick_cmd_laser()));
 }
 
+void MainWindow::slot_display_laser(int state)
+{
+    bool enable = state > 1?true:false;//三目运算符判断是否被选中
+    myqrviz->Display_LaserScan(Laser_Topic_box->currentText(),enable);
+}
+
+void MainWindow::slot_display_tf(int state)
+{
+    bool enable = state > 1?true:false;//三目运算符判断是否被选中
+    myqrviz->Display_TF(enable);
+}
+
 void MainWindow::slot_display_grid(int state)
 {
-
     bool enable = state > 1?true:false;//三目运算符判断是否被选中
     QStringList qli=Grid_Color_Box->currentText().split(";");//冒号分割
     QColor color=QColor(qli[0].toInt(),qli[1].toInt(),qli[2].toInt());//类型转换

@@ -43,4 +43,28 @@ void qrviz::Display_Srid(int Cell_Count, QColor color, bool enable)
     Grid_->subProp("Plane Cell Count")->setValue(Cell_Count);//Plane Cell Count属性设置需要用空格隔开，才能正常显示放大缩小
     //设置颜色
     Grid_->subProp("Color")->setValue(color);
+    ROS_ASSERT(Grid_ != NULL);
+}
+//TF坐标变换显示接口
+void qrviz::Display_TF(bool enable)
+{
+    if(TF_ != NULL)//保持图层的唯一性
+    {
+        delete TF_;
+        TF_ = NULL;
+    }
+    TF_ = manager_->createDisplay("rviz/TF", "myTF" , enable);
+    ROS_ASSERT(TF_ != NULL);
+}
+
+void qrviz::Display_LaserScan(QString laser_topic, bool enable)
+{
+    if(LaserScan_ != NULL)//保持图层的唯一性
+    {
+        delete LaserScan_;
+        LaserScan_ = NULL;
+    }
+    LaserScan_ = manager_->createDisplay("rviz/LaserScan", "myLaser" , enable);
+    LaserScan_->subProp("Topic")->setValue(laser_topic);//属性设置
+    ROS_ASSERT(LaserScan_ != NULL);
 }
