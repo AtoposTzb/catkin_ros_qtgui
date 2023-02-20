@@ -254,6 +254,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QPushButton
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSlider
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSpacerItem
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSpinBox
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QStatusBar
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTabWidget
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTextEdit
@@ -291,6 +292,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qrubberband.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qsizepolicy.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qslider.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qspinbox.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstatusbar.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstyle.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstyleoption.h
@@ -1182,6 +1184,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QPushButton
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSlider
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSpacerItem
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSpinBox
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QStatusBar
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTabWidget
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTextEdit
@@ -1219,6 +1222,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qrubberband.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qsizepolicy.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qslider.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qspinbox.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstatusbar.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstyle.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstyleoption.h
@@ -1825,6 +1829,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QPushButton
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSlider
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSpacerItem
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSpinBox
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QStatusBar
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTabWidget
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTextEdit
@@ -1864,6 +1869,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qrubberband.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qsizepolicy.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qslider.h
+ /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qspinbox.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstatusbar.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstyle.h
  /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstyleoption.h

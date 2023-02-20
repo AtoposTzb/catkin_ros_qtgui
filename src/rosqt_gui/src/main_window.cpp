@@ -97,6 +97,43 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     Global->addChild(Fixed_frame);
     ui.treeWidget->setItemWidget(Fixed_frame,1,fixed_box);
 
+    //Grid
+    QTreeWidgetItem* Grid=new QTreeWidgetItem(QStringList()<<"Grid");
+    //设置图标
+    Grid->setIcon(0,QIcon(":/images/Grid.png"));
+    //checkbox
+    QCheckBox* Grid_Check=new QCheckBox();
+    //连接grid信号
+    connect(Grid_Check,SIGNAL(stateChanged(int)),this,SLOT(slot_display_grid(int)));
+    //添加top节点
+    ui.treeWidget->addTopLevelItem(Grid);
+    //添加checkbox
+    ui.treeWidget->setItemWidget(Grid,1 ,Grid_Check) ;
+    //设置grid默认展开状态
+    Grid->setExpanded(true) ;
+    //添加Cell Count子 节点
+    QTreeWidgetItem* Cell_Count = new QTreeWidgetItem(QStringList()<<"Plane Cell Count");
+    Grid->addChild(Cell_Count);
+
+    //CellCount添加SpinBox
+    Cell_Count_Box = new QSpinBox();
+    Cell_Count_Box->setValue(13) ;
+    //设置QSpinBox的宽度
+    Cell_Count_Box->setMaximumWidth(300);
+    ui.treeWidget->setItemWidget(Cell_Count,1,Cell_Count_Box);
+    //添加color子节点
+    QTreeWidgetItem* Grid_color = new QTreeWidgetItem(QStringList()<<"Color");
+    Grid->addChild(Grid_color) ;
+    //Color添加ComboBox
+    Grid_Color_Box = new QComboBox();
+    Grid_Color_Box->addItem("160;160;160");
+    //设置Comboox可编辑
+    Grid_Color_Box->setEditable(true);
+    //设置Combox的宽度
+    Grid_Color_Box->setMaximumWidth(300);
+    ui.treeWidget->setItemWidget(Grid_color,1,Grid_Color_Box);
+
+
 
 
     //连接里程信息
@@ -110,11 +147,19 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     connect(ui.pushButton_laser,SIGNAL(clicked()),this,SLOT(slot_quick_cmd_laser()));
 }
 
+void MainWindow::slot_display_grid(int state)
+{
+
+    bool enable = state > 1?true:false;//三目运算符判断是否被选中
+    QStringList qli=Grid_Color_Box->currentText().split(";");//冒号分割
+    QColor color=QColor(qli[0].toInt(),qli[1].toInt(),qli[2].toInt());//类型转换
+    myqrviz->Display_Srid(Cell_Count_Box->text().toInt(),color,enable);
+}
+
 void MainWindow::slot_treewidget_value_change(QString)
 {
     myqrviz->Set_FixedFrame(fixed_box->currentText());
 }
-
 
 void MainWindow::slot_quick_cmd_laser()
 {

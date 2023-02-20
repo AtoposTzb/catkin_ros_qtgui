@@ -3380,6 +3380,10 @@ qslider.h
 qlayoutitem.h
 /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qlayoutitem.h
 
+/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSpinBox
+qspinbox.h
+/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qspinbox.h
+
 /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QStatusBar
 qstatusbar.h
 /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstatusbar.h
@@ -3688,6 +3692,12 @@ QtWidgets/qtwidgetsglobal.h
 QtWidgets/qabstractslider.h
 -
 
+/home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qspinbox.h
+QtWidgets/qtwidgetsglobal.h
+-
+QtWidgets/qabstractspinbox.h
+-
+
 /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstatusbar.h
 QtWidgets/qtwidgetsglobal.h
 -
@@ -3873,14 +3883,16 @@ qnode.hpp
 /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/qnode.hpp
 CCtrlDashBoard.hpp
 /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/CCtrlDashBoard.hpp
+qrviz.hpp
+/home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/qrviz.hpp
 QImage
 -
 QProcess
 -
 QComboBox
 -
-qrviz.hpp
-/home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/qrviz.hpp
+QSpinBox
+-
 
 /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/qnode.hpp
 ros/ros.h

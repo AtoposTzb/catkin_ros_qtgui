@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_rosqt_gui__MainWindow_t {
-    QByteArrayData data[18];
-    char stringdata0[352];
+    QByteArrayData data[19];
+    char stringdata0[370];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -48,7 +48,8 @@ QT_MOC_LITERAL(13, 251, 17), // "slot_update_image"
 QT_MOC_LITERAL(14, 269, 14), // "slot_sub_image"
 QT_MOC_LITERAL(15, 284, 20), // "slot_quick_cmd_laser"
 QT_MOC_LITERAL(16, 305, 17), // "slot_quick_output"
-QT_MOC_LITERAL(17, 323, 28) // "slot_treewidget_value_change"
+QT_MOC_LITERAL(17, 323, 28), // "slot_treewidget_value_change"
+QT_MOC_LITERAL(18, 352, 17) // "slot_display_grid"
 
     },
     "rosqt_gui::MainWindow\0on_actionAbout_triggered\0"
@@ -59,7 +60,8 @@ QT_MOC_LITERAL(17, 323, 28) // "slot_treewidget_value_change"
     "slot_pushbtn_click\0slot_update_dashboard\0"
     "slot_update_power\0slot_update_image\0"
     "slot_sub_image\0slot_quick_cmd_laser\0"
-    "slot_quick_output\0slot_treewidget_value_change"
+    "slot_quick_output\0slot_treewidget_value_change\0"
+    "slot_display_grid"
 };
 #undef QT_MOC_LITERAL
 
@@ -69,7 +71,7 @@ static const uint qt_meta_data_rosqt_gui__MainWindow[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-      14,   14, // methods
+      15,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -77,20 +79,21 @@ static const uint qt_meta_data_rosqt_gui__MainWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   84,    2, 0x0a /* Public */,
-       3,    1,   85,    2, 0x0a /* Public */,
-       5,    1,   88,    2, 0x0a /* Public */,
-       7,    0,   91,    2, 0x0a /* Public */,
-       8,    1,   92,    2, 0x0a /* Public */,
-       9,    1,   95,    2, 0x0a /* Public */,
-      10,    0,   98,    2, 0x0a /* Public */,
-      11,    2,   99,    2, 0x0a /* Public */,
-      12,    1,  104,    2, 0x0a /* Public */,
-      13,    1,  107,    2, 0x0a /* Public */,
-      14,    0,  110,    2, 0x0a /* Public */,
-      15,    0,  111,    2, 0x0a /* Public */,
-      16,    0,  112,    2, 0x0a /* Public */,
-      17,    1,  113,    2, 0x0a /* Public */,
+       1,    0,   89,    2, 0x0a /* Public */,
+       3,    1,   90,    2, 0x0a /* Public */,
+       5,    1,   93,    2, 0x0a /* Public */,
+       7,    0,   96,    2, 0x0a /* Public */,
+       8,    1,   97,    2, 0x0a /* Public */,
+       9,    1,  100,    2, 0x0a /* Public */,
+      10,    0,  103,    2, 0x0a /* Public */,
+      11,    2,  104,    2, 0x0a /* Public */,
+      12,    1,  109,    2, 0x0a /* Public */,
+      13,    1,  112,    2, 0x0a /* Public */,
+      14,    0,  115,    2, 0x0a /* Public */,
+      15,    0,  116,    2, 0x0a /* Public */,
+      16,    0,  117,    2, 0x0a /* Public */,
+      17,    1,  118,    2, 0x0a /* Public */,
+      18,    1,  121,    2, 0x0a /* Public */,
 
  // slots: parameters
     QMetaType::Void,
@@ -107,6 +110,7 @@ static const uint qt_meta_data_rosqt_gui__MainWindow[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void, QMetaType::QString,    2,
+    QMetaType::Void, QMetaType::Int,    2,
 
        0        // eod
 };
@@ -131,6 +135,7 @@ void rosqt_gui::MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c
         case 11: _t->slot_quick_cmd_laser(); break;
         case 12: _t->slot_quick_output(); break;
         case 13: _t->slot_treewidget_value_change((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 14: _t->slot_display_grid((*reinterpret_cast< int(*)>(_a[1]))); break;
         default: ;
         }
     }
@@ -161,13 +166,13 @@ int rosqt_gui::MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 14)
+        if (_id < 15)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 14;
+        _id -= 15;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 14)
+        if (_id < 15)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 14;
+        _id -= 15;
     }
     return _id;
 }

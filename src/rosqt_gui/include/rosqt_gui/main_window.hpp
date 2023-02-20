@@ -16,10 +16,11 @@
 #include "ui_main_window.h"
 #include "qnode.hpp"
 #include "CCtrlDashBoard.hpp"
+#include "qrviz.hpp"
 #include <QImage>
 #include <QProcess>//激光雷达
 #include <QComboBox>
-#include "qrviz.hpp"
+#include <QSpinBox>
 /*****************************************************************************
 ** Namespace
 *****************************************************************************/
@@ -67,6 +68,7 @@ public Q_SLOTS:
     void slot_quick_cmd_laser();
     void slot_quick_output();
     void slot_treewidget_value_change(QString);
+    void slot_display_grid(int);
 
 private:
 	Ui::MainWindowDesign ui;
@@ -76,6 +78,8 @@ private:
     QProcess *laser_cmd;
     qrviz *myqrviz;
     QComboBox* fixed_box;
+    QSpinBox* Cell_Count_Box;
+    QComboBox* Grid_Color_Box;
 };
 
 }  // namespace rosqt_gui

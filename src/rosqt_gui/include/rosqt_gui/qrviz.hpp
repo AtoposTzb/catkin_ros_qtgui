@@ -16,9 +16,11 @@ class qrviz
 public:
     qrviz(QVBoxLayout *layout);
     void Set_FixedFrame(QString Frame_name);
+    void Display_Srid( int Cell_Count , QColor color, bool enable);
 private:
     rviz::RenderPanel *render_panel;
     rviz::VisualizationManager* manager_;
+    rviz::Display* Grid_ = NULL;
 signals:
 
 };

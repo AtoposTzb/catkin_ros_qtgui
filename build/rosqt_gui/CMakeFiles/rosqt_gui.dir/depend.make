@@ -253,6 +253,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /hom
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QPushButton
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSlider
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSpacerItem
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSpinBox
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QStatusBar
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTabWidget
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTextEdit
@@ -290,6 +291,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /hom
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qrubberband.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qsizepolicy.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qslider.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qspinbox.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstatusbar.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstyle.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstyleoption.h
@@ -1181,6 +1183,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QPushButton
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSlider
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSpacerItem
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSpinBox
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QStatusBar
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTabWidget
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTextEdit
@@ -1218,6 +1221,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qrubberband.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qsizepolicy.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qslider.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qspinbox.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstatusbar.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstyle.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstyleoption.h
@@ -1824,6 +1828,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QPushButton
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSlider
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSpacerItem
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QSpinBox
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QStatusBar
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTabWidget
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/QTextEdit
@@ -1863,6 +1868,7 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qrubberband.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qsizepolicy.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qslider.h
+rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qspinbox.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstatusbar.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstyle.h
 rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o: /home/qtrostzb/Qt5.9.9/5.9.9/gcc_64/include/QtWidgets/qstyleoption.h
