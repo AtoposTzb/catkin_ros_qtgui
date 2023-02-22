@@ -54,6 +54,8 @@ bool QNode::init() {
     cmd_vel_pub = n.advertise<geometry_msgs::Twist>("cmd_vel",1000);
     odom_sub = n.subscribe("raw_odom",1000,&QNode::odom_callback,this);//odom_callback回调函数
     power_sub = n.subscribe("power",1000,&QNode::power_callback,this);
+    amcl_pose_sub=n.subscribe("amcl_pose",1000,&QNode::amcl_pose_callback,this);
+    goal_pub = n.advertise<geometry_msgs::PoseStamped>("move_base_simple/goal",1000);
     start();
 	return true;
 }
@@ -74,10 +76,30 @@ bool QNode::init(const std::string &master_url, const std::string &host_url) {
     cmd_vel_pub = n.advertise<geometry_msgs::Twist>("cmd_vel",1000);
     odom_sub = n.subscribe("raw_odom",1000,&QNode::odom_callback,this);//odom_callback回调函数
     power_sub = n.subscribe("power",1000,&QNode::power_callback,this);
+    amcl_pose_sub=n.subscribe("amcl_pose",1000,&QNode::amcl_pose_callback,this);
+    goal_pub = n.advertise<geometry_msgs::PoseStamped>("move_base_simple/goal",1000);
 	start();
 	return true;
 }
 
+void QNode::set_goal(double x, double y, double z)
+{
+    geometry_msgs::PoseStamped goal;
+    //设置frame
+    goal.header.frame_id="map";
+    //设置时刻
+    goal.header.stamp=ros::Time::now();
+    goal.pose.position.x=x;
+    goal.pose.position.y=y;
+    goal.pose.orientation.z=z;
+    goal_pub.publish(goal);
+}
+
+//位姿callback
+void QNode::amcl_pose_callback(const geometry_msgs::PoseWithCovarianceStamped &msg)
+{
+    emit position(msg.pose.pose.position.x,msg.pose.pose.position.y,msg.pose.pose.orientation.z);
+}
 void QNode::sub_image(QString topic_name)
 {
     ros::NodeHandle n;//ros结构句柄
@@ -85,6 +107,7 @@ void QNode::sub_image(QString topic_name)
     //初始化
     image_sub = it_.subscribe(topic_name.toStdString(),1000,&QNode::image_callback,this);
 }
+
 void QNode::image_callback(const sensor_msgs::ImageConstPtr &msg)
 {
     cv_bridge::CvImagePtr cv_ptr;

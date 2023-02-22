@@ -320,7 +320,9 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_main_window.cpp.o
  /opt/ros/melodic/include/cv_bridge/cv_bridge.h
  /opt/ros/melodic/include/geometry_msgs/Point.h
  /opt/ros/melodic/include/geometry_msgs/Pose.h
+ /opt/ros/melodic/include/geometry_msgs/PoseStamped.h
  /opt/ros/melodic/include/geometry_msgs/PoseWithCovariance.h
+ /opt/ros/melodic/include/geometry_msgs/PoseWithCovarianceStamped.h
  /opt/ros/melodic/include/geometry_msgs/Quaternion.h
  /opt/ros/melodic/include/geometry_msgs/Twist.h
  /opt/ros/melodic/include/geometry_msgs/TwistWithCovariance.h
@@ -646,7 +648,9 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/include/rosqt_gui/moc_qnode.cpp.o
  /opt/ros/melodic/include/cv_bridge/cv_bridge.h
  /opt/ros/melodic/include/geometry_msgs/Point.h
  /opt/ros/melodic/include/geometry_msgs/Pose.h
+ /opt/ros/melodic/include/geometry_msgs/PoseStamped.h
  /opt/ros/melodic/include/geometry_msgs/PoseWithCovariance.h
+ /opt/ros/melodic/include/geometry_msgs/PoseWithCovarianceStamped.h
  /opt/ros/melodic/include/geometry_msgs/Quaternion.h
  /opt/ros/melodic/include/geometry_msgs/Twist.h
  /opt/ros/melodic/include/geometry_msgs/TwistWithCovariance.h
@@ -1250,7 +1254,9 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main.cpp.o
  /opt/ros/melodic/include/cv_bridge/cv_bridge.h
  /opt/ros/melodic/include/geometry_msgs/Point.h
  /opt/ros/melodic/include/geometry_msgs/Pose.h
+ /opt/ros/melodic/include/geometry_msgs/PoseStamped.h
  /opt/ros/melodic/include/geometry_msgs/PoseWithCovariance.h
+ /opt/ros/melodic/include/geometry_msgs/PoseWithCovarianceStamped.h
  /opt/ros/melodic/include/geometry_msgs/Quaternion.h
  /opt/ros/melodic/include/geometry_msgs/Twist.h
  /opt/ros/melodic/include/geometry_msgs/TwistWithCovariance.h
@@ -1897,7 +1903,9 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/main_window.cpp.o
  /opt/ros/melodic/include/cv_bridge/cv_bridge.h
  /opt/ros/melodic/include/geometry_msgs/Point.h
  /opt/ros/melodic/include/geometry_msgs/Pose.h
+ /opt/ros/melodic/include/geometry_msgs/PoseStamped.h
  /opt/ros/melodic/include/geometry_msgs/PoseWithCovariance.h
+ /opt/ros/melodic/include/geometry_msgs/PoseWithCovarianceStamped.h
  /opt/ros/melodic/include/geometry_msgs/Quaternion.h
  /opt/ros/melodic/include/geometry_msgs/Twist.h
  /opt/ros/melodic/include/geometry_msgs/TwistWithCovariance.h
@@ -2223,7 +2231,9 @@ rosqt_gui/CMakeFiles/rosqt_gui.dir/src/qnode.cpp.o
  /opt/ros/melodic/include/cv_bridge/cv_bridge.h
  /opt/ros/melodic/include/geometry_msgs/Point.h
  /opt/ros/melodic/include/geometry_msgs/Pose.h
+ /opt/ros/melodic/include/geometry_msgs/PoseStamped.h
  /opt/ros/melodic/include/geometry_msgs/PoseWithCovariance.h
+ /opt/ros/melodic/include/geometry_msgs/PoseWithCovarianceStamped.h
  /opt/ros/melodic/include/geometry_msgs/Quaternion.h
  /opt/ros/melodic/include/geometry_msgs/Twist.h
  /opt/ros/melodic/include/geometry_msgs/TwistWithCovariance.h

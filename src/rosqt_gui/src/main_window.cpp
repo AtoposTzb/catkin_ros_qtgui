@@ -357,11 +357,15 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     connect(ui.pushButton_sub_image,SIGNAL(clicked()),this,SLOT(slot_sub_image()));
     //激光雷达
     connect(ui.pushButton_laser,SIGNAL(clicked()),this,SLOT(slot_quick_cmd_laser()));
-
-
+    //坐标 返航点
+    connect(&qnode,SIGNAL(position(double,double,double)),this,SLOT(slot_update_pos(double,double,double)));
     //set start pose
     connect(ui.set_start_btn,SIGNAL(clicked()),this,SLOT(slot_set_start_pose()));
     connect(ui.set_goal_btn,SIGNAL(clicked()),this,SLOT(slot_set_goal_pose()));
+
+    //
+    connect(ui.set_return_pos_btn,SIGNAL(clicked()),this,SLOT(slot_set_return_pos()));
+    connect(ui.return_pos_btn,SIGNAL(clicked()),this,SLOT(slot_return_pos()));
 }
 
 
@@ -379,7 +383,25 @@ void MainWindow::slot_display_local_map(int state)
     QStringList qli = Local_Planner_Color_box->currentText().split(";");//冒号分割
     QColor color = QColor(qli[0].toInt(),qli[1].toInt(),qli[2].toInt());//类型转换
     myqrviz->Display_Local_Map(Local_CostMap_Topic_box->currentText(),LocalMapColorScheme_box->currentText(),Local_Planner_Topic_box->currentText(),color,enable);
+}
 
+void MainWindow::slot_set_return_pos()
+{
+    ui.return_x->setText(ui.pos_x->text());
+    ui.return_y->setText(ui.pos_x->text());
+    ui.return_z->setText(ui.pos_x->text());
+}
+
+void MainWindow::slot_return_pos()
+{
+    qnode.set_goal(ui.return_x->text().toDouble(),ui.return_y->text().toDouble(),ui.return_z->text().toDouble());
+}
+
+void MainWindow::slot_update_pos(double x, double y, double z)
+{
+    ui.pos_x->setText(QString::number(x));
+    ui.pos_y->setText(QString::number(y));
+    ui.pos_z->setText(QString::number(z));
 }
 
 void MainWindow::slot_set_start_pose()

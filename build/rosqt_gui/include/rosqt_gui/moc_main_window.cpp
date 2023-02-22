@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_rosqt_gui__MainWindow_t {
-    QByteArrayData data[28];
-    char stringdata0[550];
+    QByteArrayData data[31];
+    char stringdata0[602];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -58,7 +58,10 @@ QT_MOC_LITERAL(23, 446, 17), // "slot_display_Path"
 QT_MOC_LITERAL(24, 464, 19), // "slot_set_start_pose"
 QT_MOC_LITERAL(25, 484, 18), // "slot_set_goal_pose"
 QT_MOC_LITERAL(26, 503, 23), // "slot_display_global_map"
-QT_MOC_LITERAL(27, 527, 22) // "slot_display_local_map"
+QT_MOC_LITERAL(27, 527, 22), // "slot_display_local_map"
+QT_MOC_LITERAL(28, 550, 15), // "slot_update_pos"
+QT_MOC_LITERAL(29, 566, 19), // "slot_set_return_pos"
+QT_MOC_LITERAL(30, 586, 15) // "slot_return_pos"
 
     },
     "rosqt_gui::MainWindow\0on_actionAbout_triggered\0"
@@ -74,7 +77,9 @@ QT_MOC_LITERAL(27, 527, 22) // "slot_display_local_map"
     "slot_display_laser\0slot_display_RobotModel\0"
     "slot_display_Map\0slot_display_Path\0"
     "slot_set_start_pose\0slot_set_goal_pose\0"
-    "slot_display_global_map\0slot_display_local_map"
+    "slot_display_global_map\0slot_display_local_map\0"
+    "slot_update_pos\0slot_set_return_pos\0"
+    "slot_return_pos"
 };
 #undef QT_MOC_LITERAL
 
@@ -84,7 +89,7 @@ static const uint qt_meta_data_rosqt_gui__MainWindow[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-      24,   14, // methods
+      27,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -92,30 +97,33 @@ static const uint qt_meta_data_rosqt_gui__MainWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,  134,    2, 0x0a /* Public */,
-       3,    1,  135,    2, 0x0a /* Public */,
-       5,    1,  138,    2, 0x0a /* Public */,
-       7,    0,  141,    2, 0x0a /* Public */,
-       8,    1,  142,    2, 0x0a /* Public */,
-       9,    1,  145,    2, 0x0a /* Public */,
-      10,    0,  148,    2, 0x0a /* Public */,
-      11,    2,  149,    2, 0x0a /* Public */,
-      12,    1,  154,    2, 0x0a /* Public */,
-      13,    1,  157,    2, 0x0a /* Public */,
-      14,    0,  160,    2, 0x0a /* Public */,
-      15,    0,  161,    2, 0x0a /* Public */,
-      16,    0,  162,    2, 0x0a /* Public */,
-      17,    1,  163,    2, 0x0a /* Public */,
-      18,    1,  166,    2, 0x0a /* Public */,
-      19,    1,  169,    2, 0x0a /* Public */,
-      20,    1,  172,    2, 0x0a /* Public */,
-      21,    1,  175,    2, 0x0a /* Public */,
-      22,    1,  178,    2, 0x0a /* Public */,
-      23,    1,  181,    2, 0x0a /* Public */,
-      24,    0,  184,    2, 0x0a /* Public */,
-      25,    0,  185,    2, 0x0a /* Public */,
-      26,    1,  186,    2, 0x0a /* Public */,
-      27,    1,  189,    2, 0x0a /* Public */,
+       1,    0,  149,    2, 0x0a /* Public */,
+       3,    1,  150,    2, 0x0a /* Public */,
+       5,    1,  153,    2, 0x0a /* Public */,
+       7,    0,  156,    2, 0x0a /* Public */,
+       8,    1,  157,    2, 0x0a /* Public */,
+       9,    1,  160,    2, 0x0a /* Public */,
+      10,    0,  163,    2, 0x0a /* Public */,
+      11,    2,  164,    2, 0x0a /* Public */,
+      12,    1,  169,    2, 0x0a /* Public */,
+      13,    1,  172,    2, 0x0a /* Public */,
+      14,    0,  175,    2, 0x0a /* Public */,
+      15,    0,  176,    2, 0x0a /* Public */,
+      16,    0,  177,    2, 0x0a /* Public */,
+      17,    1,  178,    2, 0x0a /* Public */,
+      18,    1,  181,    2, 0x0a /* Public */,
+      19,    1,  184,    2, 0x0a /* Public */,
+      20,    1,  187,    2, 0x0a /* Public */,
+      21,    1,  190,    2, 0x0a /* Public */,
+      22,    1,  193,    2, 0x0a /* Public */,
+      23,    1,  196,    2, 0x0a /* Public */,
+      24,    0,  199,    2, 0x0a /* Public */,
+      25,    0,  200,    2, 0x0a /* Public */,
+      26,    1,  201,    2, 0x0a /* Public */,
+      27,    1,  204,    2, 0x0a /* Public */,
+      28,    3,  207,    2, 0x0a /* Public */,
+      29,    0,  214,    2, 0x0a /* Public */,
+      30,    0,  215,    2, 0x0a /* Public */,
 
  // slots: parameters
     QMetaType::Void,
@@ -142,6 +150,9 @@ static const uint qt_meta_data_rosqt_gui__MainWindow[] = {
     QMetaType::Void,
     QMetaType::Void, QMetaType::Int,    2,
     QMetaType::Void, QMetaType::Int,    2,
+    QMetaType::Void, QMetaType::Double, QMetaType::Double, QMetaType::Double,    2,    2,    2,
+    QMetaType::Void,
+    QMetaType::Void,
 
        0        // eod
 };
@@ -176,6 +187,9 @@ void rosqt_gui::MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c
         case 21: _t->slot_set_goal_pose(); break;
         case 22: _t->slot_display_global_map((*reinterpret_cast< int(*)>(_a[1]))); break;
         case 23: _t->slot_display_local_map((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 24: _t->slot_update_pos((*reinterpret_cast< double(*)>(_a[1])),(*reinterpret_cast< double(*)>(_a[2])),(*reinterpret_cast< double(*)>(_a[3]))); break;
+        case 25: _t->slot_set_return_pos(); break;
+        case 26: _t->slot_return_pos(); break;
         default: ;
         }
     }
@@ -206,13 +220,13 @@ int rosqt_gui::MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 24)
+        if (_id < 27)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 24;
+        _id -= 27;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 24)
+        if (_id < 27)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 24;
+        _id -= 27;
     }
     return _id;
 }

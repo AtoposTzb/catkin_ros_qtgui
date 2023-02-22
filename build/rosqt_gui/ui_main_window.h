@@ -47,7 +47,8 @@ public:
     QAction *actionAbout;
     QAction *actionAbout_Qt;
     QWidget *centralwidget;
-    QGridLayout *gridLayout_2;
+    QVBoxLayout *verticalLayout_16;
+    QVBoxLayout *verticalLayout_13;
     QHBoxLayout *horizontalLayout_7;
     QSpacerItem *horizontalSpacer;
     QLabel *label_8;
@@ -55,6 +56,7 @@ public:
     QProgressBar *progressBar;
     QLabel *label_10;
     QLabel *label_power_val;
+    QHBoxLayout *horizontalLayout_14;
     QTabWidget *tab_manager;
     QWidget *tab_status;
     QVBoxLayout *verticalLayout_9;
@@ -83,6 +85,8 @@ public:
     QHBoxLayout *horizontalLayout_12;
     QPushButton *set_start_btn;
     QPushButton *set_goal_btn;
+    QPushButton *set_return_pos_btn;
+    QPushButton *return_pos_btn;
     QVBoxLayout *Layout_rviz;
     QTabWidget *tabWidget;
     QWidget *tab;
@@ -142,6 +146,21 @@ public:
     QLabel *label_11;
     QLabel *label_12;
     QTreeWidget *treeWidget;
+    QHBoxLayout *horizontalLayout_13;
+    QLabel *label_13;
+    QLabel *label_14;
+    QLabel *pos_x;
+    QLabel *label_17;
+    QLabel *pos_y;
+    QLabel *label_18;
+    QLabel *pos_z;
+    QLabel *label_15;
+    QLabel *label_16;
+    QLabel *return_x;
+    QLabel *label_19;
+    QLabel *return_y;
+    QLabel *label_20;
+    QLabel *return_z;
     QMenuBar *menubar;
     QMenu *menu_File;
     QStatusBar *statusbar;
@@ -150,7 +169,7 @@ public:
     {
         if (MainWindowDesign->objectName().isEmpty())
             MainWindowDesign->setObjectName(QStringLiteral("MainWindowDesign"));
-        MainWindowDesign->resize(1108, 829);
+        MainWindowDesign->resize(1029, 870);
         QIcon icon;
         icon.addFile(QStringLiteral(":/images/icon.png"), QSize(), QIcon::Normal, QIcon::Off);
         MainWindowDesign->setWindowIcon(icon);
@@ -166,8 +185,10 @@ public:
         actionAbout_Qt->setObjectName(QStringLiteral("actionAbout_Qt"));
         centralwidget = new QWidget(MainWindowDesign);
         centralwidget->setObjectName(QStringLiteral("centralwidget"));
-        gridLayout_2 = new QGridLayout(centralwidget);
-        gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
+        verticalLayout_16 = new QVBoxLayout(centralwidget);
+        verticalLayout_16->setObjectName(QStringLiteral("verticalLayout_16"));
+        verticalLayout_13 = new QVBoxLayout();
+        verticalLayout_13->setObjectName(QStringLiteral("verticalLayout_13"));
         horizontalLayout_7 = new QHBoxLayout();
         horizontalLayout_7->setObjectName(QStringLiteral("horizontalLayout_7"));
         horizontalSpacer = new QSpacerItem(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
@@ -209,8 +230,10 @@ public:
         horizontalLayout_7->addWidget(label_power_val);
 
 
-        gridLayout_2->addLayout(horizontalLayout_7, 0, 1, 1, 1);
+        verticalLayout_13->addLayout(horizontalLayout_7);
 
+        horizontalLayout_14 = new QHBoxLayout();
+        horizontalLayout_14->setObjectName(QStringLiteral("horizontalLayout_14"));
         tab_manager = new QTabWidget(centralwidget);
         tab_manager->setObjectName(QStringLiteral("tab_manager"));
         tab_manager->setMinimumSize(QSize(100, 0));
@@ -347,6 +370,22 @@ public:
 
         horizontalLayout_12->addWidget(set_goal_btn);
 
+        set_return_pos_btn = new QPushButton(tab_3);
+        set_return_pos_btn->setObjectName(QStringLiteral("set_return_pos_btn"));
+        QIcon icon3;
+        icon3.addFile(QStringLiteral(":/images/set_return.png"), QSize(), QIcon::Normal, QIcon::Off);
+        set_return_pos_btn->setIcon(icon3);
+
+        horizontalLayout_12->addWidget(set_return_pos_btn);
+
+        return_pos_btn = new QPushButton(tab_3);
+        return_pos_btn->setObjectName(QStringLiteral("return_pos_btn"));
+        QIcon icon4;
+        icon4.addFile(QStringLiteral(":/images/return.png"), QSize(), QIcon::Normal, QIcon::Off);
+        return_pos_btn->setIcon(icon4);
+
+        horizontalLayout_12->addWidget(return_pos_btn);
+
 
         verticalLayout_14->addLayout(horizontalLayout_12);
 
@@ -360,7 +399,7 @@ public:
 
         tab_manager->addTab(tab_3, QString());
 
-        gridLayout_2->addWidget(tab_manager, 0, 0, 2, 1);
+        horizontalLayout_14->addWidget(tab_manager);
 
         tabWidget = new QTabWidget(centralwidget);
         tabWidget->setObjectName(QStringLiteral("tabWidget"));
@@ -668,12 +707,117 @@ public:
 
         tabWidget->addTab(tab_4, QString());
 
-        gridLayout_2->addWidget(tabWidget, 1, 1, 1, 1);
+        horizontalLayout_14->addWidget(tabWidget);
+
+
+        verticalLayout_13->addLayout(horizontalLayout_14);
+
+        horizontalLayout_13 = new QHBoxLayout();
+        horizontalLayout_13->setObjectName(QStringLiteral("horizontalLayout_13"));
+        label_13 = new QLabel(centralwidget);
+        label_13->setObjectName(QStringLiteral("label_13"));
+
+        horizontalLayout_13->addWidget(label_13);
+
+        label_14 = new QLabel(centralwidget);
+        label_14->setObjectName(QStringLiteral("label_14"));
+        label_14->setMinimumSize(QSize(30, 27));
+        label_14->setMaximumSize(QSize(30, 27));
+
+        horizontalLayout_13->addWidget(label_14);
+
+        pos_x = new QLabel(centralwidget);
+        pos_x->setObjectName(QStringLiteral("pos_x"));
+        pos_x->setMinimumSize(QSize(75, 27));
+        pos_x->setMaximumSize(QSize(75, 27));
+
+        horizontalLayout_13->addWidget(pos_x);
+
+        label_17 = new QLabel(centralwidget);
+        label_17->setObjectName(QStringLiteral("label_17"));
+        label_17->setMinimumSize(QSize(30, 27));
+        label_17->setMaximumSize(QSize(30, 27));
+
+        horizontalLayout_13->addWidget(label_17);
+
+        pos_y = new QLabel(centralwidget);
+        pos_y->setObjectName(QStringLiteral("pos_y"));
+        pos_y->setMinimumSize(QSize(75, 27));
+        pos_y->setMaximumSize(QSize(75, 27));
+
+        horizontalLayout_13->addWidget(pos_y);
+
+        label_18 = new QLabel(centralwidget);
+        label_18->setObjectName(QStringLiteral("label_18"));
+        label_18->setMinimumSize(QSize(30, 27));
+        label_18->setMaximumSize(QSize(30, 27));
+
+        horizontalLayout_13->addWidget(label_18);
+
+        pos_z = new QLabel(centralwidget);
+        pos_z->setObjectName(QStringLiteral("pos_z"));
+        pos_z->setMinimumSize(QSize(75, 27));
+        pos_z->setMaximumSize(QSize(75, 27));
+
+        horizontalLayout_13->addWidget(pos_z);
+
+        label_15 = new QLabel(centralwidget);
+        label_15->setObjectName(QStringLiteral("label_15"));
+
+        horizontalLayout_13->addWidget(label_15);
+
+        label_16 = new QLabel(centralwidget);
+        label_16->setObjectName(QStringLiteral("label_16"));
+        label_16->setMinimumSize(QSize(30, 27));
+        label_16->setMaximumSize(QSize(30, 27));
+
+        horizontalLayout_13->addWidget(label_16);
+
+        return_x = new QLabel(centralwidget);
+        return_x->setObjectName(QStringLiteral("return_x"));
+        return_x->setMinimumSize(QSize(75, 27));
+        return_x->setMaximumSize(QSize(75, 27));
+
+        horizontalLayout_13->addWidget(return_x);
+
+        label_19 = new QLabel(centralwidget);
+        label_19->setObjectName(QStringLiteral("label_19"));
+        label_19->setMinimumSize(QSize(30, 27));
+        label_19->setMaximumSize(QSize(30, 27));
+
+        horizontalLayout_13->addWidget(label_19);
+
+        return_y = new QLabel(centralwidget);
+        return_y->setObjectName(QStringLiteral("return_y"));
+        return_y->setMinimumSize(QSize(75, 27));
+        return_y->setMaximumSize(QSize(75, 27));
+
+        horizontalLayout_13->addWidget(return_y);
+
+        label_20 = new QLabel(centralwidget);
+        label_20->setObjectName(QStringLiteral("label_20"));
+        label_20->setMinimumSize(QSize(30, 27));
+        label_20->setMaximumSize(QSize(30, 27));
+
+        horizontalLayout_13->addWidget(label_20);
+
+        return_z = new QLabel(centralwidget);
+        return_z->setObjectName(QStringLiteral("return_z"));
+        return_z->setMinimumSize(QSize(75, 27));
+        return_z->setMaximumSize(QSize(75, 27));
+
+        horizontalLayout_13->addWidget(return_z);
+
+
+        verticalLayout_13->addLayout(horizontalLayout_13);
+
+
+        verticalLayout_16->addLayout(verticalLayout_13);
 
         MainWindowDesign->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindowDesign);
         menubar->setObjectName(QStringLiteral("menubar"));
-        menubar->setGeometry(QRect(0, 0, 1108, 32));
+        menubar->setGeometry(QRect(0, 0, 1029, 32));
         menu_File = new QMenu(menubar);
         menu_File->setObjectName(QStringLiteral("menu_File"));
         MainWindowDesign->setMenuBar(menubar);
@@ -694,7 +838,7 @@ public:
         QObject::connect(quit_button, SIGNAL(clicked()), MainWindowDesign, SLOT(close()));
 
         tab_manager->setCurrentIndex(1);
-        tabWidget->setCurrentIndex(2);
+        tabWidget->setCurrentIndex(1);
 
 
         QMetaObject::connectSlotsByName(MainWindowDesign);
@@ -724,6 +868,8 @@ public:
         tab_manager->setTabText(tab_manager->indexOf(tab_status), QApplication::translate("MainWindowDesign", "Ros Communications", Q_NULLPTR));
         set_start_btn->setText(QApplication::translate("MainWindowDesign", "2D Pose Estimate", Q_NULLPTR));
         set_goal_btn->setText(QApplication::translate("MainWindowDesign", "2D Nav Goal", Q_NULLPTR));
+        set_return_pos_btn->setText(QApplication::translate("MainWindowDesign", "\350\256\276\347\275\256\350\277\224\350\210\252\347\202\271", Q_NULLPTR));
+        return_pos_btn->setText(QApplication::translate("MainWindowDesign", "\350\277\224\350\210\252", Q_NULLPTR));
         tab_manager->setTabText(tab_manager->indexOf(tab_3), QApplication::translate("MainWindowDesign", "rviz", Q_NULLPTR));
         groupBox->setTitle(QApplication::translate("MainWindowDesign", "Ros Master", Q_NULLPTR));
         line_edit_topic->setText(QApplication::translate("MainWindowDesign", "unused", Q_NULLPTR));
@@ -789,6 +935,20 @@ public:
         label_11->setText(QString());
         label_12->setText(QApplication::translate("MainWindowDesign", "Display", Q_NULLPTR));
         tabWidget->setTabText(tabWidget->indexOf(tab_4), QApplication::translate("MainWindowDesign", "rviz", Q_NULLPTR));
+        label_13->setText(QApplication::translate("MainWindowDesign", "\345\235\220\346\240\207", Q_NULLPTR));
+        label_14->setText(QApplication::translate("MainWindowDesign", "X : ", Q_NULLPTR));
+        pos_x->setText(QApplication::translate("MainWindowDesign", "0", Q_NULLPTR));
+        label_17->setText(QApplication::translate("MainWindowDesign", "Y : ", Q_NULLPTR));
+        pos_y->setText(QApplication::translate("MainWindowDesign", "0", Q_NULLPTR));
+        label_18->setText(QApplication::translate("MainWindowDesign", "Z : ", Q_NULLPTR));
+        pos_z->setText(QApplication::translate("MainWindowDesign", "0", Q_NULLPTR));
+        label_15->setText(QApplication::translate("MainWindowDesign", "\350\277\224\350\210\252\347\202\271", Q_NULLPTR));
+        label_16->setText(QApplication::translate("MainWindowDesign", "X : ", Q_NULLPTR));
+        return_x->setText(QApplication::translate("MainWindowDesign", "0", Q_NULLPTR));
+        label_19->setText(QApplication::translate("MainWindowDesign", "Y : ", Q_NULLPTR));
+        return_y->setText(QApplication::translate("MainWindowDesign", "0", Q_NULLPTR));
+        label_20->setText(QApplication::translate("MainWindowDesign", "Z : ", Q_NULLPTR));
+        return_z->setText(QApplication::translate("MainWindowDesign", "0", Q_NULLPTR));
         menu_File->setTitle(QApplication::translate("MainWindowDesign", "&App", Q_NULLPTR));
     } // retranslateUi
 

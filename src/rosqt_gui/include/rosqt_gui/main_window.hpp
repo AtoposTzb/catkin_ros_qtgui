@@ -78,6 +78,9 @@ public Q_SLOTS:
     void slot_set_goal_pose();
     void slot_display_global_map(int);
     void slot_display_local_map(int);
+    void slot_update_pos(double,double,double);
+    void slot_set_return_pos();
+    void slot_return_pos();
 
 private:
 	Ui::MainWindowDesign ui;

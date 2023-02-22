@@ -3921,6 +3921,10 @@ sensor_msgs/image_encodings.h
 -
 QImage
 -
+geometry_msgs/PoseWithCovarianceStamped.h
+-
+geometry_msgs/PoseStamped.h
+-
 
 /home/qtrostzb/catkin_ros_qt/src/rosqt_gui/include/rosqt_gui/qrviz.hpp
 QObject
@@ -4140,6 +4144,26 @@ geometry_msgs/Point.h
 geometry_msgs/Quaternion.h
 -
 
+/opt/ros/melodic/include/geometry_msgs/PoseStamped.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
+geometry_msgs/Pose.h
+-
+
 /opt/ros/melodic/include/geometry_msgs/PoseWithCovariance.h
 string
 -
@@ -4156,6 +4180,26 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 geometry_msgs/Pose.h
+-
+
+/opt/ros/melodic/include/geometry_msgs/PoseWithCovarianceStamped.h
+string
+-
+vector
+-
+memory
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+std_msgs/Header.h
+-
+geometry_msgs/PoseWithCovariance.h
 -
 
 /opt/ros/melodic/include/geometry_msgs/Quaternion.h
