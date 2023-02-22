@@ -96,6 +96,7 @@ private:
     QComboBox* Map_Color_Scheme_box;
     QComboBox* Path_Topic_box;
     QComboBox* Path_Color_box;
+    //Navigate
     QComboBox* Global_CostMap_Topic_box;
     QComboBox* GlobalMapColorScheme_box;
     QComboBox* Global_Planner_Topic_box;

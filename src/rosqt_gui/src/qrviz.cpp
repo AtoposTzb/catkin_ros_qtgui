@@ -13,10 +13,11 @@ qrviz::qrviz(QVBoxLayout *layout)
     layout->addWidget(render_panel);
     //创建rvi z控制对象
     manager_ = new rviz::VisualizationManager(render_panel);
-    tool_manager_ = manager_->getToolManager();
+    tool_manager_ = manager_->getToolManager();   
     ROS_ASSERT(manager_ != NULL);//解决闪退BUG
     //初始化render_panel 实现放大缩小等操作
     render_panel->initialize(manager_->getSceneManager(), manager_);
+//   manager_->setFixedFrame("map");     可能会产生BUG
 
     //初始化rviz控制对象
     manager_->initialize() ;
@@ -70,7 +71,7 @@ void qrviz::Display_LaserScan(QString laser_topic, bool enable)
     ROS_ASSERT(LaserScan_ != NULL);
 }
 
-rviz::Display* RobotModel_ = NULL;//BUG
+rviz::Display* RobotModel_ = NULL;//可以解决闪退BUG,当然也可以放在.hpp文件中
 void qrviz::Display_RobotModel(bool enable)
 {
     if(RobotModel_ != NULL)//保持图层的唯一性
@@ -126,3 +127,33 @@ void qrviz::Set_Goal_Pose()
     //设置当前使用的工具
     tool_manager_->setCurrentTool(current_tool);
 }
+
+void qrviz::Display_Local_Map(QString costmap_topic, QString costmap_color, QString path_topic, QColor path_color, bool enable)
+{
+    if(Local_Map_ != NULL){delete Local_Map_;Local_Map_ = NULL;}
+    if(Local_Path_ != NULL){delete Local_Path_;Local_Path_ = NULL;}
+    Local_Map_ =manager_->createDisplay("rviz/Map","localmap",enable);
+    ROS_ASSERT(Local_Map_ !=NULL);
+    Local_Path_ = manager_->createDisplay("rviz/Path", "localmap",enable);
+    ROS_ASSERT(Local_Path_ !=NULL);
+    Local_Map_->subProp("Topic")->setValue(costmap_topic);
+    Local_Map_->subProp("Color Scheme")->setValue (costmap_color);
+    //解决BUG不设置这两个path,也可以试试注释manager_->setFixedFrame("map");
+    Local_Path_->subProp("Topic")->setValue (path_topic) ;
+    Local_Path_->subProp("Color")->setValue(path_color);//设置这个path color颜色时也会出现一个BUG闪退
+}
+
+void qrviz::Display_Global_Map(QString costmap_topic, QString costmap_color, QString path_topic, QColor path_color, bool enable)
+{
+    if(Global_Map_ != NULL){delete Global_Map_;Global_Map_ = NULL;}
+    if(Global_Path_ != NULL){delete Global_Path_;Global_Path_ = NULL;}
+    Global_Map_ =manager_->createDisplay("rviz/Map","Globalmap",enable);
+    ROS_ASSERT(Global_Map_ !=NULL);
+    Global_Path_ = manager_->createDisplay("rviz/Path", "Globalmap",enable);
+    ROS_ASSERT(Global_Path_ !=NULL);
+    Global_Map_->subProp("Topic")->setValue(costmap_topic);
+    Global_Map_->subProp("Color Scheme")->setValue (costmap_color);
+    Global_Path_->subProp("Topic")->setValue (path_topic) ;
+    Global_Path_->subProp("Color")->setValue(path_color);
+}
+

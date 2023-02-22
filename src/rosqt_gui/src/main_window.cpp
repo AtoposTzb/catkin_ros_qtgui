@@ -261,8 +261,8 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     //Map color scheme
     QTreeWidgetItem* GlobalMapColorScheme=new QTreeWidgetItem(QStringList()<<"Color Scheme");
     GlobalMapColorScheme_box = new QComboBox() ;
-    GlobalMapColorScheme_box->addItem("map");
     GlobalMapColorScheme_box->addItem("costmap");
+    GlobalMapColorScheme_box->addItem("map");
     GlobalMapColorScheme_box->addItem("raw");
     GlobalMapColorScheme_box->setMaximumWidth(150);
     Global_CostMap->addChild(GlobalMapColorScheme);
@@ -316,8 +316,8 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     //Map color scheme
     QTreeWidgetItem* LocalMapColorScheme = new QTreeWidgetItem(QStringList()<<"Color Scheme");
     LocalMapColorScheme_box = new QComboBox();
-    LocalMapColorScheme_box->addItem("map") ;
     LocalMapColorScheme_box->addItem("costmap");
+    LocalMapColorScheme_box->addItem("map") ;
     LocalMapColorScheme_box->addItem("raw");
     LocalMapColorScheme_box->setMaximumWidth(150);
     Local_CostMap->addChild(LocalMapColorScheme);
@@ -368,11 +368,18 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
 void MainWindow::slot_display_global_map(int state)
 {
     bool enable = state > 1?true:false;//三目运算符判断是否被选中
+    QStringList qli = Global_Planner_Color_box->currentText().split(";");//冒号分割
+    QColor color = QColor(qli[0].toInt(),qli[1].toInt(),qli[2].toInt());//类型转换
+    myqrviz->Display_Global_Map(Global_CostMap_Topic_box->currentText(),GlobalMapColorScheme_box->currentText(),Global_Planner_Topic_box->currentText(),color,enable);
 }
 
 void MainWindow::slot_display_local_map(int state)
 {
     bool enable = state > 1?true:false;//三目运算符判断是否被选中
+    QStringList qli = Local_Planner_Color_box->currentText().split(";");//冒号分割
+    QColor color = QColor(qli[0].toInt(),qli[1].toInt(),qli[2].toInt());//类型转换
+    myqrviz->Display_Local_Map(Local_CostMap_Topic_box->currentText(),LocalMapColorScheme_box->currentText(),Local_Planner_Topic_box->currentText(),color,enable);
+
 }
 
 void MainWindow::slot_set_start_pose()
